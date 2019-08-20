@@ -7,6 +7,7 @@
     "build": "index.mjml"
   },
   "scripts": {
+    "setup": "npm install --no-save",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "mjml index.mjml -o index.html",
     "start": "browser-sync start --server --files ./index.html | npm-watch"
