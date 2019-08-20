@@ -2,15 +2,15 @@
   "name": "@fishawack/torpedo",
   "version": "2.0.0",
   "description": "Our email creation programme that currently utilizes MJML",
-  "main": "index.mjml",
+  "main": "_Build/index.mjml",
   "watch": {
-    "build": "index.mjml"
+    "build": "./_Build/index.mjml"
   },
   "scripts": {
     "setup": "npm install --no-save",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "mjml _Build/index.mjml -o _Output/index.html",
-    "start": "browser-sync start --no-open --server --files ./index.html | npm-watch"
+    "start": "npm-watch | browser-sync start --no-open --files ./_Output/index.html --index  ./_Output/index.html --server "
   },
   "repository": {
     "type": "git",
