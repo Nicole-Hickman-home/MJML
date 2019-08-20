@@ -9,7 +9,7 @@
   "scripts": {
     "setup": "npm install --no-save",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "mjml index.mjml -o index.html",
+    "build": "mjml _Build/index.mjml -o _Output/index.html",
     "start": "browser-sync start --no-open --server --files ./index.html | npm-watch"
   },
   "repository": {
