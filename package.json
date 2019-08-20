@@ -1,6 +1,6 @@
 {
   "name": "@fishawack/torpedo",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Our email creation programme that currently utilizes MJML",
   "main": "index.mjml",
   "watch": {
@@ -10,7 +10,7 @@
     "setup": "npm install --no-save",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "mjml index.mjml -o index.html",
-    "start": "browser-sync start --server --files ./index.html | npm-watch"
+    "start": "browser-sync start --no-open --server --files ./index.html | npm-watch"
   },
   "repository": {
     "type": "git",
@@ -28,7 +28,6 @@
   "dependencies": {
     "browser-sync": "^2.26.7",
     "mjml": "^4.4.1",
-    "node-watch": "^0.6.3",
     "npm-watch": "^0.6.0"
   }
 }
