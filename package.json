@@ -27,7 +27,7 @@
   "homepage": "https://bitbucket.org/fishawackdigital/torpedo#readme",
   "dependencies": {
     "browser-sync": "^2.26.7",
-    "mjml": "^4.4.1",
+    "mjml": "4.4.1",
     "npm-watch": "^0.6.0"
   }
 }
