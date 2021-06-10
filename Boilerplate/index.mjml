@@ -1,0 +1,77 @@
+<mjml lang="en">
+    <mj-head>
+        <mj-title>
+            Boilerplate
+        </mj-title>
+        <mj-attributes>
+            <mj-text font-family="Arial, sans-serif" font-size="16px" line-height="22px" color="#333333" />
+        </mj-attributes>
+        <mj-style>
+            /* Samsung */
+            #MessageViewBody a {
+            color: inherit;
+            text-decoration: none;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: inherit;
+            line-height: inherit;
+            }
+
+            /* Apple Blue links */
+            a[x-apple-data-detectors] {
+            color: inherit;
+            text-decoration: none;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: inherit;
+            line-height: inherit;
+            }
+
+            /* Gmail blue links, requires id="body" in HTML export */
+            u + #body a {
+            color: inherit;
+            text-decoration: none;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: inherit;
+            line-height: inherit;
+            }
+
+            sup {
+            font-size: .6em;
+            vertical-align: .5em;
+            line-height: 0;
+            }
+
+            @media only screen and (min-width:480px) {
+        
+            .paddingDesktop {
+            padding: 10px 0 !important;
+            }
+        
+            }
+
+        </mj-style>
+        
+        <mj-raw>
+        <!--[if mso]>
+        <style type="text/css">
+        sup {
+        font-size: 100%;
+        vertical-align: .5em;
+        mso-text-raise: -1.5%;
+        line-height: 0;
+        }
+        </style>
+        <![endif]-->
+        </mj-raw>
+    </mj-head>
+    <mj-body background-color="#eeeeee">
+        <mj-section>
+            <mj-column>
+            <mj-text>
+                Some Text Here. November 27, 1963. 800-000-0000. 
+            </mj-text>
+        </mj-column>
+    </mj-section>
+</mjml>
