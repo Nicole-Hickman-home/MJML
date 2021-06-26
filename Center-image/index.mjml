@@ -34,7 +34,7 @@
             padding: 5px 12px 0px 12px !important;
             }
 
-            .paddidng0 {
+            .padding0 {
             padding: 0 !important;
             }
             .paddingDesktop {
@@ -99,7 +99,7 @@
             vertical-align: middle !important;
             padding: 5px 12px 0px 12px !important;
             }
-            .paddidng0 {
+            .padding0 {
             padding: 0 !important;
             }
             .paddingDesktop {
@@ -129,7 +129,8 @@
         <mj-preview>Dapibus Fringilla Egestas Tortor</mj-preview>
     </mj-head>
 <mj-body width="640px">
-    <mj-section background-url="https://mcusercontent.com/ec79824cec17224ec37f5aed0/images/30ad6a4a-6951-4d28-b5a5-6026d8da2100.png" background-size="cover" background-repeat="no-repeat">
+    <mj-wrapper  background-url="https://mcusercontent.com/ec79824cec17224ec37f5aed0/images/30ad6a4a-6951-4d28-b5a5-6026d8da2100.png" background-size="cover" background-repeat="no-repeat">
+    <mj-section>
             <mj-column>
                 <mj-text align="center" padding="10px 15px" css-class="paddingDesktop">
                 <h2 style="margin: 0; font-size: 26px; line-height: 30px; color: #00AF9D;">
@@ -142,6 +143,7 @@
                 </mj-button>
                 </mj-column>
         </mj-section>
+        </mj-wrapper>
 
         <mj-section background-color="#eeeeee">
             <mj-column>
