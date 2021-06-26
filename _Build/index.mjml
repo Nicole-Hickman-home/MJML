@@ -24,6 +24,13 @@
                 <mj-image css-class="desktop" src="https://mcusercontent.com/ec79824cec17224ec37f5aed0/images/da79c354-0d88-a151-b21e-567c911b3549.png" width="223px" alt="My Alt Text" />
                 <mj-divider width="50%" align="left" border-width="2px" border-color="blue" />
             </mj-column>
-        </mj-section>        
+        </mj-section>  
+
+        <mj-section>
+            <mj-column>
+                <mj-image css-class="desktop" src="https://mcusercontent.com/ec79824cec17224ec37f5aed0/images/da79c354-0d88-a151-b21e-567c911b3549.png" width="223px" alt="My Alt Text" />
+                <mj-divider width="50%" align="left" border-width="2px" border-color="blue" />
+            </mj-column>
+        </mj-section>          
     </mj-body>
 </mjml>
