@@ -62,6 +62,19 @@
         mso-text-raise: -1.5%;
         line-height: 0;
         }
+
+        ul {
+        margin:0 !important;
+        }
+        li {
+        margin-left:27px !important;
+        }
+        li.firstListItem {
+        margin-top:0px !important;
+        }
+        li.lastListItem {
+        margin-bottom:0px !important;
+        }
         </style>
         <![endif]-->
         </mj-raw>
