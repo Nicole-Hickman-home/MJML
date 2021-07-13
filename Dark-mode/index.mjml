@@ -1,0 +1,170 @@
+<mjml lang="en">
+    <mj-head>
+        <mj-title>
+            Subject line of email goes here
+        </mj-title>
+        <mj-attributes>
+            <mj-text font-family="Arial, sans-serif" font-size="16px" line-height="22px" color="#333333" />
+        </mj-attributes>
+        <mj-style>
+            /* Samsung */
+            #MessageViewBody a {
+            color: inherit;
+            text-decoration: none;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: inherit;
+            line-height: inherit;
+            }
+
+            /* Apple Blue links */
+            a[x-apple-data-detectors] {
+            color: inherit;
+            text-decoration: none;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: inherit;
+            line-height: inherit;
+            }
+
+            /* Gmail blue links, requires id="body" in HTML export */
+            u + #body a {
+            color: inherit;
+            text-decoration: none;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: inherit;
+            line-height: inherit;
+            }
+
+            sup {
+            font-size: .6em;
+            vertical-align: .5em;
+            line-height: 0;
+            }
+
+            @media only screen and (min-width:480px) {
+        
+            .paddingDesktop {
+            padding: 10px 0 !important;
+            }
+        
+            }
+
+        </mj-style>
+        <mj-raw>
+        <style type="text/css">
+        /* DARK MODE */
+        :root {
+            color-scheme: light dark;
+            supported-color-schemes: light dark;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .dark-mode-bg>table {
+                background: #1E1E1F !important;
+                background-image: linear-gradient(#1E1E1F, #1E1E1F) !important;
+            }
+            .dark-mode-hero-bg>table {
+                background: #F48024 !important;
+                background-image: linear-gradient(#F48024, #F48024) !important;
+            }
+            .dark-mode-button  {
+                background: #8B254F !important;
+                background-image: linear-gradient(#8B254F, #8B254F) !important;
+            }
+            .dark-mode-footer-bg>table {
+                background: #272727 !important;
+                background-image: linear-gradient(#272727, #272727) !important;
+            }
+            .dark-mode-footer-callout table td {
+                background: #272727 !important;
+                background-image: linear-gradient(#272727, #272727) !important;
+            }
+            .dark-mode-preheader-bg>table {
+                background: #D8D8D8 !important;
+                background-image: linear-gradient(#D8D8D8, #D8D8D8) !important;
+            }
+            .dark-mode-preheader-text {
+                color: #333333 !important;
+                -webkit-text-fill-color: #333333 !important;
+            }
+            .dark-mode-text {
+                color: #ffffff !important;
+                -webkit-text-fill-color: #ffffff !important;
+            }
+            .dark-mode-footer-text {
+                color: #E5DFDF !important;
+                -webkit-text-fill-color: #E5DFDF !important;
+            }
+            .dark-mode-header {
+                color: #F48024 !important;
+                -webkit-text-fill-color: #F48024 !important;
+            }
+            }
+
+            [data-ogsc] .dark-mode-bg>table {
+                background: #1E1E1F !important;
+            }
+            [data-ogsc] .dark-mode-hero-bg>table {
+                background: #F48024 !important;
+            }
+            [data-ogsc] .dark-mode-footer-bg>table {
+                background: #272727 !important;
+            }
+            [data-ogsc] .dark-mode-text>table {
+                color: #ffffff !important;
+            }
+            [data-ogsc] .dark-mode-footer-text>table {
+                color: #E5DFDF !important;
+            }
+            [data-ogsc] .dark-mode-header>table {
+                color: #F48024 !important;
+            }
+            .dark-mode-hero-bg>table {
+                background: #F48024\0/ !important;
+            }
+            </style>
+        </mj-raw>
+        
+        <mj-raw>
+        <!--[if mso]>
+        <style type="text/css">
+        sup {
+        font-size: 100%;
+        vertical-align: .5em;
+        mso-text-raise: -1.5%;
+        line-height: 0;
+        }
+
+        ul {
+        margin:0 !important;
+        }
+        li {
+        margin-left:27px !important;
+        }
+        li.firstListItem {
+        margin-top:0px !important;
+        }
+        li.lastListItem {
+        margin-bottom:0px !important;
+        }
+        </style>
+        <![endif]-->
+        </mj-raw>
+    </mj-head>
+    <mj-body background-color="#eeeeee">
+    <mj-raw>
+        <main>
+    </mj-raw>
+        <mj-section background-color="#F48024" css-class="dark-mode-hero-bg">
+            <mj-column>
+            <mj-text>
+                Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui.
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-raw>
+        </main>
+    </mj-raw>
+</mjml>

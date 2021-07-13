@@ -6,6 +6,14 @@
         <mj-attributes>
             <mj-text font-family="Arial, sans-serif" font-size="16px" line-height="22px" color="#333333" />
         </mj-attributes>
+        <mj-style inline="inline">
+            .show {
+            display: none;
+            }
+            .hide {
+            mso-hide: all !important;
+            }
+        </mj-style>
         <mj-style>
             /* Samsung */
             #MessageViewBody a {
@@ -48,6 +56,13 @@
             .paddingDesktop {
             padding: 10px 0 !important;
             }
+            .show {
+            display: block !important;
+            }
+            .hide {
+            display: none !important;
+            mso-hide: all !important;
+            }
         
             }
 
@@ -75,6 +90,13 @@
         li.lastListItem {
         margin-bottom:0px !important;
         }
+        .show {
+        display: block !important;
+        }
+        .hide {
+        display: none !important;
+        mso-hide: all !important;
+        }
         </style>
         <![endif]-->
         </mj-raw>
@@ -82,9 +104,15 @@
     <mj-body background-color="#eeeeee">
         <mj-section>
             <mj-column>
-            <mj-text>
-                Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui.
-            </mj-text>
+            <mj-image src="https://via.placeholder.com/600x400.jpg" css-class="show" />
+            <mj-raw>
+            <!--[if !mso]><!-- -->
+            </mj-raw>
+            <mj-image src="https://via.placeholder.com/320x400.jpg" css-class="hide" />
+            <mj-raw>
+            <!--<![endif]-->
+            </mj-raw>
         </mj-column>
     </mj-section>
+    </mj-body>
 </mjml>
