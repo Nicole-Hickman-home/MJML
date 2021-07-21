@@ -1,0 +1,29 @@
+<mjml>
+  <mj-head>
+  <mj-style>
+    @media only screen and (min-width:480px) {
+		.wrapper > table > tbody > tr > td {
+    padding: 10px 29px !important;
+    }
+    }
+    </mj-style>
+  </mj-head>
+  <mj-body width="640px">
+  <mj-section>
+    <mj-column>
+        <mj-image src="https://via.placeholder.com/582x205/cccccc/f624c9?text=MODULATED+CONTENT" width="582px" padding="10px 15px" />
+    </mj-column>
+</mj-section>
+    <mj-wrapper padding="10px 15px" background-color="#ffffff" css-class="wrapper">
+        <mj-section padding="0" background-color="#193766" background-url="https://mcusercontent.com/ec79824cec17224ec37f5aed0/images/42420c1c-65cc-79c7-3052-096257545e8b.png" background-size="cover" border-right="6px solid #F2A900">
+            <mj-column>
+                <mj-text padding="15px">
+                <h2 style="margin: 0; font-size: 20px; line-height: 26px; color: #fff;">
+                    Malesuada Bibendum Sem Risus Vulputate Malesuada Bibendum Sem Risus Vulputate 
+                </h2>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        </mj-wrapper>
+  </mj-body>
+</mjml>
