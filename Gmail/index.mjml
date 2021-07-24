@@ -1,0 +1,100 @@
+<mjml lang="en">
+    <mj-head>
+        <mj-title>
+            Subject line of email goes here
+        </mj-title>
+        <mj-html-attributes>
+      <mj-selector path=".custom">
+        <mj-html-attribute name="lang">en</mj-html-attribute>
+      </mj-selector>
+    </mj-html-attributes>
+        <mj-attributes>
+            <mj-text font-family="Arial, sans-serif" font-size="16px" line-height="22px" color="#333333" />
+        </mj-attributes>
+        <mj-style>
+            /* Samsung */
+            #MessageViewBody a {
+            color: inherit;
+            text-decoration: none;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: inherit;
+            line-height: inherit;
+            }
+
+            /* Apple Blue links */
+            a[x-apple-data-detectors] {
+            color: inherit;
+            text-decoration: none;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: inherit;
+            line-height: inherit;
+            }
+
+            /* Gmail blue links, requires class="body" in HTML export */
+            u * {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+            }
+
+            sup {
+            font-size: .6em;
+            vertical-align: .5em;
+            line-height: 0;
+            }
+
+            @media only screen and (min-width:480px) {
+        
+            .paddingDesktop {
+            padding: 10px 0 !important;
+            }
+        
+            }
+
+        </mj-style>
+        
+        <mj-raw>
+        <!--[if mso]>
+        <style type="text/css">
+        sup {
+        font-size: 100%;
+        vertical-align: .5em;
+        mso-text-raise: -1.5%;
+        line-height: 0;
+        }
+
+        ul {
+        margin:0 !important;
+        }
+        li {
+        margin-left:27px !important;
+        }
+        li.firstListItem {
+        margin-top:0px !important;
+        }
+        li.lastListItem {
+        margin-bottom:0px !important;
+        }
+        </style>
+        <![endif]-->
+        </mj-raw>
+    </mj-head>
+    <mj-body background-color="#eeeeee" css-class="custom">
+        <mj-section>
+            <mj-column>
+            <mj-text>
+            <p>
+                Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui.
+            </p>
+            <p>
+                619-237-9042
+            </p>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+</mjml>
