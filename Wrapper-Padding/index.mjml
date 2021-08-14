@@ -1,0 +1,89 @@
+<mjml lang="en">
+    <mj-head>
+        <mj-title>
+            Fringilla Adipiscing Tellus Mattis Vestibulum
+        </mj-title>
+        <mj-attributes>
+            <mj-text font-family="Arial, sans-serif" font-size="16px" line-height="22px" color="#000000" />
+            <mj-section background-color="#ffffff" />
+        </mj-attributes>
+        <mj-style>
+            /* Samsung */
+            #MessageViewBody a {
+            color: inherit;
+            text-decoration: none;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: inherit;
+            line-height: inherit;
+            }
+
+            /* Apple Blue links */
+            a[x-apple-data-detectors] {
+            color: inherit;
+            text-decoration: none;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: inherit;
+            line-height: inherit;
+            }
+
+            /* Gmail blue links, requires id="body" in HTML export */
+            u + #body a {
+            color: inherit;
+            text-decoration: none;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: inherit;
+            line-height: inherit;
+            }
+
+            sup {
+            font-size: .6em;
+            vertical-align: .5em;
+            line-height: 0;
+            }
+
+            @media only screen and (min-width:480px) {
+
+            .wrapper > table > tbody > tr > td {
+            padding: 20px 40px !important;
+            }
+            
+            }
+
+        </mj-style>
+        
+        <mj-raw>
+        <!--[if mso]>
+        <style type="text/css">
+        sup {
+        font-size: 100%;
+        vertical-align: .5em;
+        mso-text-raise: -1.5%;
+        line-height: 0;
+        }
+        .wrapper > table > tbody > tr > td {
+        padding: 20px 40px !important;
+        }
+        </style>
+        <![endif]-->
+        </mj-raw>
+        <mj-preview>
+            Fringilla Adipiscing Tellus Mattis Vestibulum
+        </mj-preview>
+    </mj-head>
+    <mj-body background-color="#eeeeee" width="640px">
+        <mj-wrapper padding="20px 20px" background-color="#ffffff" css-class="wrapper">
+            <mj-section padding="0" background-color="#0076C0" background-url="https://mcusercontent.com/ec79824cec17224ec37f5aed0/images/dac49c96-534d-5a4b-2b00-679bc385bdf3.jpg" background-size="cover" background-repeat="repeat">
+                <mj-column>
+                    <mj-text padding="10px 20px">
+                    <p style="font-size: 24px; line-height: 29px; color: #ffffff;">
+                        Maecenas faucibus mollis interdum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                    </p>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            </mj-wrapper>
+    </mj-body>
+</mjml>
