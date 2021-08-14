@@ -63,9 +63,6 @@
         mso-text-raise: -1.5%;
         line-height: 0;
         }
-        .wrapper > table > tbody > tr > td {
-        padding: 20px 40px !important;
-        }
         </style>
         <![endif]-->
         </mj-raw>
@@ -75,7 +72,7 @@
     </mj-head>
     <mj-body background-color="#eeeeee" width="640px">
         <mj-wrapper padding="20px 20px" background-color="#ffffff" css-class="wrapper">
-            <mj-section padding="0" background-color="#0076C0" background-url="https://mcusercontent.com/ec79824cec17224ec37f5aed0/images/dac49c96-534d-5a4b-2b00-679bc385bdf3.jpg" background-size="cover" background-repeat="repeat">
+            <mj-section padding="0" background-color="#0076C0" background-url="https://mcusercontent.com/ec79824cec17224ec37f5aed0/images/98770895-cbf3-2ffb-124b-6f821a00c787.jpg" background-size="contain" background-repeat="repeat">
                 <mj-column>
                     <mj-text padding="10px 20px">
                     <p style="font-size: 24px; line-height: 29px; color: #ffffff;">
@@ -84,6 +81,26 @@
                     </mj-text>
                 </mj-column>
             </mj-section>
+            <mj-section background-color="#f2f3f3" padding="0">
+                <mj-column>
+                    <mj-text padding="10px 20px 0">
+                    <p>
+                        Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nulla vitae elit libero, a pharetra augue.
+                    </p>
+                    <p>
+                        Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+                    </p>
+                    </mj-text>
+                    <mj-image src="https://mcusercontent.com/ec79824cec17224ec37f5aed0/images/8f34759b-0296-8fe6-a35b-957ad55c0919.png" width="560px" padding="0" alt="" />
+                </mj-column>
+            </mj-section>
             </mj-wrapper>
+            <mj-section>
+                <mj-column background-color="#d8d8d8">
+                    <mj-text>
+                        Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo.
+                    </mj-text>
+                </mj-column>
+            </mj-section>
     </mj-body>
 </mjml>
