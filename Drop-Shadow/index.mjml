@@ -108,6 +108,66 @@
         </mj-preview>
     </mj-head>
     <mj-body>
+    <mj-section padding="0">
+            <mj-column>
+                <mj-text>
+                    Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vestibulum id ligula porta felis euismod semper.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-raw>
+                <div role="article" aria-roledescription="email" aria-label="email name" lang="en" style="font-size:1rem; background-color: #ffffff;">
+                    <!-- email content in here -->
+                    <table role="presentation" align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="90%">
+                        <tr>
+                            <td valign="top" style="background-color: #ffffff;">
+                                <div class="over-mob" style="max-height:0px; margin: 0 auto; text-align: center;">
+                                    <img class="reset" src="https://mcusercontent.com/ec79824cec17224ec37f5aed0/images/7cc379f2-8a40-199f-e0d0-c3acea44607f.jpg" width="581" border="0" alt="" style="vertical-align: top;"/>
+                                </div>
+                                <!-- TEXT BLOCK START -->
+                                <table role="presentation" class="faux-absolute reset" align="left" border="0" cellpadding="0" cellspacing="0" width="600" style="position:relative; opacity:0.999;">
+                                    <tr>
+                                        <td valign="top" width="580" align="center">
+                                            <!--[if mso]>
+                                            <v:rect xmlns:v="urn:schemas-microsoft-com:vml" stroked="false" filled="false" style="width:600px;height:0px;">
+                                                <v:textbox inset="0,-334px,0,0">
+                                                    <![endif]-->
+                                                    <table role="presentation" class="hero-textbox" border="0" cellpadding="0" cellspacing="0" width="97%" bgcolor="#FFFFFF" align="left">
+                                                        <tr>
+                                                            <td style="padding: 20px;background-color: #ffffff; border-left: 1px solid #000000; border-top: 1px solid #000000;">
+                                                                <img src="https://mcusercontent.com/ec79824cec17224ec37f5aed0/images/317ae344-7f9a-b062-08dc-dda8f38bb465.png" width="131" height="131" style="display: block; width: 131px; height: 131px;">
+                                                            </td>
+                                                            <td style="background-color: #ffffff; border-right: 1px solid #000000; border-top: 1px solid #000000;">
+                                                                <p class="left" style="margin: 13px 15px 0 0; font-family:sans-serif; font-size:20px; color:#222222; mso-line-height-rule: exactly; line-height: 24px; font-weight: bold; color: #363E99; text-align:left;">
+                                                                    Responses were seen as early as <strong>4 weeks</strong> after starting treatment with Targretin Gel<sup>1</sup> 
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="padding: 0 20px 20px;background-color: #ffffff; border-left: 1px solid #000000; border-bottom: 1px solid #000000;">
+                                                                <img src="https://mcusercontent.com/ec79824cec17224ec37f5aed0/images/2236c6c5-81a5-9a7c-3e27-789e158cbd70.png" width="131" height="131" style="display: block; width: 131px; height: 131px;">
+                                                            </td>
+                                                            <td style="padding: 0 0 20px; background-color: #ffffff; border-bottom: 1px solid #000000; border-right: 1px solid #000000;">
+                                                                <p class="left" style="margin: 13px 15px 0 0; font-family:sans-serif; font-size:20px; color:#222222; mso-line-height-rule: exactly; line-height: 24px; font-weight: bold; color: #363E99; text-align:left;">
+                                                                    The median time to best response was 85 days after starting treatment<sup>1</sup> 
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                    <!--[if mso]>
+                                                </v:textbox>
+                                            </v:rect>
+                                            <![endif]-->
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </mj-raw>
+        </mj-section>
         <mj-section>
         <mj-raw>
             <div role="article" aria-roledescription="email" aria-label="email name" lang="en" style="font-size:1rem; background-color: #E4E4E4;">
@@ -123,13 +183,13 @@
 			<tr>
 				<td valign="top" width="580" align="center">
                 <!--[if mso]>
-                    <v:rect xmlns:v="urn:schemas-microsoft-com:vml" stroked="false" filled="false" style="width:600px;height:300px;">
+                    <v:rect xmlns:v="urn:schemas-microsoft-com:vml" stroked="false" filled="false" style="width:600px;height:0px;">
                     <v:textbox inset="0,-170px,0,0">
                 <![endif]-->
 					<table role="presentation" class="hero-textbox" border="0" cellpadding="0" cellspacing="0" width="97%" bgcolor="#FFFFFF" align="left">
 						<tr>
-							<td valign="top" style="padding: 20px;background-color: #ffffff; border-left: 1px solid #000000; border-bottom: 1px solid #000000; border-top: 1px solid #000000;">
-								<img src="https://mcusercontent.com/ec79824cec17224ec37f5aed0/images/4adef7fe-b4fe-39b3-6cda-500b9e2880a3.png" width="88" style="display: block;">
+							<td valign="top" style="padding: 20px;background-color: #ffffff; border-left: 1px solid #000000; border-bottom: 1px solid #000000; border-top: 1px solid #000000; width: 88px;">
+								<img src="https://mcusercontent.com/ec79824cec17224ec37f5aed0/images/4adef7fe-b4fe-39b3-6cda-500b9e2880a3.png" width="88" style="display: block; width: 88px;">
                             </td>
                             <td style="background-color: #ffffff; border-bottom: 1px solid #000000; border-right: 1px solid #000000; border-top: 1px solid #000000;">
 								<p class="left" style="margin: 0 15px 0 0; font-family:sans-serif; font-size:20px; color:#222222; mso-line-height-rule: exactly; line-height: 24px; font-weight: bold; color: #363E99; text-align:left;">
@@ -150,6 +210,13 @@
     </table>
   </div>
         </mj-raw>
+        </mj-section>
+        <mj-section padding="0">
+            <mj-column>
+                <mj-text>
+                    Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vestibulum id ligula porta felis euismod semper.
+                </mj-text>
+            </mj-column>
         </mj-section>
     </mj-body>
 </mjml>
