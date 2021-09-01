@@ -64,30 +64,11 @@
             .paddingDesktop {
             padding: 10px 0 !important;
             }
-
-            .textDesktop {
-            font-size: 20px !important;
-            line-height: 24px !important;
-            }
-
-            .iconDesktop {
-            width: 131px !important; 
-            height: 131px !important;
-            }
-            .iconCell {
-            width: 131px !important;
-            padding: 20px !important;
-            }
-
-            .iconCell2 {
-            width: 131px !important;
-            padding: 0 20px 20px !important;
-            }
+        
             }
 
             @media only screen and (max-width: 480px)  {
 			.reset { width: 100% !important; height: 168px !important; }
-            .reset1 { width: 100% !important; height: 280px !important; }
 			.hide { display: none !important; }
 			.over-mob { max-height:0px !important; }
 			.hero-textbox { width: 98% !important;}
@@ -119,28 +100,6 @@
         li.lastListItem {
         margin-bottom:0px !important;
         }
-
-        .paddingDesktop {
-        padding: 10px 0 !important;
-        }
-
-        .textDesktop {
-        font-size: 20px !important;
-        line-height: 24px !important;
-        }
-
-        .iconDesktop {
-        width: 131px !important; 
-        height: 131px !important;
-        }
-        .iconCell {
-        width: 131px !important;
-        padding: 20px !important;
-        }
-        .iconCell2 {
-        width: 131px !important;
-        padding: 0 20px 20px !important;
-        }
         </style>
         <![endif]-->
         </mj-raw>
@@ -164,33 +123,33 @@
                         <tr>
                             <td valign="top" style="background-color: #ffffff;">
                                 <div class="over-mob" style="max-height:0px; margin: 0 auto; text-align: center;">
-                                    <img class="reset1" src="https://mcusercontent.com/ec79824cec17224ec37f5aed0/images/7cc379f2-8a40-199f-e0d0-c3acea44607f.jpg" width="581" border="0" alt="" style="vertical-align: top;"/>
+                                    <img class="reset" src="https://mcusercontent.com/ec79824cec17224ec37f5aed0/images/7cc379f2-8a40-199f-e0d0-c3acea44607f.jpg" width="581" border="0" alt="" style="vertical-align: top;"/>
                                 </div>
                                 <!-- TEXT BLOCK START -->
-                                <table role="presentation" class="faux-absolute reset1" align="left" border="0" cellpadding="0" cellspacing="0" width="600" style="position:relative; opacity:0.999;">
+                                <table role="presentation" class="faux-absolute reset" align="left" border="0" cellpadding="0" cellspacing="0" width="600" style="position:relative; opacity:0.999;">
                                     <tr>
                                         <td valign="top" width="580" align="center">
                                             <!--[if mso]>
-                                            <v:rect xmlns:v="urn:schemas-microsoft-com:vml" stroked="false" filled="false" style="width:600px;height:120px;">
+                                            <v:rect xmlns:v="urn:schemas-microsoft-com:vml" stroked="false" filled="false" style="width:600px;height:0px;">
                                                 <v:textbox inset="0,-334px,0,0">
                                                     <![endif]-->
                                                     <table role="presentation" class="hero-textbox" border="0" cellpadding="0" cellspacing="0" width="97%" bgcolor="#FFFFFF" align="left">
                                                         <tr>
-                                                            <td class="iconCell" style="padding: 0px 0 0 10px;background-color: #ffffff; border-left: 1px solid #000000; border-top: 1px solid #000000; width: 121px;">
-                                                                <img class="iconDesktop" src="https://mcusercontent.com/ec79824cec17224ec37f5aed0/images/317ae344-7f9a-b062-08dc-dda8f38bb465.png" width="131" height="131" style="display: block; width: 101px; height: 101px;">
+                                                            <td style="padding: 20px;background-color: #ffffff; border-left: 1px solid #000000; border-top: 1px solid #000000;">
+                                                                <img src="https://mcusercontent.com/ec79824cec17224ec37f5aed0/images/317ae344-7f9a-b062-08dc-dda8f38bb465.png" width="131" height="131" style="display: block; width: 131px; height: 131px;">
                                                             </td>
                                                             <td style="background-color: #ffffff; border-right: 1px solid #000000; border-top: 1px solid #000000;">
-                                                                <p class="textDesktop" style="margin: 13px 15px 0 0; font-family:sans-serif; font-size:18px; color:#222222; mso-line-height-rule: exactly; line-height: 22px; font-weight: bold; color: #363E99; text-align:left;">
+                                                                <p class="left" style="margin: 13px 15px 0 0; font-family:sans-serif; font-size:20px; color:#222222; mso-line-height-rule: exactly; line-height: 24px; font-weight: bold; color: #363E99; text-align:left;">
                                                                     Responses were seen as early as <strong>4 weeks</strong> after starting treatment with Targretin Gel<sup>1</sup> 
                                                                 </p>
                                                             </td>
                                                         </tr>
                                                         <tr>
-                                                            <td class="iconCell2" style="padding: 0 0 0 10px;background-color: #ffffff; border-left: 1px solid #000000; border-bottom: 1px solid #000000;">
-                                                                <img class="iconDesktop" src="https://mcusercontent.com/ec79824cec17224ec37f5aed0/images/2236c6c5-81a5-9a7c-3e27-789e158cbd70.png" width="131" height="131" style="display: block; width: 101px; height: 101px;">
+                                                            <td style="padding: 0 20px 20px;background-color: #ffffff; border-left: 1px solid #000000; border-bottom: 1px solid #000000;">
+                                                                <img src="https://mcusercontent.com/ec79824cec17224ec37f5aed0/images/2236c6c5-81a5-9a7c-3e27-789e158cbd70.png" width="131" height="131" style="display: block; width: 131px; height: 131px;">
                                                             </td>
-                                                            <td style="padding: 20px 0 20px; background-color: #ffffff; border-bottom: 1px solid #000000; border-right: 1px solid #000000;">
-                                                                <p class="textDesktop" style="margin: 13px 15px 0 0; font-family:sans-serif; font-size:20px; color:#222222; mso-line-height-rule: exactly; line-height: 24px; font-weight: bold; color: #363E99; text-align:left;">
+                                                            <td style="padding: 0 0 20px; background-color: #ffffff; border-bottom: 1px solid #000000; border-right: 1px solid #000000;">
+                                                                <p class="left" style="margin: 13px 15px 0 0; font-family:sans-serif; font-size:20px; color:#222222; mso-line-height-rule: exactly; line-height: 24px; font-weight: bold; color: #363E99; text-align:left;">
                                                                     The median time to best response was 85 days after starting treatment<sup>1</sup> 
                                                                 </p>
                                                             </td>

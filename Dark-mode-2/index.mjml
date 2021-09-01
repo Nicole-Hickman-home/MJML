@@ -1,0 +1,464 @@
+<mjml lang="en">
+    <mj-head>
+        <mj-title>
+            Tips for traveling with TAKHZYRO&reg; (lanadelumab-flyo)
+        </mj-title>
+
+        <mj-attributes>
+            <mj-text font-family="Arial, sans-serif" font-size="16px" line-height="22px" color="#6D6E71" />
+            <mj-section background-color="#ffffff" css-class="dark-mode-bg" />
+        </mj-attributes>
+
+        <mj-style>
+         /* iOS BLUE LINKS */
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+        
+        sup {
+            font-size: .6em;
+            vertical-align: .5em;
+            line-height: 0;
+        }
+
+        .gray {
+            color:#6D6E71 !important;
+        }
+
+        @media only screen and (min-width:480px) {
+        .hide {
+            display: none !important;
+        }
+
+        .show {
+            display: block !important;
+        }
+
+        .padding0 {
+            padding: 0px !important;
+        }
+
+        .paddingDesktop {
+            padding: 10px 0px !important;
+        }
+
+        .paddingColumn {
+            padding: 0px !important;
+        }
+        .textRight {
+            text-align: right !important;
+        }
+        
+        .paddingIcon {
+            padding: 0 15px 0 0 !important;
+        }
+
+        .paddingCallout {
+            padding: 10px 25px !important;
+        }
+        } 
+        </mj-style>
+
+        <mj-raw>
+        <style type="text/css">
+        /* DARK MODE */
+        :root {
+            color-scheme: light dark;
+            supported-color-schemes: light dark;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .dark-mode-bg>table {
+                background: #1E1E1F !important;
+                background-image: linear-gradient(#1E1E1F, #1E1E1F) !important;
+            }
+            .dark-mode-hero-bg>table {
+                background: #EF426F !important;
+                background-image: linear-gradient(#EF426F, #EF426F) !important;
+            }
+            .dark-mode-button {
+                background: #EF426F !important;
+                background-image: linear-gradient(#EF426F, #EF426F) !important;
+            }
+            .dark-mode-footer-bg>table {
+                background: #272727 !important;
+                background-image: linear-gradient(#272727, #272727) !important;
+            }
+            .dark-mode-footer-callout table td {
+                background: #272727 !important;
+                background-image: linear-gradient(#272727, #272727) !important;
+            }
+            .dark-mode-preheader-bg>table {
+                background: #D8D8D8 !important;
+                background-image: linear-gradient(#D8D8D8, #D8D8D8) !important;
+            }
+            .dark-mode-preheader-text {
+                color: #333333 !important;
+                -webkit-text-fill-color: #333333 !important;
+            }
+            .dark-mode-text {
+                color: #ffffff !important;
+                -webkit-text-fill-color: #ffffff !important;
+            }
+            .dark-mode-footer-text {
+                color: #E5DFDF !important;
+                -webkit-text-fill-color: #E5DFDF !important;
+            }
+            .dark-mode-header {
+                color: #EF426F !important;
+                -webkit-text-fill-color: #EF426F !important;
+            }
+            }
+
+            [data-ogsc] .dark-mode-bg>table {
+                background: #1E1E1F !important;
+            }
+            [data-ogsc] .dark-mode-hero-bg>table {
+                background: #EF426F !important;
+            }
+            [data-ogsc] .dark-mode-footer-bg>table {
+                background: #272727 !important;
+            }
+            [data-ogsc] .dark-mode-text>table {
+                color: #ffffff !important;
+            }
+            [data-ogsc] .dark-mode-footer-text>table {
+                color: #E5DFDF !important;
+            }
+            [data-ogsc] .dark-mode-header>table {
+                color: #EF426F !important;
+            }
+            </style>
+
+        </mj-raw>
+
+        <mj-raw>
+        <!--[if mso]>
+        <style type="text/css">
+        sup {
+        font-size: 1.005em;
+        vertical-align: .5em;
+        mso-text-raise: -1.5%;
+        line-height: 0;
+        }
+
+        ul {margin:0 !important;}
+        li {margin-left:27px !important;}
+        li.firstListItem {margin-top:0px !important;}
+        li.lastListItem {margin-bottom:0px !important;}
+
+        .hide {
+            display: none !important;
+        }
+
+        .show {
+            display: block !important;
+        }
+
+        .padding0 {
+            padding: 0px !important;
+        }
+
+        .paddingDesktop {
+            padding: 10px 0px !important;
+        }
+
+        .paddingColumn {
+            padding: 0px !important;
+        }
+
+        .textRight {
+            text-align: right !important;
+        }
+        
+        .paddingIcon {
+            padding: 0 15px 0 0 !important;
+        }
+
+        .paddingCallout {
+            padding: 10px 25px !important;
+        }
+        </style>
+        <![endif]-->
+
+        <!--[if gte mso 16]>
+        <style type="text/css">
+        .dark-mode-headline {
+        mso-style-textfill-type:gradient;
+        mso-style-textfill-fill-gradientfill-stoplist:"0 \#FFFFFF 0 100000\,100000 \#FFFFFF 0 100000";
+        color:#000000 !important;
+        }
+        .dark-mode-text {
+        mso-style-textfill-type: gradient;
+        mso-style-textfill-fill-gradientfill-stoplist:"0 \#6D6E71 -1 100000\,100000 \#6D6E71 -1 100000";
+        color:#000000 !important;
+        }
+
+        .dark-mode-header {
+        mso-style-textfill-type: gradient;
+        mso-style-textfill-fill-gradientfill-stoplist:"0 \#EF426F -1 100000\,100000 \#EF426F -1 100000";
+        color:#ff4778 !important;
+        }
+
+        </style>
+        <![endif]-->
+        </mj-raw>
+        
+        <mj-preview>
+            Don&rsquo;t forget to plan ahead when traveling with your treatment
+        </mj-preview>
+
+    </mj-head>
+
+    <mj-body background-color="#efefef">
+    <mj-raw>
+        <main>
+    </mj-raw>
+        <mj-section background-color="#D8D8D8" padding="10px 0" css-class="dark-mode-preheader-bg">
+            <mj-column>
+                <mj-text font-size="10px" line-height="12px" color="#333333" padding="4px 0 0 20px" css-class="dark-mode-preheader-text">
+                     Don&rsquo;t forget to plan ahead when traveling with your treatment
+                </mj-text>
+            </mj-column>
+            <mj-column>
+                <mj-text font-size="10px" line-height="12px" color="#333333" padding="4px 20px 0 20px" css-class="dark-mode-preheader-text">
+                    <p class="textRight" style="margin: 0;"><a href="#" target="_blank" style="font-family: Helvetica, Arial, sans-serif; font-size: 10px; line-height:12px; color: #333333; text-decoration: none;">View this email in your browser &#187;</a></p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-wrapper padding="0">
+        <mj-section background-color="#EF426F" padding="0" css-class="dark-mode-hero-bg">
+            <mj-column>
+                <mj-text padding="20px 20px 14px">
+                <table role="presentation" class="dark-mode-text" align="center" width="100%" role="presentation" cellpadding="0" cellspacing="0" style="font-family:Arial, sans-serif; font-size:12px; line-height: 14px; color:#ffffff;">
+                <tr>
+                    <td>
+                        <a class="dark-mode-headline" href="https://www.takhzyro.com/?utm_source=crm_program&utm_medium=email&utm_campaign=takhzyro_existing_pt_stream&utm_content=TAK_CON_US_LANA_0820#important-safety-information" target="blank" style="color: #ffffff; text-decoration: underline;">
+                        Important Safety Information</a></td>
+                    <td align="center">
+                        <a class="dark-mode-headline" href="https://www.shirecontent.com/PI/PDFs/TAKHZYRO_USA_ENG.pdf?utm_source=crm_program&utm_medium=email&utm_campaign=takhzyro_existing_pt_stream&utm_content=TAK_CON_US_LANA_0820" target="blank"  style="color: #ffffff; text-decoration: underline;">
+                        Full Prescribing Information</a></td>
+                    <td align="right">
+                        <a class="dark-mode-headline" href="https://www.shirecontent.com/PATIENTINFO/PDFs/PATI_Takhzyro_USA_ENG.pdf?utm_source=crm_program&utm_medium=email&utm_campaign=takhzyro_existing_pt_stream&utm_content=TAK_CON_US_LANA_0820" target="blank"  style="color: #ffffff; text-decoration: underline;">
+                        Patient Information</a></td>
+                </tr>
+                </table>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#EF426F" padding="0" css-class="dark-mode-hero-bg">
+            <mj-column>
+                <mj-image src="images/hero-image-2x.jpg" width="560px" alt="Campaign Hero Image" padding="10px 20px" css-class="paddingDesktop" />
+
+                <mj-text align="center" color="#ffffff" padding="10px 20px" css-class="paddingDesktop">
+                <h1 style="margin: 0 0 10px 0; font-size: 40px; line-height: 42px; color: #ffffff;" class="dark-mode-headline">
+                    Tips for traveling<br> 
+                    with your treatment
+                </h1>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        </mj-wrapper>
+        <mj-section padding-bottom="0">
+            <mj-column width="93%">
+                <mj-image src="images/takhzyro-logo-2x.png" width="170px" height="auto" alt="Takhzyro Logo" href="https://www.takhzyro.com/?utm_source=crm_program&utm_medium=email&utm_campaign=takhzyro_existing_pt_stream&utm_content=TAK_CON_US_LANA_0820" />
+
+                <mj-text padding="10px 20px" css-class="paddingDesktop">
+                <p class="dark-mode-text">
+                    If it&rsquo;s been a while since you&rsquo;ve traveled, it&rsquo;s important to plan ahead so you can follow your treatment routine with TAKHZYRO as prescribed by your doctor. 
+                </p>
+                <h2 class="dark-mode-header" style="margin-bottom: 0; font-size: 26px; line-height: 29px; color: #EF426F;">
+                    Use these tips to help make travel plans with TAKHZYRO
+                </h2>
+                </mj-text>
+            </mj-column>
+        </mj-section> 
+        <!--ICONS AND TEXT-->
+        <mj-section padding="0">
+            <mj-column width="16%" vertical-align="middle">
+                <mj-image src="images/doctor-icon@2x.png" width="79px" alt="Doctor icon" align="center" padding="0" css-class="paddingIcon" />
+            </mj-column>
+            <mj-column width="77%" vertical-align="middle">
+                <mj-text padding="0 20px" css-class="paddingColumn">
+                <p class="dark-mode-text">
+                    Talk to your doctor and your OnePath<sup>&reg;</sup> Patient Support Manager (PSM) about your travel plans and the amount of supplies you&rsquo;ll need. Your doctor can also fill out a Travel Medical Letter that details your medical requirements and supplies</p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0">
+            <mj-column>
+                <mj-spacer height="10px" />
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0">
+            <mj-column width="16%" vertical-align="middle">
+                <mj-image src="images/alarm-icon@2x.png" width="79px" alt="Alarm icon" align="center" padding="0" css-class="paddingIcon" />
+            </mj-column>
+            <mj-column width="77%" vertical-align="middle">
+                <mj-text padding="0px 20px" css-class="paddingColumn">
+                <p class="dark-mode-text">
+                    Set alarm reminders to help you stay on track with your scheduled dose</p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0">
+            <mj-column>
+                <mj-spacer height="19px" />
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0">
+            <mj-column width="16%" vertical-align="middle">
+                <mj-image src="images/medical-bag-icon@2x.png" width="79px" alt="Medical bag icon" align="center" padding="0" css-class="paddingIcon" />
+            </mj-column>
+            <mj-column width="77%" vertical-align="middle">
+                <mj-text padding="0 20px" css-class="paddingColumn">
+                <p class="dark-mode-text">
+                    Transport your TAKHZYRO and supplies in a secure travel case and be sure to keep this case with you; do not pack it in checked luggage</p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0">
+            <mj-column>
+                <mj-spacer height="5px" />
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0">
+            <mj-column width="16%" vertical-align="middle">
+                <mj-image src="images/thermometer-icon@2x.png" width="79px" alt="Thermometer icon" align="center" padding="0" css-class="paddingIcon" />
+            </mj-column>
+            <mj-column width="77%" vertical-align="middle">
+                <mj-text padding="0 20px" css-class="paddingColumn">
+                <p class="dark-mode-text">
+                Store TAKHZYRO at a temperature between 36°F to 46°F (2°C to 8°C). Freeze and use the cold packs in your TAKHZYRO Travel Kit to help ensure that your TAKHZYRO stays at the correct temperature*</p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!--/ICONS AND TEXT-->
+        <mj-section padding="0px">
+            <mj-column width="93%">
+                <mj-text padding="10px 20px" css-class="paddingDesktop">
+                <p class="dark-mode-header" style="margin-top: 0 margin-bottom: 4px; font-weight:bold; color:#ef426f;">
+                    Access your treatment and supplies while traveling with a free TAKHZYRO Travel Kit. Talk to your OnePath<sup>&reg;</sup> PSM to request your kit, which includes:</p>
+                <ul class="dark-mode-header" align="left" style="color:#ef426f; list-style-type: disc; padding: 0px 0px 0px 20px; margin: 0px;">
+                <li class="firstListItem" style="margin: 0px 0px 8px; text-align: left;">
+                    <span class="gray dark-mode-text">An insulated travel bag*</span></li>
+                <li style="margin: 0px 0px 8px; text-align: left;"><span class="gray dark-mode-text">
+                    Cold packs</span></li>
+                <li style="margin: 0px 0px 8px; text-align: left;"><span class="gray dark-mode-text">
+                    Travel tips brochure</span></li>
+                <li class="lastListItem" style="margin: 0px; text-align: left;"><span class="gray dark-mode-text">
+                    And more!</span></li>
+                </ul>
+                </mj-text>
+                <mj-image src="images/OnePath_logo-2x.png" width="171px" alt="OnePath Logo" align="left" padding="10px 20px" css-class="paddingDesktop" />
+                <mj-text padding="10px 20px" css-class="paddingDesktop">
+                <p class="dark-mode-text" style="margin: 0;">
+                    <strong>Call OnePath at 1-866-888-0660</strong><br><span style="font-size:10px;">(Monday through Friday, 8:30 AM to 8:00 PM ET)</span></p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!--Callout-->
+        <mj-section padding="10px 0">
+            <mj-column padding="10px 30px" width="540px" inner-background-color="#EFEDF5" background-color="#FFFFFF" css-class="dark-mode-footer-callout">
+                <mj-image src="images/download-icon-2x.png" width="102px" alt="Icon" padding="30px 0 10px" />
+                <mj-text align="center" padding="10px 20px" css-class="paddingCallout">
+                    <p style="font-size: 18px; line-height: 22px; font-weight: bold; color: #5B6770;" class="dark-mode-text">
+                        Ask your doctor to fill out this Travel Medical Letter so you can be prepared to travel with TAKHZYRO
+                    </p>
+                    <!--BUTTON-->
+                    <table role="presentation" align="center" cellpadding="0" cellspacing="0" border="0" style="font-family: Helvetica, Arial, sans-serif;">
+                    <tr>
+                        <td style="border-radius: 23px;" align="center" bgcolor="#EF426F" class="dark-mode-button">
+                            <a class="dark-mode-button" href="https://www.takhzyro.com/downloads/TAKHZYRO_TravelMedicalLetter.pdf?utm_source=crm_program&utm_medium=email&utm_campaign=takhzyro_existing_pt_stream&utm_content=TAK_CON_US_LANA_0820" target="_blank"
+                            style="color: #ffffff; display: inline-block; font-family: Helvetica, Arial,sans-serif; font-size: 16px; font-weight: 700; text-align: center; text-decoration: none; 
+                            width: 210px; -webkit-text-size-adjust: none; border-radius: 23px; border: 1px solid #EF426F; padding: 10px 0px; white-space: nowrap;">
+                            Download Now</a>
+                        </td>
+                    </tr>
+                    </table>
+                    <!--/BUTTON-->
+                </mj-text>
+                <mj-spacer height="15px" />
+            </mj-column>
+        </mj-section>
+        <!--/Callout-->
+        <mj-section padding="0">
+        <mj-column width="93%">
+        <mj-text padding="10px 20px" css-class="paddingDesktop">
+        <p class="dark-mode-text" style="font-size:10px; line-height:14px;">
+            *Travel case has not been tested to ensure that TAKHZYRO stays between 36°F to 46°F (2°C to 8°C).</p>
+        <p class="dark-mode-header" style="margin-top: 30px; font-size: 18px; font-weight:bold; color:#ef426f;">
+            WHAT IS TAKHZYRO?</p>
+        <p class="dark-mode-text">
+            TAKHZYRO<sup>&reg;</sup> (lanadelumab-flyo) is a prescription medicine used to prevent attacks of hereditary angioedema (HAE) in people 12 years of age and older.</class="dark-mode-text">
+        <p class="dark-mode-text">
+            It is not known if TAKHZYRO is safe and effective in children under 12 years of age.</p>
+        <p class="dark-mode-header" style="font-size: 18px; font-weight:bold; color:#ef426f;">IMPORTANT SAFETY INFORMATION</p>
+        <p class="dark-mode-text" style="margin-bottom: 4px;">
+            <strong>TAKHZYRO may cause serious side effects, including allergic reactions.</strong> Call your healthcare provider or get emergency help right away if you have any of the following symptoms:</p>
+        <ul class="dark-mode-header" align="left" style="color:#ef426f; list-style-type: disc; padding: 0px 0px 0px 20px; margin: 0px 0px 0px 20px;">
+        <li class="firstListItem" style="margin: 0px 0px 8px; text-align: left;"><span class="gray dark-mode-text">
+            wheezing</span></li>
+        <li style="margin: 0px 0px 8px; text-align: left;"><span class="gray dark-mode-text">
+            difficulty breathing</span></li>
+        <li style="margin: 0px 0px 8px; text-align: left;"><span class="gray dark-mode-text">
+            chest tightness</span></li>
+        <li style="margin: 0px 0px 8px; text-align: left;"><span class="gray dark-mode-text">
+            fast heartbeat</span></li>
+        <li style="margin: 0px 0px 8px; text-align: left;"><span class="gray dark-mode-text">
+            faintness</span></li>
+        <li style="margin: 0px 0px 8px; text-align: left;"><span class="gray dark-mode-text">
+            rash</span></li>
+        <li class="lastListItem" style="margin: 0px; text-align: left;"><span class="gray dark-mode-text">
+            hives</span></li>
+        </ul>
+        <p class="dark-mode-text">
+            The most common side effects seen with TAKHZYRO were injection site reactions (pain, redness, and bruising), upper respiratory infection, and headache.</p> 
+        <p class="dark-mode-text">
+            These are not all the possible side effects of TAKHZYRO. For more information, ask your healthcare provider or pharmacist. You may report side effects to the FDA at 1-800-FDA-1088.</p>
+        <p class="dark-mode-text">
+            TAKHZYRO has not been studied in pregnant or breastfeeding women. Talk to your healthcare provider about the risk of taking TAKHZYRO if you are pregnant, plan to be pregnant, are breastfeeding, or plan to breastfeed.</p>
+        
+        <p class="dark-mode-text">
+            <strong>Please see full <a class="dark-mode-text" href="https://www.shirecontent.com/PI/PDFs/TAKHZYRO_USA_ENG.pdf?utm_source=crm_program&utm_medium=email&utm_campaign=takhzyro_existing_pt_stream&utm_content=TAK_CON_US_LANA_0820" target="blank" style="color:#6d6e71;">Prescribing Information</a>, including information for patients.</strong></p>
+        </mj-text>
+        </mj-column>
+        </mj-section>
+        <mj-section background-color="#EFEFEF" css-class="dark-mode-footer-bg" padding="10px 0">
+            <mj-column width="93%">
+                <mj-image src="images/takeda-logo@2x.png" width="113px" height="auto" alt="Takeda Logo" align="left" padding="0 20px" css-class="paddingDesktop" href="https://www.takeda.com/?utm_source=crm_program&utm_medium=email&utm_campaign=takhzyro_existing_pt_stream&utm_content=TAK_CON_US_LANA_0820" />
+                <mj-text font-size="10px" line-height="16px" color="#333333" padding="10px 20px" css-class="padding0">
+                <p class="dark-mode-footer-text" style="margin-top: 0;margin-bottom: 5px;">
+                    &copy;2021 Takeda Pharmaceuticals U.S.A., Inc. 300 Shire Way. Lexington, MA 02421. 877-TAKEDA7 (877-825-3327). All rights reserved.
+                </p>
+                <p class="dark-mode-footer-text" style="margin: 5px 0;">
+                    TAKEDA and the TAKEDA logo are trademarks or registered trademarks of Takeda Pharmaceutical Company Limited. TAKHZYRO is a registered trademark of Dyax Corp., a Takeda company. OnePath is a registered trademark of Shire, a Takeda company.
+                </p>
+                <p class="dark-mode-footer-text" style="margin: 5px 0;">
+                    US-LANA-0820v1.0 06/21
+                </p>
+                <p class="dark-mode-footer-text" style="margin: 5px 0;">
+                    You are receiving this email because you have registered to receive information from Takeda, 300 Shire Way, Lexington, MA 02421.
+                </p>
+                <p class="dark-mode-footer-text" style="margin: 0;">
+                    <a class="dark-mode-footer-text" href="https://www.takeda.com/terms-of-use?utm_source=crm_program&utm_medium=email&utm_campaign=takhzyro_existing_pt_stream&utm_content=TAK_CON_US_LANA_0820" target="_blank" style="color: #333333; text-decoration: none;">Legal Notice</a>
+                </p>
+                <p class="dark-mode-footer-text" style="margin: 0;">
+                    <a class="dark-mode-footer-text" href="https://www.takeda.com/privacy-notice?utm_source=crm_program&utm_medium=email&utm_campaign=takhzyro_existing_pt_stream&utm_content=TAK_CON_US_LANA_0820" target="_blank" style="color: #333333; text-decoration: none;">Privacy Notice</a>
+                </p>
+                <p class="dark-mode-footer-text" style="margin: 0;">
+                    <a class="dark-mode-footer-text" href="https://www.takhzyro.com/unsubscribe?utm_source=crm_program&utm_medium=email&utm_campaign=takhzyro_existing_pt_stream&mid=TAK_CON_US_LANA_0820" style="color: #333333; text-decoration: none;">Unsubscribe</a>
+                </p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-raw>
+            </main>
+        </mj-raw>
+    </mj-body>
+</mjml>
