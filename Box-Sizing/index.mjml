@@ -1,0 +1,118 @@
+<mjml lang="en">
+    <mj-head>
+        <mj-title>
+            Subject line of email goes here
+        </mj-title>
+        <mj-attributes>
+            <mj-text font-family="Arial, sans-serif" font-size="16px" line-height="22px" color="#333333" />
+        </mj-attributes>
+        <mj-style>
+            /* Samsung */
+            #MessageViewBody a {
+            color: inherit;
+            text-decoration: none;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: inherit;
+            line-height: inherit;
+            }
+
+            /* Apple Blue links */
+            a[x-apple-data-detectors] {
+            color: inherit;
+            text-decoration: none;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: inherit;
+            line-height: inherit;
+            }
+
+            /* Gmail blue links, requires id="body" in HTML export */
+            u + #body a {
+            color: inherit;
+            text-decoration: none;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: inherit;
+            line-height: inherit;
+            }
+
+            sup {
+            font-size: .6em;
+            vertical-align: .5em;
+            line-height: 0;
+            }
+
+            body {
+            box-sizing: border-box;
+            }
+
+            * {
+            box-sizing: border-box;
+            }
+
+            @media only screen and (min-width:480px) {
+        
+            .paddingDesktop {
+            padding: 10px 0 !important;
+            }
+        
+            }
+
+        </mj-style>
+        
+        <mj-raw>
+        <!--[if mso]>
+        <style type="text/css">
+        sup {
+        font-size: 100%;
+        vertical-align: .5em;
+        mso-text-raise: -1.5%;
+        line-height: 0;
+        }
+
+        ul {
+        margin:0 !important;
+        }
+        li {
+        margin-left:27px !important;
+        }
+        li.firstListItem {
+        margin-top:0px !important;
+        }
+        li.lastListItem {
+        margin-bottom:0px !important;
+        }
+        </style>
+        <![endif]-->
+        </mj-raw>
+        <mj-preview>
+            Preheader text &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; 
+        </mj-preview>
+    </mj-head>
+    <mj-body background-color="#eeeeee" width="640px">
+        <mj-section>
+            <mj-column>
+                <mj-text padding="10px 0">
+                <table role="presentation" align="center" cellpadding="0" cellspacing="0" border="0" style="font-family: Arial, sans-serif; border-collapse: separate;">
+                <tr>
+                    <td align="center" style="width: 140px; padding: 10px;background: #fff; border: 4px solid black;">
+                        Text in a box
+                    </td>
+                </tr>
+                </table>
+                <table role="presentation" align="center" cellpadding="0" cellspacing="0" border="0" style="font-family: Arial, sans-serif; border-collapse: separate;">
+                <tr>
+                    <td align="center" style="width: 140px; padding: 20px;background: pink; border: 8px solid blue;">
+                        Text in a box
+                    </td>
+                </tr>
+                </table>
+                <div style="width: 400px; border: 4px solid red;text-align: center; margin: 10px auto;">
+                    Maecenas sed diam eget risus varius blandit sit amet non magna. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+                </div>     
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
