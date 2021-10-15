@@ -6,13 +6,6 @@
         <mj-attributes>
             <mj-text font-family="Arial, sans-serif" font-size="16px" line-height="22px" color="#333333" />
         </mj-attributes>
-        <mj-style inline="inline">
-        sup {
-            font-size: .6em;
-            vertical-align: .5em;
-            line-height: 0;
-            }
-        </mj-style>
         <mj-style>
             /* Samsung */
             #MessageViewBody a {
@@ -44,6 +37,12 @@
             line-height: inherit;
             }
 
+            sup {
+            font-size: .6em;
+            vertical-align: .5em;
+            line-height: 0;
+            }
+
             @media only screen and (min-width:480px) {
         
             .paddingDesktop {
@@ -58,10 +57,10 @@
         <!--[if mso]>
         <style type="text/css">
         sup {
-        font-size: 100% !important;
-        vertical-align: .5em !important;
-        mso-text-raise: -1.5% !important;
-        line-height: 0 !important;
+        font-size: 100%;
+        vertical-align: .5em;
+        mso-text-raise: -1.5%;
+        line-height: 0;
         }
 
         ul {
@@ -87,11 +86,28 @@
             Preheader text &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; 
         </mj-preview>
     </mj-head>
-    <mj-body background-color="#eeeeee" width="640px">
+    <mj-body background-color="#ffffff" width="640px">
         <mj-section>
-            <mj-column>
+            <mj-column width="60%">
                 <mj-text>
-                    Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui.
+                    <table role="presentation" align="center" width="100%" cellpadding="0" cellspacing="0" border="0" style="font-family: Arial, sans-serif; font-size: 16px; line-height: 22px; border-top: 6px solid #E9003A; border-right: 6px solid #E9003A; border-left: 6px solid #E9003A; border-collapse-collapse;">
+                    <tr>
+                        <td colspan="3" align="center" height="48" style="height; 48px;">
+                            Some Text
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="border-top: 6px solid #E9003A;">
+                            &nbsp;
+                        </td>
+                        <td valign="bottom" align="right">
+                            <img src="Triangle.png" style="display: block; width: 60px;">
+                        </td>
+                        <td style="border-top: 6px solid #E9003A; width: 60px;">
+                            &nbsp;
+                        </td>
+                    </tr>
+                    </table>
                 </mj-text>
             </mj-column>
         </mj-section>

@@ -12,6 +12,9 @@
             vertical-align: .5em;
             line-height: 0;
             }
+        .button td {
+        mso-padding-alt:0px 15px !important;
+        }
         </mj-style>
         <mj-style>
             /* Samsung */
@@ -90,9 +93,21 @@
     <mj-body background-color="#eeeeee" width="640px">
         <mj-section>
             <mj-column>
-                <mj-text>
-                    Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui.
-                </mj-text>
+                <mj-button>
+                    Default Button
+                </mj-button>
+
+                <mj-button background-color="#00a5ad" inner-padding="18px 25px">
+                    Adjusted button
+                </mj-button>
+
+                <mj-button background-color="orange" height="50px">
+                    With height property
+                </mj-button>
+
+                <mj-button background-color="turquoise" height="50px" inner-padding="0 25px">
+                    With height property, no inner padding
+                </mj-button>
             </mj-column>
         </mj-section>
     </mj-body>
