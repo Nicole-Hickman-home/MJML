@@ -89,6 +89,10 @@
                     <p>
                         <strong>Horizontal Spacing:</strong> Cras mattis consectetur purus sit amet <i style="letter-spacing:30px;mso-font-width:-100%;display:inline-block;width:30px">&#8202;</i> fermentum. Donec sed odio dui.
                     </p>
+                    <!--Social Icons-->
+                    <p style="text-align: center;line-height: 1;">
+                    <img src="https://i.ibb.co/k5dZmvt/facebook-2x.png" width="25" height="25" style="display: inline-block;"><i style="letter-spacing:50px;mso-font-width:-100%;display:inline-block;width:50px">&#8202;</i><img src="https://i.ibb.co/G9JfDzW/twitter-squared-2x.png" width="25" height="25" style="display: inline-block;"><i style="letter-spacing:50px;mso-font-width:-100%;display:inline-block;width:50px">&#8202;</i><img src="https://i.ibb.co/N1Bfk4L/linkedin-2x.png" width="25" height="25" style="display: inline-block;"><i style="letter-spacing:50px;mso-font-width:-100%;display:inline-block;width:50px">&#8202;</i><img src="https://i.ibb.co/jMY5yw5/instagram-2x.png" width="25" height="25" style="display: inline-block;">
+                    </p>
                     <p>
                         <strong>Vertical Spacing:</strong>
                     </p>
