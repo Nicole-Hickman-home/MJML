@@ -115,16 +115,21 @@
         }
         li {
         margin-left:27px !important;
+        mso-special-format: bullet;
         }
         li.firstListItem {
-        margin-top:0px !important;
+        margin-top:10px !important;
         }
         li.lastListItem {
-        margin-bottom:0px !important;
+        margin-bottom:10px !important;
         }
 
         .paddingDesktop {
         padding: 10px 0 !important;
+        }
+
+        .forDumbOutlooks {
+        margin-left: -20px !important;
         }
         </style>
         <![endif]-->
@@ -145,7 +150,16 @@
                   <tbody>
                     <tr>
                       <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                        <div style="font-family:Arial, sans-serif;font-size:16px;line-height:22px;text-align:left;color:#333333;">Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui.</div>
+                        <div style="font-family:Arial, sans-serif;font-size:16px;line-height:22px;text-align:left;color:#333333;">
+                          <p> Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur. </p>
+                          <div style="margin-left: 0px;" class="forDumbOutlooks">
+                            <!--Bulleted list-->
+                            <ul align="left" style="list-style-type: disc; padding: 0px 0px 0px 20px; margin: 10px 0px;">
+                              <li class="firstListItem" style="margin: 0px 0px 10px; text-align: left;">Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada magna mollis euismod. Aenean lacinia bibendum nulla sed consectetur.</li>
+                              <li class="lastListItem" style="margin: 0px; text-align: left;">Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum. Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</li>
+                            </ul>
+                          </div>
+                        </div>
                       </td>
                     </tr>
                   </tbody>
