@@ -12,6 +12,12 @@
             vertical-align: .5em;
             line-height: 0;
             }
+        .show {
+        display: none;
+        }
+        .hide {
+        display: block;
+        }
         </mj-style>
         <mj-style>
             /* Samsung */
@@ -45,7 +51,12 @@
             }
 
             @media only screen and (min-width:480px) {
-        
+            .show {
+            display: block !important;
+            }
+            .hide {
+            display: none !important;
+            }
             .paddingDesktop {
             padding: 10px 0 !important;
             }
@@ -89,8 +100,8 @@
     </mj-head>
     <mj-body background-color="#eeeeee" width="640px">
         <mj-section>
-            <mj-column>
-                <mj-text>
+            <mj-column width="93%">
+                <mj-text padding="10px 15px" css-class="paddingDesktop">
                     Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui.
                 </mj-text>
             </mj-column>
