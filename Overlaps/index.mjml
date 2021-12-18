@@ -27,11 +27,11 @@
             .darkGray {
             color: #333333 !important;
             }
-			.faux-absolute {
-			line-height: 1.5; 
-			position:relative;
-			opacity:0.999;
-			}
+			.faux-absolute{
+            max-height:38px;
+            position:relative;
+            opacity:0.999;
+            }
         </mj-style>
 
         <mj-style>
@@ -70,12 +70,11 @@
             .hide {
             display: none !important;
             }
-			.faux-absolute {
-			line-height: 1.5 !important;
-			max-height: 36px !important;
-			position:relative;
-			opacity:0.999;
-			}
+			.faux-absolute{
+            max-height:44px !important;
+            position:relative;
+            opacity:0.999;
+            }
             .paddingDesktop {
             padding: 10px 0 !important;
             }
@@ -171,8 +170,8 @@
                 <mj-column width="93%">
                     <mj-spacer height="230px" />
                     <mj-text padding="0px 0 0 180px">
-                        <p style="margin: 0; font-family: Quickbrush, Trebuchet MS, sans-serif; font-size: 36px; line-height: 44px; color: #ffffff; font-style: italic;"  class="faux-absolute">
-                            Every story is uniqueE
+                        <p style="margin: 0; font-family: Quickbrush, Trebuchet MS, sans-serif; font-size: 36px; line-height: 60px; color: #ffffff; font-style: italic;"  class="faux-absolute">
+                            Every story is unique
                         </p>
                     </mj-text>
                 </mj-column>
@@ -230,8 +229,8 @@
                 <mj-column>
                     <mj-spacer height="140px" />
                     <mj-text padding="0px 0px 0 13px">
-                        <p style="margin: 0; font-family: Quickbrush, Trebuchet MS, sans-serif; font-size: 30px; line-height: 33px; color: #ffffff; font-style: italic;" class="faux-absolute">
-                            Every story is uniqueE
+                        <p style="margin: 0; font-family: Quickbrush, Trebuchet MS, sans-serif; font-size: 30px; line-height: 50px; color: #ffffff; font-style: italic;" class="faux-absolute">
+                            &#8202;Every story is unique
                         </p>
                     </mj-text>
                 </mj-column>
