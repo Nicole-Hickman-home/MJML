@@ -93,6 +93,25 @@
             }
         </mj-style>
         <mj-raw>
+        <style type="text/css">
+            u+.body .faux-absolute {
+            max-height: 50px !important;
+            position: relative;
+            opacity: 0.999;
+            }
+        </style>
+        <style type="text/css">
+        @media screen and (max-width: 480px) {
+        u+.body .faux-absolute {
+        max-height: 42px !important;
+        position: relative;
+        opacity: 0.999;
+        mix-blend-mode: screen;
+      }
+    }
+  </style>
+        </mj-raw>
+        <mj-raw>
             <!--[if mso]>
             <style type="text/css">
                 sup {
@@ -152,7 +171,7 @@
                 <mj-group>
                     <mj-column>
                         <mj-text font-size="21px" color="#FEC800" padding="10px 15px">
-                            <p style="margin: 0;">
+                            <p style="margin: 0;" class="gmail">
                                 <strong>REACH</a> FOR THE <strong>HEART</strong>
                             </p>
                         </mj-text>
@@ -229,9 +248,11 @@
                 <mj-column>
                     <mj-spacer height="140px" />
                     <mj-text padding="0px 0px 0 13px">
-                        <p style="margin: 0; font-family: Quickbrush, Trebuchet MS, sans-serif; font-size: 30px; line-height: 50px; color: #ffffff; font-style: italic;" class="faux-absolute">
+                            <p style="margin: 0; font-family: Quickbrush, Trebuchet MS, sans-serif; font-size: 30px; line-height: 50px; color: #ffffff; font-style: italic;" class="faux-absolute">
                             &#8202;Every story is unique
-                        </p>
+                            </p>
+                        </div>
+                        
                     </mj-text>
                 </mj-column>
             </mj-section>
