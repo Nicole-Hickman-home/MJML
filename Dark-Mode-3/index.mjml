@@ -105,20 +105,22 @@
         </mj-preview>
     </mj-head>
     <mj-body background-color="#eeeeee" width="640px">
-        <mj-section>
+        <mj-section background-url="https://mcusercontent.com/ec79824cec17224ec37f5aed0/images/28e7555e-2b19-1b59-ab10-c741d2401e27.jpg" background-size="cover">
             <mj-column width="93%">
                 <mj-text padding="10px 15px" css-class="paddingDesktop">
-					<div style="background:#6db6b0; background-image:url(https://mcusercontent.com/ec79824cec17224ec37f5aed0/images/28e7555e-2b19-1b59-ab10-c741d2401e27.jpg); background-size:cover; color:#fff;">
-						<div style="background:#000;" class="gmail-blend-screen">
-							<div style="background:#000;" class="gmail-blend-difference">
-								&nbsp;<br>
+					
+						<div class="gmail-blend-screen">
+							<div class="gmail-blend-difference">
+							<p style="color: #ffffff;">
+                                &nbsp;<br>
 								&nbsp;<br>
 								&nbsp;<br>
 								&nbsp;<br>
 								Lorem ipsum dolor, sit amet, consectetur adipisicing elit.
+                            </p>
 							</div>
 						</div>
-					</div>
+					
                 </mj-text>
             </mj-column>
         </mj-section>
