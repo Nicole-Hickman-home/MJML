@@ -79,14 +79,14 @@
         li.lastListItem {
         margin-bottom:10px !important;
         }
-
+        .outlookList {
+        margin-left: -20px !important;
+        }
         .paddingDesktop {
         padding: 10px 0 !important;
         }
 
-        .outlookList {
-        margin-left: -20px !important;
-        }
+        
         </style>
         <![endif]-->
         </mj-raw>
