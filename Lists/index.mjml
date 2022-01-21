@@ -52,10 +52,10 @@
 
             
             .list ul {
-            padding-left: 17px;
+            padding-left: 19px;
             }
             .list ol {
-            padding-left: 20px;
+            padding-left: 22px;
             }
             
 
@@ -94,17 +94,12 @@
         }
         </style>
         <![endif]-->
-        <!--[if mso 16 ]>
+        <!--[if mso]>
         <style>
-        .list{margin-left:-20px}
+        .list{margin-left:-18px}
         </style>
         <![endif]-->
 
-        <!--[if mso 12 | mso 14 | mso 15 ]>
-        <style type="text/css">
-        .list{margin-left:-20px}
-        </style>
-        <![endif]-->
         </mj-raw>
         <mj-preview>
             Preheader text &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; 
@@ -118,7 +113,7 @@
                     <div class="list">
                     <ol>
                       <li style="margin: 0px 0px 10px; text-align: left;">Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada magna mollis euismod. Aenean lacinia bibendum nulla sed consectetur.</li>
-                      <li style="margin: 0px; text-align: left;">Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum. Vestibulum ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</li>
+                      <li style="margin: 0px 0px 10px; text-align: left;">Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum. Vestibulum ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</li>
                     </ol>
                     <ul>
                       <li style="margin: 0px 0px 10px; text-align: left;">Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada magna mollis euismod. Aenean lacinia bibendum nulla sed consectetur.</li>
