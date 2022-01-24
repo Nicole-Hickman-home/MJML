@@ -20,6 +20,10 @@
         display: block;
         }
 
+        .darkGray {
+        color: #333333;
+        }
+
         .list ul {
         padding-left: 19px;
         }
@@ -119,6 +123,18 @@
                     <ul>
                       <li style="margin: 0px 0px 10px; text-align: left;">Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada magna mollis euismod. Aenean lacinia bibendum nulla sed consectetur.</li>
                       <li style="margin: 0px; text-align: left;">Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum. Vestibulum ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</li>
+                    </ul>
+                    <ul style="color: red;">
+                      <li style="margin: 0px 0px 10px; text-align: left;"><span class="darkGray">Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada magna mollis euismod. Aenean lacinia bibendum nulla sed consectetur.</span></li>
+                      <li style="margin: 0px; text-align: left;"><span class="darkGray">Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum. Vestibulum ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</span></li>
+                    </ul>
+                    <ul style="list-style-type: square; color: red;">
+                      <li style="margin: 0px 0px 10px; text-align: left;"><span class="darkGray">Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada magna mollis euismod. Aenean lacinia bibendum nulla sed consectetur.</span></li>
+                      <li style="margin: 0px; text-align: left;"><span class="darkGray">Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum. Vestibulum ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</span></li>
+                    </ul>
+                    <ul style="list-style-type: circle; color: red;">
+                      <li style="margin: 0px 0px 10px; text-align: left;"><span class="darkGray">Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada magna mollis euismod. Aenean lacinia bibendum nulla sed consectetur.</span></li>
+                      <li style="margin: 0px; text-align: left;"><span class="darkGray">Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum. Vestibulum ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</span></li>
                     </ul>
                   </div>
                 </mj-text>
