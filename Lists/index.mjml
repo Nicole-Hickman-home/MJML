@@ -9,16 +9,24 @@
         </mj-attributes>
         <mj-style inline="inline">
         sup {
-            font-size: .6em;
-            vertical-align: .5em;
-            line-height: 0;
-            }
+        font-size: .6em;
+        vertical-align: .5em;
+        line-height: 0;
+        }
         .show {
         display: none;
         }
         .hide {
         display: block;
         }
+
+        .list ul {
+        padding-left: 19px;
+        }
+        .list ol {
+        padding-left: 22px;
+        }
+            
         </mj-style>
         <mj-style>
             /* Samsung */
@@ -51,15 +59,7 @@
             line-height: inherit;
             }
 
-            
-            .list ul {
-            padding-left: 19px;
-            }
-            .list ol {
-            padding-left: 22px;
-            }
-            
-
+    
             @media only screen and (min-width:480px) {
             .show {
             display: block !important;
