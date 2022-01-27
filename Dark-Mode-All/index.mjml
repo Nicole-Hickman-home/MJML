@@ -1,8 +1,13 @@
 <mjml lang="en">
     <mj-head>
+    <mj-raw>
+        <meta name="color-scheme" content="light dark">
+        <meta name="supported-color-schemes" content="light dark">
+        </mj-raw>
         <mj-title>
             Ignoring aortic stenosis can be deadly. Are you at risk?
         </mj-title>
+        
         <mj-attributes>
             <mj-text font-family="Arial, sans-serif" font-size="16px" line-height="22px" color="#333333" />
         </mj-attributes>
@@ -95,6 +100,7 @@
         @media (prefers-color-scheme: dark) {
         .dark-mode-bg>table {
         background: #1E1E1F !important;
+        background-image: linear-gradient(#1E1E1F, #1E1E1F) !important;
         }
         .dark-mode-hero-bg>table {
         background: #fec800 !important;
@@ -123,11 +129,17 @@
         }
         }
 
-        [data-ogsb] .dark-mode-bg {
-        background-color: #1E1E1F !important;
+        [data-ogsb] .dark-mode-bg>table {
+        background: #1E1E1F !important;
         }
-        [data-ogsb] .dark-mode-hero-bg {
-        background-color: #fec800 !important;
+        [data-ogsb] .dark-mode-hero-bg>table {
+        background: #272727 !important;
+        }
+        [data-ogsb] .dark-mode-CTA {
+        background: #000000 !important;
+        }
+        [data-ogsb] .dark-mode-social-bg>table {
+        background: #272727 !important;
         }
         [data-ogsc] .dark-mode-text {
         color: #ffffff !important;
@@ -136,12 +148,9 @@
         color: #0A5982 !important;
         }
         [data-ogsc] .dark-mode-CTA-text {
-        color: #333333 !important;
+        color: #ffffff !important;
         }
-        [data-ogsc] .dark-mode-CTA {
-        background: #f5f5f5 !important;
-        }
-                
+        
         </mj-style>
         
         <mj-raw>
@@ -216,7 +225,7 @@
         .keep-yellow {
         mso-style-textfill-type:gradient;
         mso-style-textfill-fill-gradientfill-stoplist: "100000 \#FEC800 -1 100000\,0 \#FEC800 -1 100000\,100000 \#ABC0E4 4 100000 lumm=45000 lumo=55000\,100000 \#FEC800 -1 100000\,100000 \#FEC800 -1 100000\,100000 \#C7D5ED 4 100000 lumm=30000 lumo=70000";
-        color: #d9aa00 !important;
+        color: #000000 !important;
         }
     </style>
 <![endif]-->
@@ -352,7 +361,7 @@
             <!--<![endif]-->
         </mj-raw>
         <!--End Mobile-->
-        <mj-section background-color="#FEC800" css-class="dark-mode-bg">
+        <mj-section background-color="#FEC800" css-class="dark-mode-hero-bg">
             <mj-column width="42%" padding="0" vertical-align="middle">
                 <mj-text font-size="20px" font-weight="bold" color="#0A5982" padding="15px 0 0" css-class="padding0" align="center">
                 <div class="gmail-blend-screen">
