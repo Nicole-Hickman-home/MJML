@@ -138,6 +138,10 @@
         [data-ogsb] .dark-mode-CTA {
         background: #000000 !important;
         }
+        [data-ogsb] .dark-mode-callout {
+        background: #272727 !important;
+        background-color: #272727 !important;
+        }
         [data-ogsb] .dark-mode-social-bg>table {
         background: #272727 !important;
         }
@@ -145,7 +149,7 @@
         color: #ffffff !important;
         }
         [data-ogsc] .dark-mode-hero-text {
-        color: #0A5982 !important;
+        color: #fec800 !important;
         }
         [data-ogsc] .dark-mode-CTA-text {
         color: #ffffff !important;
@@ -280,8 +284,8 @@
                                     &nbsp;
                                 </td>
                                 <![endif]-->
-                                <td style="padding: 3px 7px; background-color: #FEC800;background-image:linear-gradient(#FEC800,#FEC800);">
-                                    CONTINUE YOURS
+                                <td style="padding: 3px 7px; background-color: #FEC800;background-image:linear-gradient(#FEC800,#FEC800);" class="dark-mode-callout">
+                                    <span class="dark-mode-hero-text">CONTINUE YOURS</span>
                                 </td>
                             </tr>
                         </table>
