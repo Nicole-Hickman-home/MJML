@@ -1,0 +1,210 @@
+<mjml lang="en">
+    <mj-head>
+        <mj-title>
+            Subject line of email goes here
+        </mj-title>
+        <mj-attributes>
+            <mj-text font-family="Arial, sans-serif" font-size="16px" line-height="22px" color="#333333" />
+			<mj-section background-color="#ffffff" />
+        </mj-attributes>
+        <mj-style inline="inline">
+            sup {
+            font-size: .6em;
+            vertical-align: .5em;
+            line-height: 0;
+            }
+            .show {
+            display: none;
+            }
+            .hide {
+            display: block;
+            }
+        </mj-style>
+        <mj-style>
+            /* Samsung */
+            #MessageViewBody a {
+            color: inherit;
+            text-decoration: none;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: inherit;
+            line-height: inherit;
+            }
+            /* Apple Blue links */
+            a[x-apple-data-detectors] {
+            color: inherit;
+            text-decoration: none;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: inherit;
+            line-height: inherit;
+            }
+            /* Gmail blue links, requires id="body" in HTML export */
+            u + #body a {
+            color: inherit;
+            text-decoration: none;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: inherit;
+            line-height: inherit;
+            }
+            @media only screen and (min-width:480px) {
+            .show {
+            display: block !important;
+            }
+            .hide {
+            display: none !important;
+            }
+            .paddingDesktop {
+            padding: 10px 0 !important;
+            }
+            }
+        </mj-style>
+        <mj-raw>
+            <!--[if mso]>
+            <style type="text/css">
+                sup {
+                font-size: 100% !important;
+                vertical-align: .5em !important;
+                mso-text-raise: -1.5% !important;
+                line-height: 0 !important;
+                }
+                ul {
+                margin:0 !important;
+                }
+                li {
+                margin-left:27px !important;
+                mso-special-format: bullet;
+                }
+                li.firstListItem {
+                margin-top:10px !important;
+                }
+                li.lastListItem {
+                margin-bottom:10px !important;
+                }
+                .outlookList {
+                margin-left: -20px !important;
+                }
+                .show {
+                display: block !important;
+                }
+                .hide {
+                display: none !important;
+                }
+                .paddingDesktop {
+                padding: 10px 0 !important;
+                }
+            </style>
+            <![endif]-->
+        </mj-raw>
+        <mj-preview>
+            Preheader text &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; 
+        </mj-preview>
+    </mj-head>
+    <mj-body background-color="#eeeeee" width="640px">
+        <mj-section>
+            <mj-column width="93%">
+                <mj-text padding="10px 15px" css-class="paddingDesktop">
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;max-width:600px;">
+                        <tr>
+                            <td style="font-size:0;text-align:center;">
+                                <!--[if mso | IE]>
+                                <table align="center" style="width:480px;" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td style="width:160px;" valign="top">
+                                            <![endif]-->
+                                            <div style="display:inline-block;width:100%;max-width:160px;vertical-align:top;">
+                                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                                    <tr>
+                                                        <td style="text-align:center;">
+                                                            <img src="https://medbridgemarketing.s3.amazonaws.com/pardot/icons/icon__home-health-free-trial__patient-education.png" alt="" width="64" height="auto">
+                                                            <p style="font-size: 14px; line-height: 20px; margin-top: 8px;">HEP and Patient <br class="m-hide">Education</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <!--[if mso | IE]>
+                                        </td>
+                                        <td style="width:160px;" valign="top">
+                                            <![endif]-->
+                                            <div style="display:inline-block;width:100%;max-width:160px;vertical-align:top;">
+                                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                                    <tr>
+                                                        <td style="text-align:center;">
+                                                            <img src="https://medbridgemarketing.s3.amazonaws.com/pardot/icons/icon__home-health-free-trial__telehealth-virtual-visits.png" alt="" width="64" height="auto">
+                                                            <p style="font-size: 14px; line-height: 20px; margin-top: 8px;">Telehealth <br>Virtual Visits</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <!--[if mso | IE]>
+                                        </td>
+                                        <td style="width:160px;" valign="top">
+                                            <![endif]-->
+                                            <div style="display:inline-block;width:100%;max-width:160px;vertical-align:top;">
+                                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                                    <tr>
+                                                        <td style="text-align:center;">
+                                                            <img src="https://medbridgemarketing.s3.amazonaws.com/pardot/icons/icon__home-health-free-trial__course-library.png" alt="" width="64" height="auto">
+                                                            <p style="font-size: 14px; line-height: 20px; margin-top: 8px;">Course <br>Library</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <!--[if mso | IE]>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:160px;" valign="top">
+                                            <![endif]-->
+                                            <div style="display:inline-block;width:100%;max-width:160px;vertical-align:top;">
+                                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                                    <tr>
+                                                        <td style="text-align:center;">
+                                                            <img src="https://medbridgemarketing.s3.amazonaws.com/pardot/icons/icon__home-health-free-trial__patient-education.png" alt="" width="64" height="auto">
+                                                            <p style="font-size: 14px; line-height: 20px; margin-top: 8px;">HEP and Patient <br class="m-hide">Education</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <!--[if mso | IE]>
+                                        </td>
+                                        <td style="width:160px;" valign="top">
+                                            <![endif]-->
+                                            <div style="display:inline-block;width:100%;max-width:160px;vertical-align:top;">
+                                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                                    <tr>
+                                                        <td style="text-align:center;">
+                                                            <img src="https://medbridgemarketing.s3.amazonaws.com/pardot/icons/icon__home-health-free-trial__learning-management-system.png" alt="" width="64" height="auto">
+                                                            <p style="font-size: 14px; line-height: 20px; margin-top: 8px;">Learning <br class="m-hide">Management <br class="m-hide">System</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <!--[if mso | IE]>
+                                        </td>
+                                        <td style="width:160px;" valign="top">
+                                            <![endif]-->
+                                            <div style="display:inline-block;width:100%;max-width:160px;vertical-align:top;">
+                                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                                    <tr>
+                                                        <td style="text-align:center;">
+                                                            <img src="https://medbridgemarketing.s3.amazonaws.com/pardot/icons/icon__home-health-free-trial__medbridge-go.png" alt="" width="64" height="auto">
+                                                            <p style="font-size: 14px; line-height: 20px; margin-top: 8px;">MedBridge GO <br class="m-hide">Patient <br>Mobile App</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <!--[if mso | IE]>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <![endif]-->
+                            </td>
+                        </tr>
+                    </table>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
