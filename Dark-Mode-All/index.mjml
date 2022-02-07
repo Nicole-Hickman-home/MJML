@@ -226,9 +226,15 @@
         mso-style-textfill-fill-gradientfill-stoplist:"0 \#000000 1 100000\,99000 \#000000 1 100000";
         color: #ffffff !important;
         }
+        .dark-mode-blue-text {
+        mso-style-textfill-type:gradient;
+        mso-style-textfill-fill-gradientfill-stoplist:"0 \#0A5982 -1 100000\,100000 \#0A5982 -1 100000";
+        color: #000000 !important;
+        }
+
         .keep-yellow {
         mso-style-textfill-type:gradient;
-        mso-style-textfill-fill-gradientfill-stoplist: "100000 \#FEC800 -1 100000\,0 \#FEC800 -1 100000\,100000 \#ABC0E4 4 100000 lumm=45000 lumo=55000\,100000 \#FEC800 -1 100000\,100000 \#FEC800 -1 100000\,100000 \#C7D5ED 4 100000 lumm=30000 lumo=70000";
+        mso-style-textfill-fill-gradientfill-stoplist: "100000 \#FEC800 -1 100000\,0 \#FEC800 -1 100000";
         color: #000000 !important;
         }
     </style>
@@ -285,7 +291,7 @@
                                 </td>
                                 <![endif]-->
                                 <td style="padding: 3px 7px; background-color: #FEC800;background-image:linear-gradient(#FEC800,#FEC800);" class="dark-mode-callout">
-                                    <span class="dark-mode-hero-text">CONTINUE YOURS</span>
+                                    <span class="dark-mode-blue-text">CONTINUE YOURS</span>
                                 </td>
                             </tr>
                         </table>
