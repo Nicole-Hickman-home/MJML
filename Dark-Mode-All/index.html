@@ -227,6 +227,26 @@
     }
 
     @media (prefers-color-scheme: dark) {
+
+      /* Shows Dark Mode-Only Content, Like Images */
+      .dark-img {
+        display: block !important;
+        width: auto !important;
+        overflow: visible !important;
+        float: none !important;
+        max-height: inherit !important;
+        max-width: inherit !important;
+        line-height: auto !important;
+        margin-top: 0px !important;
+        visibility: inherit !important;
+      }
+
+      /* Hides Light Mode-Only Content, Like Images */
+      .light-img {
+        display: none;
+        display: none !important;
+      }
+
       .dark-mode-bg>table {
         background: #1E1E1F !important;
         background-image: linear-gradient(#1E1E1F, #1E1E1F) !important;
@@ -261,6 +281,25 @@
         background: #f5f5f5 !important;
         background-image: linear-gradient(#f5f5f5, #f5f5f5) !important;
       }
+    }
+
+    /* Shows Dark Mode-Only Content, Like Images */
+    [data-ogsc] .dark-img {
+      display: block !important;
+      width: auto !important;
+      overflow: visible !important;
+      float: none !important;
+      max-height: inherit !important;
+      max-width: inherit !important;
+      line-height: auto !important;
+      margin-top: 0px !important;
+      visibility: inherit !important;
+    }
+
+    /* Hides Light Mode-Only Content, Like Images */
+    [data-ogsc] .light-img {
+      display: none;
+      display: none !important;
     }
 
     [data-ogsb] .dark-mode-bg>table {
@@ -298,7 +337,7 @@
   </style>
   <meta name="color-scheme" content="light dark">
   <meta name="supported-color-schemes" content="light dark">
-  <style>
+  <style type="text/css">
     u+.body .gmail-blend-screen {
       background: #000;
       mix-blend-mode: screen;
@@ -1105,6 +1144,37 @@
                             </tr>
                           </tbody>
                         </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="dark-mode-bg-outlook" style="width:640px;" width="640" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div class="dark-mode-bg" style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:640px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
+        <tbody>
+          <tr>
+            <td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:640px;" ><![endif]-->
+              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tbody>
+                    <tr>
+                      <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <div style="font-family:Arial, sans-serif;font-size:16px;line-height:22px;text-align:left;color:#333333;"><img class="light-img" src="images/Logo-Light-Mode.png" width="234" height="112" alt="Logo" style="color: #33373E; font-family: Helvetica, Arial, sans-serif; text-align:center; font-weight:bold; font-size:36px; line-height:1; text-decoration: none; margin: 0 auto; padding: 0;" border="0">
+                          <!-- The following Dark Mode logo image is hidden 
+                    with MSO conditional code and inline CSS, but will be         
+                    revealed once Dark Mode is triggered -->
+                          <!--[if !mso]><! -->
+                          <div class="dark-img" style="display:none; overflow:hidden; float:left; width:0px; max-height:0px; max-width:0px; line-height:0px; visibility:hidden;" align="center"><img src="images/Logo-Dark-Mode.png" width="234" height="112" alt="Logo" style="color: #ffffff; font-family:'proxima_nova', Helvetica, Arial, sans-serif; text-align:center; font-weight:bold; font-size:36px; line-height:40px; text-decoration: none; margin: 0 auto; padding: 0;" border="0"></div>
+                          <!--<![endif]-->
+                        </div>
                       </td>
                     </tr>
                   </tbody>

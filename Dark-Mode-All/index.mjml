@@ -81,7 +81,7 @@
 
         </mj-style>
 		<mj-raw>
-		<style>
+		<style type="text/css">
         u + .body .gmail-blend-screen { background:#000; mix-blend-mode:screen; }
         u + .body .gmail-blend-difference { background:#000; mix-blend-mode:difference; }
         u + .body .gmail-yellow {background-image:linear-gradient(#fcb500,#fcb500) !important;}
@@ -98,6 +98,25 @@
         }
 
         @media (prefers-color-scheme: dark) {
+        /* Shows Dark Mode-Only Content, Like Images */
+        .dark-img { 
+        display:block !important; 
+        width: auto !important; 
+        overflow: visible !important; 
+        float: none !important; 
+        max-height:inherit !important; 
+        max-width:inherit !important; 
+        line-height: auto !important; 
+        margin-top:0px !important; 
+        visibility:inherit !important; 
+        }
+        
+        /* Hides Light Mode-Only Content, Like Images */
+        .light-img { 
+        display:none; 
+        display:none !important; 
+        }
+
         .dark-mode-bg>table {
         background: #1E1E1F !important;
         background-image: linear-gradient(#1E1E1F, #1E1E1F) !important;
@@ -127,6 +146,24 @@
         background: #f5f5f5 !important;
         background-image: linear-gradient(#f5f5f5, #f5f5f5) !important;
         }
+        }
+        /* Shows Dark Mode-Only Content, Like Images */
+        [data-ogsc] .dark-img { 
+        display:block !important; 
+        width: auto !important; 
+        overflow: visible !important; 
+        float: none !important; 
+        max-height:inherit !important; 
+        max-width:inherit !important; 
+        line-height: auto !important; 
+        margin-top:0px !important; 
+        visibility:inherit !important; 
+        }
+        
+        /* Hides Light Mode-Only Content, Like Images */
+        [data-ogsc] .light-img { 
+        display:none; 
+        display:none !important; 
         }
 
         [data-ogsb] .dark-mode-bg>table {
@@ -532,6 +569,21 @@
                 </p>
                 </mj-text>
           </mj-column>
+        </mj-section>
+        <mj-section background-color="#ffffff" css-class="dark-mode-bg">
+            <mj-column>
+                <mj-text>
+                    <img class="light-img" src="images/Logo-Light-Mode.png" width="234" height="112" alt="Logo" style="color: #33373E; font-family: Helvetica, Arial, sans-serif; text-align:center; font-weight:bold; font-size:36px; line-height:1; text-decoration: none; margin: 0 auto; padding: 0;" border="0" />
+ 
+                    <!-- The following Dark Mode logo image is hidden 
+                    with MSO conditional code and inline CSS, but will be         
+                    revealed once Dark Mode is triggered -->
+                
+                    <!--[if !mso]><! --><div class="dark-img" style="display:none; overflow:hidden; float:left; width:0px; max-height:0px; max-width:0px; line-height:0px; visibility:hidden;" align="center">
+                        <img src="images/Logo-Dark-Mode.png" width="234" height="112" alt="Logo" style="color: #ffffff; font-family:'proxima_nova', Helvetica, Arial, sans-serif; text-align:center; font-weight:bold; font-size:36px; line-height:40px; text-decoration: none; margin: 0 auto; padding: 0;" border="0" />
+                    </div><!--<![endif]-->
+                </mj-text>
+            </mj-column>
         </mj-section> 
     </mj-body>
 </mjml>
