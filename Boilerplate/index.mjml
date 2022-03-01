@@ -12,6 +12,12 @@
             vertical-align: .5em;
             line-height: 0;
             }
+        .sup12 {
+        font-size: .75em;
+        vertical-align: .4em;
+        mso-text-raise: 40%;
+        line-height: 0;
+        }
         .show {
         display: none;
         }
@@ -69,9 +75,13 @@
         <!--[if mso]>
         <style type="text/css">
         sup {
-        font-size: 100% !important;
-        vertical-align: .5em !important;
-        mso-text-raise: -1.5% !important;
+        font-size: 1.005em !important;
+        mso-text-raise: 0 !important;
+        line-height: 0 !important;
+        }
+        .sup12 {
+        font-size: 1.09em !important;
+        mso-text-raise: -1px !important;
         line-height: 0 !important;
         }
 
