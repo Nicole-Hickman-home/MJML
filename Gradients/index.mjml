@@ -44,8 +44,8 @@
             }
 
             .bg > table { 
-            background-color:#005E85; 
-            background-image: linear-gradient(#045E80, #282460) !important;
+            background-color:#e6d5e7; 
+            background-image: linear-gradient(#e6d5e7, #ffffff) !important;
             font-size: 12px !important;
             color:#FFFFFF !important;
             font-family: Arial, sans-serif !important;
@@ -93,10 +93,8 @@
     <mj-body background-color="#eeeeee" width="640px">
         <mj-section css-class="bg" padding="0" border-left="6px solid red">
         <mj-raw>
-        <!--[if mso]>
-         <v:rect style='width:640px;height42px' fillcolor="#045E80">
-        <v:fill color2="#282460" type="gradient" angle="-90" />
-        <![endif]-->
+        <!--[if mso]><v:rect style='width:636px;height42px' fillcolor="#ffffff"><v:fill color2="#e6d5e7" method="linear" angle="-90"
+type="gradient" /><td class="" style="vertical-align:top;width:634px;" ><![endif]-->
         </mj-raw>
             <mj-column>
                 <mj-text color="#fff" align="center">
