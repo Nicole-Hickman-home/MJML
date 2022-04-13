@@ -283,13 +283,13 @@
     </mj-head>
     <mj-body background-color="#eeeeee" width="640px">
         <!--Desktop-->
-        <mj-wrapper padding="0" background-url="images/Header-Desktop_2x.jpg" background-size="cover" background-color="#333333" css-class="show">
+        <mj-wrapper padding="0" background-url="images/tomas-malik-qzIhhw_NEeU-unsplash.jpeg" background-size="cover" background-color="#333333" css-class="show">
             <mj-section padding="0">
                 <mj-group>
                     <mj-column vertical-align="bottom">
                         <mj-text font-size="21px" color="#FEC800" padding="15px 15px 10px">
-                            <p style="margin: 0;">
-                                <a class="keep-yellow" href="https://www.reachfortheheart.com/" target="_blank" style="color: #fec800; text-decoration: none;"><strong>REACH</strong> FOR THE <strong>HEART</strong></a>
+                            <p style="margin: 0; text-transform: uppercase;">
+                                <a class="keep-yellow" href="https://www.reachfortheheart.com/" target="_blank" style="color: #fec800; text-decoration: none;"><strong>Officiis Libero Repellat</strong></a>
                             </p>
                         </mj-text>
                     </mj-column>
@@ -307,7 +307,7 @@
                     <mj-spacer height="230px" />
                     <mj-text padding="0px 0 0 180px">
                         <p class="keep-white" style="margin: 0; font-family: Quickbrush, Trebuchet MS, sans-serif; font-size: 36px; line-height: 46px; color: #ffffff; font-style: italic">
-                            Every story is unique
+                            Quaerat Aut Incidunt
                         </p>
                     </mj-text>
                 </mj-column>
@@ -327,8 +327,8 @@
                                     &nbsp;
                                 </td>
                                 <![endif]-->
-                                <td style="padding: 3px 7px; background-color: #FEC800;background-image:linear-gradient(#FEC800,#FEC800);" class="dark-mode-callout">
-                                    <span class="dark-mode-blue-text">CONTINUE YOURS</span>
+                                <td style="padding: 3px 7px; background-color: #FEC800;background-image:linear-gradient(#FEC800,#FEC800);text-transform: uppercase;" class="dark-mode-callout">
+                                    <span class="dark-mode-blue-text">Quibu Accusmus</span>
                                 </td>
                             </tr>
                         </table>
@@ -342,15 +342,15 @@
         <mj-raw>
             <!--[if !mso]><!-- -->
         </mj-raw>
-        <mj-wrapper padding="0" background-url="images/Header-Mobile_2x.jpg" background-size="cover" css-class="hide">
+        <mj-wrapper padding="0" background-url="images/alex-holt-ZR67YFcpE58-unsplash.jpeg" background-size="cover" css-class="hide">
             <mj-section padding="0">
                 <mj-group>
                     <mj-column width="65%">
                         <mj-text font-size="16px" color="#FEC800" padding="10px 15px">
                             <div class="gmail-blend-screen">
 							<div class="gmail-blend-difference">
-                            <p style="margin: 0;">
-                                <a class="gmail-white" href="https://www.reachfortheheart.com/" target="_blank" style="color: #fec800; text-decoration: none;"><strong>REACH</strong> FOR THE <strong>HEART</strong></a>
+                            <p style="margin: 0; text-transform: uppercase;">
+                                <a class="gmail-white" href="https://www.reachfortheheart.com/" target="_blank" style="color: #fec800; text-decoration: none;"><strong>Officiis Libero Repellat</strong></a>
                             </p>
                             </div>
                         </div>
@@ -376,7 +376,7 @@
                     <div class="gmail-blend-screen">
 							<div class="gmail-blend-difference">
                         <p style="margin: 0; font-family: Quickbrush, Trebuchet MS, sans-serif; font-size: 30px; line-height: 38px; color: #ffffff; font-style: italic;">
-                            Every story is unique
+                            Quaerat Aut Incidunt
                         </p>
                     </div>
                     </div>
@@ -389,11 +389,11 @@
                         <table class="gmail-white" role="presentation" cellpadding="0" cellspacing="0" border="0" style="font-family: Roboto, Helvetica, sans-serif; font-size: 23px; line-height: 29px; font-weight: bold; color:#0A5982; border-collapse: collapse;">
                             <tr>
                             
-                                <td class="gmail-yellow" style="padding: 3px 7px; background-color: #FEC800;background-image:linear-gradient(#FEC800,#FEC800);">
+                                <td class="gmail-yellow" style="padding: 3px 7px; background-color: #FEC800;background-image:linear-gradient(#FEC800,#FEC800); text-transform: uppercase;">
                                 <div class="gmail-yellow" style="background-image:linear-gradient(#FEC800,#FEC800);">
                                 <div class="gmail-blend-screen">
 							<div class="gmail-blend-difference">    
-                            CONTINUE YOURS
+                            Quibu Accusmus
                             </div></div></div>
                                 </td>
                                 
@@ -414,7 +414,7 @@
                 <div class="gmail-blend-screen">
 							<div class="gmail-blend-difference">  
                 <p class="rightAlign gmail-white dark-mode-hero-text" style="margin: 0;">
-                    Understand the risk factors
+                    Et Cumque Voluptatum
                 </p>
                 </div>
                 </div>
@@ -428,12 +428,12 @@
                         <tr>
                             <td>
                                 <div><!--[if mso]>
-                                <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.reachfortheheart.com/aortic-stenosis/#quiz" style="height:50px;v-text-anchor:middle;width:232px;" arcsize="60%" stroke="f" fillcolor="#ffffff">
+                                <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://example.com/" style="height:50px;v-text-anchor:middle;width:232px;" arcsize="60%" stroke="f" fillcolor="#ffffff">
                                     <w:anchorlock/>
                                     <center>
                                 <![endif]-->
-                                    <a class="keep-black dark-mode-CTA dark-mode-CTA-text" href="https://www.reachfortheheart.com/aortic-stenosis/#quiz"
-                                style="background-color:rgba(255, 255, 255, 1);border-radius:30px;color:#333333;display:inline-block;font-family:Trebuchet MS, sans-serif;font-size:18px;font-weight:bold;line-height:50px;text-align:center;text-decoration:none;width:232px;-webkit-text-size-adjust:none;">Take the questionnaire</a>
+                                    <a class="keep-black dark-mode-CTA dark-mode-CTA-text" href="http://example.com/"
+                                style="background-color:rgba(255, 255, 255, 1);border-radius:30px;color:#333333;display:inline-block;font-family:Trebuchet MS, sans-serif;font-size:18px;font-weight:bold;line-height:50px;text-align:center;text-decoration:none;width:232px;-webkit-text-size-adjust:none;">Architecto Labore</a>
                                 <!--[if mso]>
                                     </center>
                                 </v:roundrect>
@@ -456,19 +456,19 @@
             <mj-column width="80%">
                 <mj-text padding="10px 15px 0" css-class="padding0 dark-mode-text">
                     <p>
-                        <strong>Millions</strong> of people are living with aortic stenosis (AS), the deadliest type of heart valve disease, which means there are <strong>millions</strong> of different stories and experiences. There is no <strong>one</strong> cause, but it&rsquo;s important to know what can put you at risk, including: 
+                        <strong>Assumenda aspernatur nihil ad molestias alias.</strong> Totam mollitia voluptatibus possimus sed tempore illum rerum assumenda aspernatur. Deleniti amet sequi laborum animi consequatur nobis doloremque qui accusantium qui.
                     </p>
                 </mj-text>
             </mj-column>
         </mj-section>
         <mj-section background-color="#fff" css-class="dark-mode-bg">
             <mj-column vertical-align="middle" width="28%">
-                <mj-image src="images/Older-Age-Icon_2x.png" width="128px" alt="" padding="0" />
+                <mj-image src="https://via.placeholder.com/256x196.png?text=ICON" width="128px" alt="" padding="0" />
             </mj-column>
             <mj-column vertical-align="middle" width="58%">
                 <mj-text padding="10px 25px" css-class="padding0 dark-mode-text">
                 <p style="margin: 0; text-align: center;" class="leftAlign">
-                    <strong>Older age.</strong> People 65 and older are at a significantly higher risk of AS
+                    <strong>Voluptatum eos</strong> voluptates et qui officiis cupiditate laudantium alias qui alias.
                 </p>
                 </mj-text>
             </mj-column>
@@ -477,51 +477,35 @@
         </mj-section>
         <mj-section background-color="#fff" css-class="dark-mode-bg">
             <mj-column vertical-align="middle" width="28%">
-                <mj-image src="images/Personal-History-Icon_2x.png" width="128px" alt="" padding="0" />
+                <mj-image src="https://via.placeholder.com/256x196.png?text=ICON" width="128px" alt="" padding="0" />
             </mj-column>
             <mj-column vertical-align="middle" width="58%">
                 <mj-text padding="10px 25px" css-class="padding0 dark-mode-text">
                 <p style="margin: 0; text-align: center;" class="leftAlign">
-                    <strong>Personal history</strong> of heart disease, heart infections, or other related heart condition
+                    <strong>Voluptatum eos</strong> voluptates et qui officiis cupiditate laudantium alias qui alias.
                 </p>
                 </mj-text>
             </mj-column>
             <mj-column width="6%">
             </mj-column>
-        </mj-section>
-        <mj-section background-color="#fff" css-class="dark-mode-bg">
-            <mj-column vertical-align="middle" width="28%">
-                <mj-image src="images/Family-History-Icon_2x.png" width="128px" alt="" padding="0" />
-            </mj-column>
-            <mj-column vertical-align="middle" width="58%">
-                <mj-text padding="10px 25px" css-class="padding0 dark-mode-text">
-                <p style="margin: 0; text-align: center;" class="leftAlign">
-                    <strong>Family history</strong> of chronic kidney disease
-                </p>
-                </mj-text>
-            </mj-column>
-            <mj-column width="6%">
-            </mj-column>
-        </mj-section>
-        
+        </mj-section>        
         <mj-section background-color="#fff" padding="0 0 20px" css-class="dark-mode-bg">
             <mj-column width="75%">
                 <mj-text padding="10px 15px 0" css-class="padding0 dark-mode-text">
                     <p style="margin-bottom: 0; font-size: 20px; line-height: 24px; font-weight: bold; color: #0A5982; text-align: center;">
-                        These are just <em>some</em> of the risk factors of AS. <br class="show" style="display: none;">
-                        Know them all.
+                        Consequatur blanditiis et velit quaerat et quidem architecto.
                     </p>
                     <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="font-family: Trebuchet MS, sans-serif; border-collapse: collapse;">
                         <tr>
                             <td align="center" style="padding: 24px 0;">
                                 <div>
                                     <!--[if mso]>
-                                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.reachfortheheart.com/aortic-stenosis/#quiz" target="_blank" style="height:50px;v-text-anchor:middle;width:234px;" arcsize="250%" strokecolor="#FEC800" fillcolor="#FFFFFF">
+                                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://example.com/" target="_blank" style="height:50px;v-text-anchor:middle;width:234px;" arcsize="250%" strokecolor="#FEC800" fillcolor="#FFFFFF">
                                         <w:anchorlock/>
-                                        <center style="color:#333333;font-family:Helvetica, sans-serif;font-size:18px;font-weight:bold;">Take the questionnaire</center>
+                                        <center style="color:#333333;font-family:Helvetica, sans-serif;font-size:18px;font-weight:bold;">Architecto Labore</center>
                                     </v:roundrect>
-                                    <![endif]--><a class="keep-black dark-mode-CTA dark-mode-CTA-text" href="https://www.reachfortheheart.com/aortic-stenosis/#quiz" target="_blank"
-                                        style="background-color:rgba(255,255,255, 1);border:2px solid #FEC800;border-radius:100px;color:#333333;display:inline-block;font-family:Roboto, Helvetica, sans-serif;font-size:18px;font-weight:bold;line-height:46px;text-align:center;text-decoration:none;width:234px;-webkit-text-size-adjust:none;mso-hide:all;">Take the questionnaire</a>
+                                    <![endif]--><a class="keep-black dark-mode-CTA dark-mode-CTA-text" href="http://example.com/" target="_blank"
+                                        style="background-color:rgba(255,255,255, 1);border:2px solid #FEC800;border-radius:100px;color:#333333;display:inline-block;font-family:Roboto, Helvetica, sans-serif;font-size:18px;font-weight:bold;line-height:46px;text-align:center;text-decoration:none;width:234px;-webkit-text-size-adjust:none;mso-hide:all;">Architecto Labore</a>
                                 </div>
                             </td>
                         </tr>
@@ -539,48 +523,47 @@
             </mj-column>
             <mj-column width="60%" padding="0" vertical-align="middle">
                 <mj-text align="center" padding="10px 15px 0" css-class="paddingFooter dark-mode-text"> 
-                <p class="leftAlign">Stay tuned for more emails and visit <a href="https://www.reachfortheheart.com" target="_blank" style="font-weight: 700; color:#0A5982;">ReachForTheHeart.com</a> anytime to learn&nbsp;more.</p> </mj-text>
+                <p class="leftAlign">Quo odit dolore quod nisi quae non. Recusandae laboriosam ad et quia placeat dolorem alias eligendi.</p> </mj-text>
             </mj-column>
         </mj-section>
-        <mj-section background-color="#fff" css-class="dark-mode-bg">
+        <mj-section background-color="#fff" css-class="dark-mode-bg" padding-bottom="0">
             <mj-column width="85%" padding="0">
                 <mj-text align="center" font-size="12px" line-height="17px" color="#5B6770" padding="0 10px" css-class="padding0 dark-mode-text">
                 <p>
-                    This email was sent to {{lead.Email Address:default= your email address}} because you opted in/requested to receive messages from Edwards Lifesciences. If you no longer wish to receive emails from Edwards Lifesciences, you can update your email preferences below.
+                    This email was sent to {{lead.Email Address:default= your email address}} because you opted in/requested to receive messages from Quo Ipsam. If you no longer wish to receive emails from Quo Ipsam, you can update your email preferences below.
                 </p> 
                 <p style="margin: 17px 0;font-size: 16px; line-height: 17px; font-weight: bold; color:#0A5982;">
                     Please do not reply to this email.
                 </p> 
                 <p style="margin: 17px 0;">
-                    <a href="{{system.unsubscribeLink}}" style="color:#1074AD; text-decoration: underline;">UNSUBSCRIBE</a> | <a href="http://pages.edwards.com/r00y0Z3g0Oc10iNe00000e0" target="_blank" style="color:#1074AD; text-decoration: underline;">
-                        PRIVACY POLICY</a> | <a href="http://pages.edwards.com/I0e0zN00100die300g0OZ00" target="_blank" style="color:#1074AD; text-decoration: underline;">
+                    <a class="dark-mode-text" href="{{system.unsubscribeLink}}" style="color:#1074AD; text-decoration: underline;">UNSUBSCRIBE</a> | <a class="dark-mode-text" href="http://example.com/" target="_blank" style="color:#1074AD; text-decoration: underline;">
+                        PRIVACY POLICY</a> | <a class="dark-mode-text" href="http://example.com/" target="_blank" style="color:#1074AD; text-decoration: underline;">
                         LEGAL NOTICE</a>
                 </p>
                 <p style="margin: 17px 0;">
-                    Edwards, Edwards Lifesciences, and REACH FOR THE HEART are trademarks or service marks of Edwards Lifesciences Corporation. All other trademarks are the property of their respective owners.
+                    Dolorum omnis unde minus dolorem quae et vero voluptatem aut quaerat molestias voluptas quaerat. Vel voluptatibus earum nihil aliquam.
                 </p>
                 <p style="margin: 17px 0;">
-                    Brought to you by Edwards Lifesciences<br>
-                    &copy; 2022 Edwards Lifesciences Corporation. All rights reserved.<br>
-                    PP--US-6698 v1.0
+                    Quidem Perferendis Ut In<br>
+                    &copy; 2022 Sunt tempora quaerat quod ut iure enim alias voluptatum ipsum neque consequatur.<br>
                 </p>
-                <p>
-                    <strong>Edwards Lifesciences</strong> &bull; One Edwards Way, Irvine CA 92614 USA &bull; edwards.com
+                <p style="margin-bottom: 0;">
+                    Veniam quod sunt non quae error doloremque dolores.
                 </p>
                 </mj-text>
           </mj-column>
         </mj-section>
-        <mj-section background-color="#ffffff" css-class="dark-mode-bg">
+        <mj-section background-color="#ffffff" css-class="dark-mode-bg" padding="0">
             <mj-column>
-                <mj-text>
-                    <img class="light-img" src="images/Logo-Light-Mode.png" width="234" height="112" alt="Logo" style="color: #33373E; font-family: Helvetica, Arial, sans-serif; text-align:center; font-weight:bold; font-size:36px; line-height:1; text-decoration: none; margin: 0 auto; padding: 0;" border="0" />
+                <mj-text padding="0 0 0 20px">
+                    <img class="light-img" src="images/Logo-Light-Mode.png" width="134" height="auto" alt="Logo" style="color: #33373E; font-family: Helvetica, Arial, sans-serif; text-align:center; font-weight:bold; font-size:36px; line-height:1; text-decoration: none; margin: 0; padding: 0;" border="0" />
  
                     <!-- The following Dark Mode logo image is hidden 
                     with MSO conditional code and inline CSS, but will be         
                     revealed once Dark Mode is triggered -->
                 
-                    <!--[if !mso]><! --><div class="dark-img" style="display:none; overflow:hidden; float:left; width:0px; max-height:0px; max-width:0px; line-height:0px; visibility:hidden;" align="center">
-                        <img src="images/Logo-Dark-Mode.png" width="234" height="112" alt="Logo" style="color: #ffffff; font-family:'proxima_nova', Helvetica, Arial, sans-serif; text-align:center; font-weight:bold; font-size:36px; line-height:40px; text-decoration: none; margin: 0 auto; padding: 0;" border="0" />
+                    <!--[if !mso]><! --><div class="dark-img" style="display:none; overflow:hidden; float:left; width:0px; max-height:0px; max-width:0px; line-height:0px; visibility:hidden;" align="left">
+                        <img src="images/Logo-Dark-Mode.png" width="134" height="auto" alt="Logo" style="color: #ffffff; font-family:'proxima_nova', Helvetica, Arial, sans-serif; text-align:center; font-weight:bold; font-size:36px; line-height:40px; text-decoration: none; margin: 0; padding: 0;" border="0" />
                     </div><!--<![endif]-->
                 </mj-text>
             </mj-column>
