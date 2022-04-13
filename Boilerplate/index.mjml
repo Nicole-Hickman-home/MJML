@@ -126,7 +126,7 @@
         <mj-section>
             <mj-column width="93%">
                 <mj-text padding="10px 15px" css-class="paddingDesktop">
-                    Cras mattis<sup>&reg;</sup> consectetur purus sit amet fermentum. Donec sed odio dui.
+                    Cras mattis<sup>&reg;</sup> consectetur purus sit amet fermentum. Donec sed odio dui. Test
                 </mj-text>
             </mj-column>
         </mj-section>

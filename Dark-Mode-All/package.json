@@ -10,7 +10,7 @@
     "setup": "npm install --no-save",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "mjml _Build/index.mjml -o _Output/index.html",
-    "start": "npm-watch | browser-sync start --no-open --index --server ./_Output"
+    "start": "npm-watch | browser-sync start --no-open --server ./_Output --files './_Output/**/*'"
   },
   "repository": {
     "type": "git",
