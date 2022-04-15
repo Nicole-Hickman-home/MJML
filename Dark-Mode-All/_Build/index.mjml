@@ -11,6 +11,11 @@
         <mj-attributes>
             <mj-text font-family="Arial, sans-serif" font-size="16px" line-height="22px" color="#333333" />
         </mj-attributes>
+        <mj-raw>
+            <!--[if !mso]><!-- -->
+            <link rel="stylesheet" type="text/css" href="https://fishawack-edwards.s3.amazonaws.com/MyFontsWebfontsKit.css">
+            <!--<![endif]-->
+        </mj-raw>
         <mj-style inline="inline">
         sup {
             font-size: .6em;

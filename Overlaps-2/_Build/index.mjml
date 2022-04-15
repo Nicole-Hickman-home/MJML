@@ -8,6 +8,11 @@
             <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
           <!--<![endif]-->
         </mj-raw>
+        <mj-html-attributes>
+      <mj-selector path=".lang">
+        <mj-html-attribute name="lang">en</mj-html-attribute>
+      </mj-selector>
+    </mj-html-attributes>
         <mj-attributes>
             <mj-text font-family="'Archivo', Arial, sans-serif" font-size="16px" line-height="22px" color="#253746" />
             <mj-section background-color="#fff" />
