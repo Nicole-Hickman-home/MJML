@@ -82,7 +82,7 @@
 
     <mj-raw>
       <!--[if mso]>
-        <mj-style type="text/css">
+        <style type="text/css">
         sup {
         font-size: 1.005em !important;
         mso-text-raise: 0 !important;
