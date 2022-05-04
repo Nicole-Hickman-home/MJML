@@ -5,7 +5,7 @@
         <meta name="supported-color-schemes" content="light dark">
         </mj-raw>
         <mj-title>
-            Ignoring aortic stenosis can be deadly. Are you at risk?
+            Dark Mode for Emails
         </mj-title>
         
         <mj-attributes>
@@ -127,10 +127,15 @@
         background-image: linear-gradient(#1E1E1F, #1E1E1F) !important;
         }
         .dark-mode-hero-bg>table {
+        background: #272727 !important;
+        background-image: linear-gradient(#272727, #272727) !important;
+        }
+
+        .dark-mode-callout {
         background: #fec800 !important;
         background-image: linear-gradient(#fec800, #fec800) !important;
         }
-
+        
         .dark-mode-social-bg>table {
         background: #272727 !important;
         background-image: linear-gradient(#272727, #272727) !important;
@@ -140,8 +145,8 @@
         -webkit-text-fill-color: #ffffff !important;
         }
         .dark-mode-hero-text {
-        color: #0A5982 !important;
-        -webkit-text-fill-color: #0A5982 !important;
+        color: #fec800 !important;
+        -webkit-text-fill-color: #fec800 !important;
         }
         .dark-mode-CTA-text {
         color: #333333 !important;
@@ -288,7 +293,7 @@
     </mj-head>
     <mj-body background-color="#eeeeee" width="640px">
         <!--Desktop-->
-        <mj-wrapper padding="0" background-url="images/tomas-malik-qzIhhw_NEeU-unsplash.jpeg" background-size="cover" background-color="#333333" css-class="show">
+        <mj-wrapper padding="0" background-url="images/Header-Desktop_2x.jpg" background-size="cover" background-color="#333333" css-class="show">
             <mj-section padding="0">
                 <mj-group>
                     <mj-column vertical-align="bottom">
@@ -301,7 +306,7 @@
                     <mj-column vertical-align="bottom">
                         <mj-text padding="15px 15px 10px" align="right" color="#ffffff">
                             <p class="keep-white" style="margin: 0; font-size: 12px;">
-                                <a class="keep-white" href="{{system.viewAsWebpageLink}}" style="color:#ffffff; text-decoration: none;">View in browser</a>
+                                <a class="keep-white" href="http://example.com/" style="color:#ffffff; text-decoration: none;">View in browser</a>
                             </p>
                         </mj-text>
                     </mj-column>
@@ -347,7 +352,7 @@
         <mj-raw>
             <!--[if !mso]><!-- -->
         </mj-raw>
-        <mj-wrapper padding="0" background-url="images/alex-holt-ZR67YFcpE58-unsplash.jpeg" background-size="cover" css-class="hide">
+        <mj-wrapper padding="0" background-url="images/Header-Mobile_2x.jpg" background-size="cover" css-class="hide">
             <mj-section padding="0">
                 <mj-group>
                     <mj-column width="65%">
