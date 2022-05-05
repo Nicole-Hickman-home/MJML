@@ -1,13 +1,12 @@
 <mjml lang="en">
     <mj-head>
-    <mj-raw>
-        <meta name="color-scheme" content="light dark">
-        <meta name="supported-color-schemes" content="light dark">
+        <mj-raw>
+            <meta name="color-scheme" content="light dark">
+            <meta name="supported-color-schemes" content="light dark">
         </mj-raw>
         <mj-title>
             Dark Mode for Emails
         </mj-title>
-        
         <mj-attributes>
             <mj-text font-family="Arial, sans-serif" font-size="16px" line-height="22px" color="#333333" />
         </mj-attributes>
@@ -17,17 +16,17 @@
             <!--<![endif]-->
         </mj-raw>
         <mj-style inline="inline">
-        sup {
+            sup {
             font-size: .6em;
             vertical-align: .5em;
             line-height: 0;
             }
-        .show {
-        display: none;
-        }
-        .hide {
-        display: block;
-        }
+            .show {
+            display: none;
+            }
+            .hide {
+            display: block;
+            }
         </mj-style>
         <mj-style>
             /* Samsung */
@@ -39,7 +38,6 @@
             font-weight: inherit;
             line-height: inherit;
             }
-
             /* Apple Blue links */
             a[x-apple-data-detectors] {
             color: inherit;
@@ -49,7 +47,6 @@
             font-weight: inherit;
             line-height: inherit;
             }
-
             /* Gmail blue links, requires id="body" in HTML export */
             u + #body a {
             color: inherit;
@@ -59,7 +56,6 @@
             font-weight: inherit;
             line-height: inherit;
             }
-
             @media only screen and (min-width:480px) {
             .show {
             display: block !important;
@@ -83,209 +79,182 @@
             text-align: right !important;
             }
             }
-
         </mj-style>
-		<mj-raw>
-		<style type="text/css">
-        u + .body .gmail-blend-screen { background:#000; mix-blend-mode:screen; }
-        u + .body .gmail-blend-difference { background:#000; mix-blend-mode:difference; }
-        u + .body .gmail-yellow {background-image:linear-gradient(#fcb500,#fcb500) !important;}
-        u + .body .gmail-blue {background-image:linear-gradient(#0A5982,#0A5982) !important;}
-        u + .body .gmail-blue-sect > table > tbody > tr > td {background-image:linear-gradient(#0A5982,#0A5982) !important;}
-        u + .body .gmail-white {color: #ffffff !important;}
-		</style>
-		</mj-raw>
+        <mj-raw>
+        <style type="text/css">
+            u + .body .gmail-blend-screen { background:#000; mix-blend-mode:screen; }
+            u + .body .gmail-blend-difference { background:#000; mix-blend-mode:difference; }
+            u + .body .gmail-yellow {background-image:linear-gradient(#fcb500,#fcb500) !important;}
+            u + .body .gmail-white {color: #ffffff !important;}
+        </style>
+        </mj-raw>
         <mj-style>
-        /* DARK MODE */
-        :root {
-        color-scheme: light dark;
-        supported-color-schemes: light dark;
-        }
+            /* DARK MODE */
+            :root {
+            color-scheme: light dark;
+            supported-color-schemes: light dark;
+            }
+            @media (prefers-color-scheme: dark) {
+            .dark-mode-bg>table {
+            background: red !important;
+            background-image: linear-gradient(red, red) !important;
+            }
+            .dark-mode-hero-bg>table {
+            background: #272727 !important;
+            background-image: linear-gradient(#272727, #272727) !important;
+            }
+            .dark-mode-callout {
+            background: #272727 !important;
+            background-image: linear-gradient(#272727, #272727) !important;
+            }
+            .dark-mode-social-bg>table {
+            background: #272727 !important;
+            background-image: linear-gradient(#272727, #272727) !important;
+            }
+            .dark-mode-text {
+            color: #ffffff !important;
+            -webkit-text-fill-color: #ffffff !important;
+            }
+            .dark-mode-hero-text {
+            color: #fec800 !important;
+            -webkit-text-fill-color: #fec800 !important;
 
-        @media (prefers-color-scheme: dark) {
-        /* Shows Dark Mode-Only Content, Like Images */
-        .dark-img { 
-        display:block !important; 
-        width: auto !important; 
-        overflow: visible !important; 
-        float: none !important; 
-        max-height:inherit !important; 
-        max-width:inherit !important; 
-        line-height: auto !important; 
-        margin-top:0px !important; 
-        visibility:inherit !important; 
-        }
-        
-        /* Hides Light Mode-Only Content, Like Images */
-        .light-img { 
-        display:none; 
-        display:none !important; 
-        }
+            }
+            .dark-mode-CTA-text {
+            color: #333333 !important;
+            -webkit-text-fill-color: #333333 !important;
+            }
+            .dark-mode-CTA {
+            background: #f5f5f5 !important;
+            background-image: linear-gradient(#f5f5f5, #f5f5f5) !important;
+            }
+            /* Shows Dark Mode-Only Content, Like Images */
+            .dark-img { 
+            display:block !important; 
+            width: auto !important; 
+            overflow: visible !important; 
+            float: none !important; 
+            max-height:inherit !important; 
+            max-width:inherit !important; 
+            line-height: auto !important; 
+            margin-top:0px !important; 
+            visibility:inherit !important; 
+            }
+            /* Hides Light Mode-Only Content, Like Images */
+            .light-img { 
+            display:none; 
+            display:none !important; 
+            }
 
-        .dark-mode-bg>table {
-        background: #1E1E1F !important;
-        background-image: linear-gradient(#1E1E1F, #1E1E1F) !important;
-        }
-        .dark-mode-hero-bg>table {
-        background: #272727 !important;
-        background-image: linear-gradient(#272727, #272727) !important;
-        }
-
-        .dark-mode-callout {
-        background: #fec800 !important;
-        background-image: linear-gradient(#fec800, #fec800) !important;
-        }
-        
-        .dark-mode-social-bg>table {
-        background: #272727 !important;
-        background-image: linear-gradient(#272727, #272727) !important;
-        }
-        .dark-mode-text {
-        color: #ffffff !important;
-        -webkit-text-fill-color: #ffffff !important;
-        }
-        .dark-mode-hero-text {
-        color: #fec800 !important;
-        -webkit-text-fill-color: #fec800 !important;
-        }
-        .dark-mode-CTA-text {
-        color: #333333 !important;
-        -webkit-text-fill-color: #333333 !important;
-        }
-        .dark-mode-CTA {
-        background: #f5f5f5 !important;
-        background-image: linear-gradient(#f5f5f5, #f5f5f5) !important;
-        }
-        }
-        /* Shows Dark Mode-Only Content, Like Images */
-        [data-ogsc] .dark-img { 
-        display:block !important; 
-        width: auto !important; 
-        overflow: visible !important; 
-        float: none !important; 
-        max-height:inherit !important; 
-        max-width:inherit !important; 
-        line-height: auto !important; 
-        margin-top:0px !important; 
-        visibility:inherit !important; 
-        }
-        
-        /* Hides Light Mode-Only Content, Like Images */
-        [data-ogsc] .light-img { 
-        display:none; 
-        display:none !important; 
-        }
-
-        [data-ogsb] .dark-mode-bg>table {
-        background: #1E1E1F !important;
-        }
-        [data-ogsb] .dark-mode-hero-bg>table {
-        background: #272727 !important;
-        }
-        [data-ogsb] .dark-mode-CTA {
-        background: #000000 !important;
-        }
-        [data-ogsb] .dark-mode-callout {
-        background: #272727 !important;
-        background-color: #272727 !important;
-        }
-        [data-ogsb] .dark-mode-social-bg>table {
-        background: #272727 !important;
-        }
-        [data-ogsc] .dark-mode-text {
-        color: #ffffff !important;
-        }
-        [data-ogsc] .dark-mode-hero-text {
-        color: #fec800 !important;
-        }
-        [data-ogsc] .dark-mode-CTA-text {
-        color: #ffffff !important;
-        }
-        
+            }
+            [data-ogsb] .dark-mode-bg>table {
+            background: #1E1E1F !important;
+            }
+            [data-ogsb] .dark-mode-hero-bg>table {
+            background: #272727 !important;
+            }
+            [data-ogsb] .dark-mode-CTA {
+            background: #000000 !important;
+            }
+            [data-ogsb] .dark-mode-callout {
+            background: #000000 !important;
+            }
+            [data-ogsb] .dark-mode-social-bg>table {
+            background: #272727 !important;
+            }
+            [data-ogsc] .dark-mode-text {
+            color: #ffffff !important;
+            }
+            [data-ogsc] .dark-mode-hero-text {
+            color: #fec800 !important;
+            }
+            [data-ogsc] .dark-mode-CTA-text {
+            color: #ffffff !important;
+            }
+            /* Shows Dark Mode-Only Content, Like Images */
+            [data-ogsc] .dark-img { 
+            display:block !important; 
+            width: auto !important; 
+            overflow: visible !important; 
+            float: none !important; 
+            max-height:inherit !important; 
+            max-width:inherit !important; 
+            line-height: auto !important; 
+            margin-top:0px !important; 
+            visibility:inherit !important; 
+            }
+            /* Hides Light Mode-Only Content, Like Images */
+            [data-ogsc] .light-img { 
+            display:none; 
+            display:none !important; 
+            }
         </mj-style>
-        
         <mj-raw>
         <!--[if mso]>
         <style type="text/css">
-        sup {
-        font-size: 100% !important;
-        vertical-align: .5em !important;
-        mso-text-raise: -1.5% !important;
-        line-height: 0 !important;
-        }
-
-        ul {
-        margin:0 !important;
-        }
-        li {
-        margin-left:27px !important;
-        }
-        li.firstListItem {
-        margin-top:0px !important;
-        }
-        li.lastListItem {
-        margin-bottom:0px !important;
-        }
-
-        .show {
-        display: block !important;
-      }
-
-      .hide {
-        display: none !important;
-      }
-
-      .paddingDesktop {
-        padding: 10px 0 !important;
-      }
-
-      .padding0 {
-        padding: 0 !important;
-      }
-
-      .wrapper>table>tbody>tr>td {
-        padding: 10px 0px !important;
-      }
-
-      .leftAlign {
-        text-align: left !important;
-      }
-
-      .rightAlign {
-        text-align: right !important;
-      }
+            sup {
+            font-size: 100% !important;
+            vertical-align: .5em !important;
+            mso-text-raise: -1.5% !important;
+            line-height: 0 !important;
+            }
+            ul {
+            margin:0 !important;
+            }
+            li {
+            margin-left:27px !important;
+            }
+            li.firstListItem {
+            margin-top:0px !important;
+            }
+            li.lastListItem {
+            margin-bottom:0px !important;
+            }
+            .show {
+            display: block !important;
+            }
+            .hide {
+            display: none !important;
+            }
+            .paddingDesktop {
+            padding: 10px 0 !important;
+            }
+            .padding0 {
+            padding: 0 !important;
+            }
+            .wrapper>table>tbody>tr>td {
+            padding: 10px 0px !important;
+            }
+            .leftAlign {
+            text-align: left !important;
+            }
+            .rightAlign {
+            text-align: right !important;
+            }
         </style>
         <![endif]-->
         <!--[if gte mso 16]>
-    <style>
-
-    body {
+        <style>
+            body {
             background-color:#444444 !important;
-        }
-        .keep-white {
-        mso-style-textfill-type:gradient;
-        mso-style-textfill-fill-gradientfill-stoplist:"0 \#FFFFFF 0 100000\,100000 \#FFFFFF 0 100000";
-        color:#000000 !important;
-
-        }
-        .keep-black {
-        mso-style-textfill-type:gradient;
-        mso-style-textfill-fill-gradientfill-stoplist:"0 \#000000 1 100000\,99000 \#000000 1 100000";
-        color: #ffffff !important;
-        }
-        .dark-mode-blue-text {
-        mso-style-textfill-type:gradient;
-        mso-style-textfill-fill-gradientfill-stoplist:"0 \#0A5982 -1 100000\,100000 \#0A5982 -1 100000";
-        color: #000000 !important;
-        }
-
-        .keep-yellow {
-        mso-style-textfill-type:gradient;
-        mso-style-textfill-fill-gradientfill-stoplist: "100000 \#FEC800 -1 100000\,0 \#FEC800 -1 100000";
-        color: #000000 !important;
-        }
-    </style>
-<![endif]-->
+            }
+            .keep-white {
+            mso-style-textfill-type:gradient;
+            mso-style-textfill-fill-gradientfill-stoplist:"0 \#FFFFFF 0 100000\,100000 \#FFFFFF 0 100000";
+            color:#000000 !important;
+            }
+            .keep-black {
+            mso-style-textfill-type:gradient;
+            mso-style-textfill-fill-gradientfill-stoplist:"0 \#000000 1 100000\,99000 \#000000 1 100000";
+            color: #ffffff !important;
+            }
+            .keep-yellow {
+            mso-style-textfill-type:gradient;
+            mso-style-textfill-fill-gradientfill-stoplist: "100000 \#FEC800 -1 100000\,0 \#FEC800 -1 100000";
+            color: #000000 !important;
+            }
+        </style>
+        <![endif]-->
         </mj-raw>
         <mj-preview>
             Millions are affected. It&rsquo;s time to reach out. &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; 
@@ -299,7 +268,7 @@
                     <mj-column vertical-align="bottom">
                         <mj-text font-size="21px" color="#FEC800" padding="15px 15px 10px">
                             <p style="margin: 0; text-transform: uppercase;">
-                                <a class="keep-yellow" href="https://www.reachfortheheart.com/" target="_blank" style="color: #fec800; text-decoration: none;"><strong>Officiis Libero Repellat</strong></a>
+                                <a class="keep-yellow dark-mode-hero-text" href="https://www.reachfortheheart.com/" target="_blank" style="color: #fec800; text-decoration: none;"><strong>Officiis Libero Repellat</strong></a>
                             </p>
                         </mj-text>
                     </mj-column>
@@ -338,7 +307,7 @@
                                 </td>
                                 <![endif]-->
                                 <td style="padding: 3px 7px; background-color: #FEC800;background-image:linear-gradient(#FEC800,#FEC800);text-transform: uppercase;" class="dark-mode-callout">
-                                    <span class="dark-mode-blue-text">Quibu Accusmus</span>
+                                    <span class="dark-mode-hero-text">Quibu Accusmus</span>
                                 </td>
                             </tr>
                         </table>
@@ -358,23 +327,23 @@
                     <mj-column width="65%">
                         <mj-text font-size="16px" color="#FEC800" padding="10px 15px">
                             <div class="gmail-blend-screen">
-							<div class="gmail-blend-difference">
-                            <p style="margin: 0; text-transform: uppercase;">
-                                <a class="gmail-white" href="https://www.reachfortheheart.com/" target="_blank" style="color: #fec800; text-decoration: none;"><strong>Officiis Libero Repellat</strong></a>
-                            </p>
+                                <div class="gmail-blend-difference">
+                                    <p style="margin: 0; text-transform: uppercase;">
+                                        <a class="gmail-white" href="https://www.reachfortheheart.com/" target="_blank" style="color: #fec800; text-decoration: none;"><strong>Officiis Libero Repellat</strong></a>
+                                    </p>
+                                </div>
                             </div>
-                        </div>
                         </mj-text>
                     </mj-column>
                     <mj-column width="35%">
                         <mj-text padding="10px 15px 10px 0" align="right" color="#ffffff">
-                        <div class="gmail-blend-screen">
-							<div class="gmail-blend-difference">
-                            <p style="font-size: 12px; margin: 0;">
-                                <a href="{{system.viewAsWebpageLink}}" style="color:#ffffff; text-decoration: none;">View in browser</a>
-                            </p>
+                            <div class="gmail-blend-screen">
+                                <div class="gmail-blend-difference">
+                                    <p style="font-size: 12px; margin: 0;">
+                                        <a href="{{system.viewAsWebpageLink}}" style="color:#ffffff; text-decoration: none;">View in browser</a>
+                                    </p>
+                                </div>
                             </div>
-                        </div>
                         </mj-text>
                     </mj-column>
                 </mj-group>
@@ -383,13 +352,13 @@
                 <mj-column>
                     <mj-spacer height="140px" />
                     <mj-text padding="0px 0px 0 13px">
-                    <div class="gmail-blend-screen">
-							<div class="gmail-blend-difference">
-                        <p style="margin: 0; font-family: Quickbrush, Trebuchet MS, sans-serif; font-size: 30px; line-height: 38px; color: #ffffff; font-style: italic;">
-                            Quaerat Aut Incidunt
-                        </p>
-                    </div>
-                    </div>
+                        <div class="gmail-blend-screen">
+                            <div class="gmail-blend-difference">
+                                <p style="margin: 0; font-family: Quickbrush, Trebuchet MS, sans-serif; font-size: 30px; line-height: 38px; color: #ffffff; font-style: italic;">
+                                    Quaerat Aut Incidunt
+                                </p>
+                            </div>
+                        </div>
                     </mj-text>
                 </mj-column>
             </mj-section>
@@ -398,15 +367,15 @@
                     <mj-text align="left" padding="0">
                         <table class="gmail-white" role="presentation" cellpadding="0" cellspacing="0" border="0" style="font-family: Roboto, Helvetica, sans-serif; font-size: 23px; line-height: 29px; font-weight: bold; color:#0A5982; border-collapse: collapse;">
                             <tr>
-                            
                                 <td class="gmail-yellow" style="padding: 3px 7px; background-color: #FEC800;background-image:linear-gradient(#FEC800,#FEC800); text-transform: uppercase;">
-                                <div class="gmail-yellow" style="background-image:linear-gradient(#FEC800,#FEC800);">
-                                <div class="gmail-blend-screen">
-							<div class="gmail-blend-difference">    
-                            Quibu Accusmus
-                            </div></div></div>
+                                    <div class="gmail-yellow" style="background-image:linear-gradient(#FEC800,#FEC800);">
+                                        <div class="gmail-blend-screen">
+                                            <div class="gmail-blend-difference">    
+                                                Quibu Accusmus
+                                            </div>
+                                        </div>
+                                    </div>
                                 </td>
-                                
                             </tr>
                         </table>
                     </mj-text>
@@ -421,13 +390,13 @@
         <mj-section background-color="#FEC800" css-class="dark-mode-hero-bg">
             <mj-column width="42%" padding="0" vertical-align="middle">
                 <mj-text font-size="20px" font-weight="bold" color="#0A5982" padding="15px 0 0" css-class="padding0" align="center">
-                <div class="gmail-blend-screen">
-							<div class="gmail-blend-difference">  
-                <p class="rightAlign gmail-white dark-mode-hero-text" style="margin: 0;">
-                    Et Cumque Voluptatum
-                </p>
-                </div>
-                </div>
+                    <div class="gmail-blend-screen">
+                        <div class="gmail-blend-difference">
+                            <p class="rightAlign gmail-white dark-mode-hero-text" style="margin: 0;">
+                                Et Cumque Voluptatum
+                            </p>
+                        </div>
+                    </div>
                 </mj-text>
             </mj-column>
             <mj-column width="3%">
@@ -437,29 +406,31 @@
                     <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="font-family: Trebuchet MS, Helvetica; text-align: center; border-collapse: collapse;">
                         <tr>
                             <td>
-                                <div><!--[if mso]>
-                                <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://example.com/" style="height:50px;v-text-anchor:middle;width:232px;" arcsize="60%" stroke="f" fillcolor="#ffffff">
-                                    <w:anchorlock/>
-                                    <center>
-                                <![endif]-->
-                                    <a class="keep-black dark-mode-CTA dark-mode-CTA-text" href="http://example.com/"
-                                style="background-color:rgba(255, 255, 255, 1);border-radius:30px;color:#333333;display:inline-block;font-family:Trebuchet MS, sans-serif;font-size:18px;font-weight:bold;line-height:50px;text-align:center;text-decoration:none;width:232px;-webkit-text-size-adjust:none;">Architecto Labore</a>
-                                <!--[if mso]>
-                                    </center>
-                                </v:roundrect>
-                                <![endif]--></div>
+                                <div>
+                                    <!--[if mso]>
+                                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://example.com/" style="height:50px;v-text-anchor:middle;width:232px;" arcsize="60%" stroke="f" fillcolor="#ffffff">
+                                        <w:anchorlock/>
+                                        <center>
+                                            <![endif]-->
+                                            <a class="keep-black dark-mode-CTA dark-mode-CTA-text" href="http://example.com/"
+                                                style="background-color:rgba(255, 255, 255, 1);border-radius:30px;color:#333333;display:inline-block;font-family:Trebuchet MS, sans-serif;font-size:18px;font-weight:bold;line-height:50px;text-align:center;text-decoration:none;width:232px;-webkit-text-size-adjust:none;">Architecto Labore</a>
+                                            <!--[if mso]>
+                                        </center>
+                                    </v:roundrect>
+                                    <![endif]-->
+                                </div>
                             </td>
                         </tr>
                     </table>
                 </mj-text>
             </mj-column>
             <mj-raw>
-            <!--[if !mso]><!-- -->
+                <!--[if !mso]><!-- -->
             </mj-raw>
             <mj-column width="17%">
             </mj-column>
             <mj-raw>
-            <!--<![endif]-->
+                <!--<![endif]-->
             </mj-raw>
         </mj-section>
         <mj-section background-color="#fff" padding="20px 0 0" css-class="dark-mode-bg">
@@ -477,9 +448,9 @@
             </mj-column>
             <mj-column vertical-align="middle" width="58%">
                 <mj-text padding="10px 25px" css-class="padding0 dark-mode-text">
-                <p style="margin: 0; text-align: center;" class="leftAlign">
-                    <strong>Voluptatum eos</strong> voluptates et qui officiis cupiditate laudantium alias qui alias.
-                </p>
+                    <p style="margin: 0; text-align: center;" class="leftAlign">
+                        <strong>Voluptatum eos</strong> voluptates et qui officiis cupiditate laudantium alias qui alias.
+                    </p>
                 </mj-text>
             </mj-column>
             <mj-column width="6%">
@@ -491,14 +462,14 @@
             </mj-column>
             <mj-column vertical-align="middle" width="58%">
                 <mj-text padding="10px 25px" css-class="padding0 dark-mode-text">
-                <p style="margin: 0; text-align: center;" class="leftAlign">
-                    <strong>Voluptatum eos</strong> voluptates et qui officiis cupiditate laudantium alias qui alias.
-                </p>
+                    <p style="margin: 0; text-align: center;" class="leftAlign">
+                        <strong>Voluptatum eos</strong> voluptates et qui officiis cupiditate laudantium alias qui alias.
+                    </p>
                 </mj-text>
             </mj-column>
             <mj-column width="6%">
             </mj-column>
-        </mj-section>        
+        </mj-section>
         <mj-section background-color="#fff" padding="0 0 20px" css-class="dark-mode-bg">
             <mj-column width="75%">
                 <mj-text padding="10px 15px 0" css-class="padding0 dark-mode-text">
@@ -527,56 +498,57 @@
         <mj-section padding="10px 0" background-color="#EFEFEF" css-class="dark-mode-social-bg">
             <mj-column width="30%" padding="0" vertical-align="middle">
                 <mj-text padding="20px 0 10px 0" align="center" line-height="1">
-                <a href="https://www.facebook.com/ReachOutHVD/" target="_blank"><img src="images/Facebook-Icon_2x.png" width="51" height="51" alt="Facebook Icon" style="display: inline-block"></a><i style="letter-spacing:10px;mso-font-width:-100%;display:inline-block;width:10px">&#8202;</i>
-                <a href="https://www.youtube.com/channel/UCgnvz6s82kFwQ3djZZJ3MjA" target="_blank"><img src="images/Youtube-Icon_2x.png" width="51" height="51" alt="YouTube Icon"></a>
+                    <a href="https://www.facebook.com/ReachOutHVD/" target="_blank"><img src="images/Facebook-Icon_2x.png" width="51" height="51" alt="Facebook Icon" style="display: inline-block"></a><i style="letter-spacing:10px;mso-font-width:-100%;display:inline-block;width:10px">&#8202;</i>
+                    <a href="https://www.youtube.com/channel/UCgnvz6s82kFwQ3djZZJ3MjA" target="_blank"><img src="images/Youtube-Icon_2x.png" width="51" height="51" alt="YouTube Icon"></a>
                 </mj-text>
             </mj-column>
             <mj-column width="60%" padding="0" vertical-align="middle">
-                <mj-text align="center" padding="10px 15px 0" css-class="paddingFooter dark-mode-text"> 
-                <p class="leftAlign">Quo odit dolore quod nisi quae non. Recusandae laboriosam ad et quia placeat dolorem alias eligendi.</p> </mj-text>
+                <mj-text align="center" padding="10px 15px 0" css-class="paddingFooter dark-mode-text">
+                    <p class="leftAlign">Quo odit dolore quod nisi quae non. Recusandae laboriosam ad et quia placeat dolorem alias eligendi.</p>
+                </mj-text>
             </mj-column>
         </mj-section>
         <mj-section background-color="#fff" css-class="dark-mode-bg" padding-bottom="0">
             <mj-column width="85%" padding="0">
                 <mj-text align="center" font-size="12px" line-height="17px" color="#5B6770" padding="0 10px" css-class="padding0 dark-mode-text">
-                <p>
-                    This email was sent to {{lead.Email Address:default= your email address}} because you opted in/requested to receive messages from Quo Ipsam. If you no longer wish to receive emails from Quo Ipsam, you can update your email preferences below.
-                </p> 
-                <p style="margin: 17px 0;font-size: 16px; line-height: 17px; font-weight: bold; color:#0A5982;">
-                    Please do not reply to this email.
-                </p> 
-                <p style="margin: 17px 0;">
-                    <a class="dark-mode-text" href="{{system.unsubscribeLink}}" style="color:#1074AD; text-decoration: underline;">UNSUBSCRIBE</a> | <a class="dark-mode-text" href="http://example.com/" target="_blank" style="color:#1074AD; text-decoration: underline;">
+                    <p>
+                        This email was sent to {{lead.Email Address:default= your email address}} because you opted in/requested to receive messages from Quo Ipsam. If you no longer wish to receive emails from Quo Ipsam, you can update your email preferences below.
+                    </p>
+                    <p style="margin: 17px 0;font-size: 16px; line-height: 17px; font-weight: bold; color:#0A5982;">
+                        Please do not reply to this email.
+                    </p>
+                    <p style="margin: 17px 0;">
+                        <a class="dark-mode-text" href="{{system.unsubscribeLink}}" style="color:#1074AD; text-decoration: underline;">UNSUBSCRIBE</a> | <a class="dark-mode-text" href="http://example.com/" target="_blank" style="color:#1074AD; text-decoration: underline;">
                         PRIVACY POLICY</a> | <a class="dark-mode-text" href="http://example.com/" target="_blank" style="color:#1074AD; text-decoration: underline;">
                         LEGAL NOTICE</a>
-                </p>
-                <p style="margin: 17px 0;">
-                    Dolorum omnis unde minus dolorem quae et vero voluptatem aut quaerat molestias voluptas quaerat. Vel voluptatibus earum nihil aliquam.
-                </p>
-                <p style="margin: 17px 0;">
-                    Quidem Perferendis Ut In<br>
-                    &copy; 2022 Sunt tempora quaerat quod ut iure enim alias voluptatum ipsum neque consequatur.<br>
-                </p>
-                <p style="margin-bottom: 0;">
-                    Veniam quod sunt non quae error doloremque dolores.
-                </p>
+                    </p>
+                    <p style="margin: 17px 0;">
+                        Dolorum omnis unde minus dolorem quae et vero voluptatem aut quaerat molestias voluptas quaerat. Vel voluptatibus earum nihil aliquam.
+                    </p>
+                    <p style="margin: 17px 0;">
+                        Quidem Perferendis Ut In<br>
+                        &copy; 2022 Sunt tempora quaerat quod ut iure enim alias voluptatum ipsum neque consequatur.<br>
+                    </p>
+                    <p style="margin-bottom: 0;">
+                        Veniam quod sunt non quae error doloremque dolores.
+                    </p>
                 </mj-text>
-          </mj-column>
+            </mj-column>
         </mj-section>
         <mj-section background-color="#ffffff" css-class="dark-mode-bg" padding="0">
             <mj-column>
                 <mj-text padding="0 0 0 20px">
                     <img class="light-img" src="images/Logo-Light-Mode.png" width="134" height="auto" alt="Logo" style="color: #33373E; font-family: Helvetica, Arial, sans-serif; text-align:center; font-weight:bold; font-size:36px; line-height:1; text-decoration: none; margin: 0; padding: 0;" border="0" />
- 
                     <!-- The following Dark Mode logo image is hidden 
-                    with MSO conditional code and inline CSS, but will be         
-                    revealed once Dark Mode is triggered -->
-                
-                    <!--[if !mso]><! --><div class="dark-img" style="display:none; overflow:hidden; float:left; width:0px; max-height:0px; max-width:0px; line-height:0px; visibility:hidden;" align="left">
+                        with MSO conditional code and inline CSS, but will be         
+                        revealed once Dark Mode is triggered -->
+                    <!--[if !mso]><! -->
+                    <div class="dark-img" style="display:none; overflow:hidden; float:left; width:0px; max-height:0px; max-width:0px; line-height:0px; visibility:hidden;" align="left">
                         <img src="images/Logo-Dark-Mode.png" width="134" height="auto" alt="Logo" style="color: #ffffff; font-family:'proxima_nova', Helvetica, Arial, sans-serif; text-align:center; font-weight:bold; font-size:36px; line-height:40px; text-decoration: none; margin: 0; padding: 0;" border="0" />
-                    </div><!--<![endif]-->
+                    </div>
+                    <!--<![endif]-->
                 </mj-text>
             </mj-column>
-        </mj-section> 
+        </mj-section>
     </mj-body>
 </mjml>
