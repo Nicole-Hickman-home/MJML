@@ -7,14 +7,12 @@
         <mj-title>
             Dark Mode for Emails
         </mj-title>
+        <mj-font name="Seaweed Script"
+       href="https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap" />
         <mj-attributes>
             <mj-text font-family="Arial, sans-serif" font-size="16px" line-height="22px" color="#333333" />
         </mj-attributes>
-        <mj-raw>
-            <!--[if !mso]><!-- -->
-            <link rel="stylesheet" type="text/css" href="https://fishawack-edwards.s3.amazonaws.com/MyFontsWebfontsKit.css">
-            <!--<![endif]-->
-        </mj-raw>
+        
         <mj-style inline="inline">
             sup {
             font-size: .6em;
@@ -82,10 +80,12 @@
         </mj-style>
         <mj-raw>
         <style type="text/css">
-            u + .body .gmail-blend-screen { background:#000; mix-blend-mode:screen; }
-            u + .body .gmail-blend-difference { background:#000; mix-blend-mode:difference; }
-            u + .body .gmail-yellow {background-image:linear-gradient(#fcb500,#fcb500) !important;}
-            u + .body .gmail-white {color: #ffffff !important;}
+        @media only screen and (max-width:480px) {
+            u + #body .gmail-blend-screen { background:#000; mix-blend-mode:screen; }
+            u + #body .gmail-blend-difference { background:#000; mix-blend-mode:difference; }
+            u + #body .gmail-yellow {background-image:linear-gradient(#fcb500,#fcb500) !important;}
+            u + #body .gmail-white {color: #ffffff !important;}
+        }
         </style>
         </mj-raw>
         <mj-style>
@@ -96,20 +96,20 @@
             }
             @media (prefers-color-scheme: dark) {
             .dark-mode-bg>table {
-            background: red !important;
-            background-image: linear-gradient(red, red) !important;
-            }
-            .dark-mode-hero-bg>table {
             background: #272727 !important;
             background-image: linear-gradient(#272727, #272727) !important;
+            }
+            .dark-mode-hero-bg>table {
+            background: #3d3d3d !important;
+            background-image: linear-gradient(#3d3d3d, #3d3d3d) !important;
             }
             .dark-mode-callout {
             background: #272727 !important;
             background-image: linear-gradient(#272727, #272727) !important;
             }
             .dark-mode-social-bg>table {
-            background: #272727 !important;
-            background-image: linear-gradient(#272727, #272727) !important;
+            background: #3d3d3d !important;
+            background-image: linear-gradient(#3d3d3d, #3d3d3d) !important;
             }
             .dark-mode-text {
             color: #ffffff !important;
@@ -131,18 +131,9 @@
             /* Shows Dark Mode-Only Content, Like Images */
             .dark-img { 
             display:block !important; 
-            width: auto !important; 
-            overflow: visible !important; 
-            float: none !important; 
-            max-height:inherit !important; 
-            max-width:inherit !important; 
-            line-height: auto !important; 
-            margin-top:0px !important; 
-            visibility:inherit !important; 
             }
             /* Hides Light Mode-Only Content, Like Images */
             .light-img { 
-            display:none; 
             display:none !important; 
             }
 
@@ -248,11 +239,6 @@
             mso-style-textfill-fill-gradientfill-stoplist:"0 \#000000 1 100000\,99000 \#000000 1 100000";
             color: #ffffff !important;
             }
-            .keep-yellow {
-            mso-style-textfill-type:gradient;
-            mso-style-textfill-fill-gradientfill-stoplist: "100000 \#FEC800 -1 100000\,0 \#FEC800 -1 100000";
-            color: #000000 !important;
-            }
         </style>
         <![endif]-->
         </mj-raw>
@@ -262,13 +248,13 @@
     </mj-head>
     <mj-body background-color="#eeeeee" width="640px">
         <!--Desktop-->
-        <mj-wrapper padding="0" background-url="images/Header-Desktop_2x.jpg" background-size="cover" background-color="#333333" css-class="show">
+        <mj-wrapper padding="0" background-url="https://mcusercontent.com/07b4ffca4967bcdbd9d06844f/images/4d667e57-0397-b640-0306-8d98027ff82c.jpg" background-size="cover" background-color="#333333" css-class="show">
             <mj-section padding="0">
                 <mj-group>
                     <mj-column vertical-align="bottom">
                         <mj-text font-size="21px" color="#FEC800" padding="15px 15px 10px">
                             <p style="margin: 0; text-transform: uppercase;">
-                                <a class="keep-yellow dark-mode-hero-text" href="https://www.reachfortheheart.com/" target="_blank" style="color: #fec800; text-decoration: none;"><strong>Officiis Libero Repellat</strong></a>
+                                <a class="keep-white dark-mode-hero-text" href="http://example.com/" target="_blank" style="color: #fec800; text-decoration: none;"><strong>Officiis Libero Repellat</strong></a>
                             </p>
                         </mj-text>
                     </mj-column>
@@ -285,7 +271,7 @@
                 <mj-column width="93%">
                     <mj-spacer height="230px" />
                     <mj-text padding="0px 0 0 180px">
-                        <p class="keep-white" style="margin: 0; font-family: Quickbrush, Trebuchet MS, sans-serif; font-size: 36px; line-height: 46px; color: #ffffff; font-style: italic">
+                        <p class="keep-white" style="margin: 0; font-family: 'Seaweed Script', Trebuchet MS, sans-serif; font-size: 42px; line-height: 48px; color: #ffffff; font-style: italic">
                             Quaerat Aut Incidunt
                         </p>
                     </mj-text>
@@ -321,7 +307,7 @@
         <mj-raw>
             <!--[if !mso]><!-- -->
         </mj-raw>
-        <mj-wrapper padding="0" background-url="images/Header-Mobile_2x.jpg" background-size="cover" css-class="hide">
+        <mj-wrapper padding="0" background-url="https://mcusercontent.com/07b4ffca4967bcdbd9d06844f/images/e3227703-b86b-e109-c3f9-15af0e78f586.jpg" background-size="cover" css-class="hide">
             <mj-section padding="0">
                 <mj-group>
                     <mj-column width="65%">
@@ -329,7 +315,7 @@
                             <div class="gmail-blend-screen">
                                 <div class="gmail-blend-difference">
                                     <p style="margin: 0; text-transform: uppercase;">
-                                        <a class="gmail-white" href="https://www.reachfortheheart.com/" target="_blank" style="color: #fec800; text-decoration: none;"><strong>Officiis Libero Repellat</strong></a>
+                                        <a class="gmail-white" href="http://example.com/" target="_blank" style="color: #fec800; text-decoration: none;"><strong>Officiis Libero Repellat</strong></a>
                                     </p>
                                 </div>
                             </div>
@@ -354,7 +340,7 @@
                     <mj-text padding="0px 0px 0 13px">
                         <div class="gmail-blend-screen">
                             <div class="gmail-blend-difference">
-                                <p style="margin: 0; font-family: Quickbrush, Trebuchet MS, sans-serif; font-size: 30px; line-height: 38px; color: #ffffff; font-style: italic;">
+                                <p style="margin: 0; font-family: 'Seaweed Script', Trebuchet MS, sans-serif; font-size: 36px; line-height: 38px; color: #ffffff; font-style: italic;">
                                     Quaerat Aut Incidunt
                                 </p>
                             </div>
@@ -498,8 +484,8 @@
         <mj-section padding="10px 0" background-color="#EFEFEF" css-class="dark-mode-social-bg">
             <mj-column width="30%" padding="0" vertical-align="middle">
                 <mj-text padding="20px 0 10px 0" align="center" line-height="1">
-                    <a href="https://www.facebook.com/ReachOutHVD/" target="_blank"><img src="images/Facebook-Icon_2x.png" width="51" height="51" alt="Facebook Icon" style="display: inline-block"></a><i style="letter-spacing:10px;mso-font-width:-100%;display:inline-block;width:10px">&#8202;</i>
-                    <a href="https://www.youtube.com/channel/UCgnvz6s82kFwQ3djZZJ3MjA" target="_blank"><img src="images/Youtube-Icon_2x.png" width="51" height="51" alt="YouTube Icon"></a>
+                    <a href="http://example.com/" target="_blank"><img src="https://mcusercontent.com/07b4ffca4967bcdbd9d06844f/images/399c2aa8-2e55-c740-b9c6-052f67ec6acf.png" width="51" height="51" alt="Facebook Icon" style="display: inline-block"></a><i style="letter-spacing:10px;mso-font-width:-100%;display:inline-block;width:10px">&#8202;</i>
+                    <a href="http://example.com/" target="_blank"><img src="https://mcusercontent.com/07b4ffca4967bcdbd9d06844f/images/70ba8691-ecf4-f900-768b-79c30522eae7.png" width="51" height="51" alt="YouTube Icon"></a>
                 </mj-text>
             </mj-column>
             <mj-column width="60%" padding="0" vertical-align="middle">
@@ -518,7 +504,7 @@
                         Please do not reply to this email.
                     </p>
                     <p style="margin: 17px 0;">
-                        <a class="dark-mode-text" href="{{system.unsubscribeLink}}" style="color:#1074AD; text-decoration: underline;">UNSUBSCRIBE</a> | <a class="dark-mode-text" href="http://example.com/" target="_blank" style="color:#1074AD; text-decoration: underline;">
+                        <a class="dark-mode-text" href="http://example.com/" style="color:#1074AD; text-decoration: underline;">UNSUBSCRIBE</a> | <a class="dark-mode-text" href="http://example.com/" target="_blank" style="color:#1074AD; text-decoration: underline;">
                         PRIVACY POLICY</a> | <a class="dark-mode-text" href="http://example.com/" target="_blank" style="color:#1074AD; text-decoration: underline;">
                         LEGAL NOTICE</a>
                     </p>
@@ -538,13 +524,13 @@
         <mj-section background-color="#ffffff" css-class="dark-mode-bg" padding="0">
             <mj-column>
                 <mj-text padding="0 0 0 20px">
-                    <img class="light-img" src="images/Logo-Light-Mode.png" width="134" height="auto" alt="Logo" style="color: #33373E; font-family: Helvetica, Arial, sans-serif; text-align:center; font-weight:bold; font-size:36px; line-height:1; text-decoration: none; margin: 0; padding: 0;" border="0" />
+                    <img class="light-img" src="https://mcusercontent.com/07b4ffca4967bcdbd9d06844f/images/fc0d431d-7461-a485-7f36-af7c9ecc82c3.png" width="134" height="auto" alt="Logo" style="color: #33373E; font-family: Helvetica, Arial, sans-serif; text-align:center; font-weight:bold; font-size:36px; line-height:1; text-decoration: none; margin: 0; padding: 0;" border="0" />
                     <!-- The following Dark Mode logo image is hidden 
                         with MSO conditional code and inline CSS, but will be         
                         revealed once Dark Mode is triggered -->
                     <!--[if !mso]><! -->
-                    <div class="dark-img" style="display:none; overflow:hidden; float:left; width:0px; max-height:0px; max-width:0px; line-height:0px; visibility:hidden;" align="left">
-                        <img src="images/Logo-Dark-Mode.png" width="134" height="auto" alt="Logo" style="color: #ffffff; font-family:'proxima_nova', Helvetica, Arial, sans-serif; text-align:center; font-weight:bold; font-size:36px; line-height:40px; text-decoration: none; margin: 0; padding: 0;" border="0" />
+                    <div class="dark-img" style="display:none;" align="left">
+                        <img src="https://mcusercontent.com/07b4ffca4967bcdbd9d06844f/images/fbc1647a-0b08-5341-3506-2c458f23b6d5.png" width="134" height="auto" alt="Logo" style="color: #ffffff; font-family:'proxima_nova', Helvetica, Arial, sans-serif; text-align:center; font-weight:bold; font-size:36px; line-height:40px; text-decoration: none; margin: 0; padding: 0;" border="0" />
                     </div>
                     <!--<![endif]-->
                 </mj-text>
