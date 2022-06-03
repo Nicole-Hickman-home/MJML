@@ -119,7 +119,7 @@
         .paddingDesktop {
         padding: 10px 0 !important;
         }
-        </mj-style>
+        </style>
         <![endif]-->
     </mj-raw>
     <mj-preview>
