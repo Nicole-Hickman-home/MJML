@@ -122,7 +122,6 @@
     <mj-body background-color="#eeeeee" width="640px" css-class="lang">
         <mj-section>
             <mj-column width="93%">
-            <mj-image css-class="alt-text-blank" src="images/rectangle-2x_desktop,png" />
                 <mj-text padding="10px 15px" css-class="paddingDesktop">
                     <p>
                         Cras mattis<sup>&reg;</sup> consectetur purus sit amet fermentum. Donec sed odio dui.
