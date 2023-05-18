@@ -1,0 +1,632 @@
+<mjml lang="en">
+    <mj-head>
+    <mj-raw>
+        <meta name="color-scheme" content="light dark">
+        <meta name="supported-color-schemes" content="light dark">
+    </mj-raw>
+        <mj-title>
+            ((First name)), get a closer look at FILSPARI™ (sparsentan)
+        </mj-title>
+        <mj-html-attributes>
+            <mj-selector path=".lang">
+                <mj-html-attribute name="lang">en</mj-html-attribute>
+            </mj-selector>
+            <mj-selector path=".alt-text-blank img">
+           <mj-html-attribute name="alt">&quot;&quot;</mj-html-attribute>
+     </mj-selector>
+        </mj-html-attributes>
+        <mj-attributes>
+            <mj-text font-family="'Montserrat', Arial, sans-serif" font-size="14px" line-height="20px" color="#161616" />
+            <mj-section background-color="#ffffff" />
+        </mj-attributes>
+        <mj-font name="Montserrat" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" />
+        
+        <mj-style inline="inline">
+            sup {
+            font-size: .6em;
+            vertical-align: .5em;
+            line-height: 0;
+            }
+            .sup12 {
+            font-size: .75em;
+            vertical-align: .4em;
+            mso-text-raise: 40%;
+            line-height: 0;
+            }
+            .show {
+            display: none;
+            }
+            .hide {
+            display: block;
+            }
+            h2 {
+            font-size: 20px;
+            line-height: 24px;
+            color: #003b71;
+            }
+            h3 {
+            font-size: 18px; 
+            line-height: 24px;
+            color: #003b71;
+            }
+            h4 {
+            font-size: 16px; 
+            line-height: 22px;
+            color: #003b71;
+            }
+            .black {
+            color: #161616;
+            }
+            .buttonGradient td {
+            background: #c04997 !important;
+            background-image:linear-gradient(90deg,#dc8ac9,#c04997) !important;
+            display: none;
+            }
+            .buttonGradient2 td {
+            background: #c04997 !important;
+            background-image:linear-gradient(90deg,#dc8ac9,#c04997) !important;
+            }
+        </mj-style>
+        <mj-style>
+            /* Samsung */
+            #MessageViewBody a {
+            color: inherit;
+            text-decoration: none;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: inherit;
+            line-height: inherit;
+            }
+            /* Apple Blue links */
+            a[x-apple-data-detectors] {
+            color: inherit;
+            text-decoration: none;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: inherit;
+            line-height: inherit;
+            }
+            /* Gmail blue links, requires id="body" in HTML export */
+            u+#body a {
+            color: inherit;
+            text-decoration: none;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: inherit;
+            line-height: inherit;
+            }
+             u+#body .swoosh {
+            display: none !important;
+            }
+
+            [class~="x_swoosh"] {
+            display: none !important
+            }
+            
+
+            .gradient>table {
+            background-color: #c04997;
+            background-image: linear-gradient(90deg,#dc8ac9, #c04997) !important;
+            }
+
+            @media only screen and (min-width:480px) {
+            .show {
+            display: block !important;
+            }
+            .hide {
+            display: none !important;
+            }
+            .paddingDesktop {
+            padding: 10px 0 !important;
+            }
+            .padding0 {
+            padding: 0 !important;
+            }
+            .textLeft {
+            text-align: left !important;
+            }
+            .buttonGradient td {
+            background: #c04997 !important;
+            background-image:linear-gradient(90deg,#dc8ac9,#c04997) !important;
+            display: block !important;
+            }
+            }
+        </mj-style>
+        <mj-style>
+        /* DARK MODE */
+        :root {
+        color-scheme: light dark;
+        supported-color-schemes: light dark;
+        }
+
+        @media (prefers-color-scheme: dark) {
+        .dark-mode-bg>table {
+        background: #000000 !important;
+        background-image: linear-gradient(#000000, #000000) !important;
+        }
+        .dark-mode-callout>table {
+        background: #f8f7f4 !important;
+        background-image: linear-gradient(#f8f7f4, #f8f7f4) !important;
+        }
+        .dark-mode-cta>table {
+        background: #ebf3fb !important;
+        background-image: linear-gradient(#ebf3fb, #ebf3fb) !important;
+        }
+        .dark-mode-footer>table {
+        background: #003b71 !important;
+        background-image: linear-gradient(#003b71, #003b71) !important;
+        }
+        .gradient>table {
+        background-color: #c04997;
+        background-image: linear-gradient(#dc8ac9, #c04997) !important;
+        }
+        .dark-mode-text {
+        color: #ffffff !important;
+        -webkit-text-fill-color: #ffffff !important;
+        }
+        .dark-mode-link {
+        color: #ca67a8 !important;
+        -webkit-text-fill-color: #ca67a8 !important;
+        }
+        .dark-mode-subhead {
+        color: #0079a7 !important;
+        -webkit-text-fill-color: #0079a7 !important;
+        }
+        .dark-mode-subhead-callout {
+        color: #003b71 !important;
+        -webkit-text-fill-color: #003b71 !important;
+        }
+        .dark-mode-callout-text {
+        color: #161616 !important;
+        -webkit-text-fill-color: #161616 !important;
+        }
+        .dark-mode-callout-text-pink {
+        color: #ca67a8 !important;
+        -webkit-text-fill-color: #c04997 !important;
+        }
+        .buttonGradient td {
+        background: #c04997 !important;
+        background-image:linear-gradient(90deg,#dc8ac9,#c04997) !important;
+        }
+        .buttonNavy td {
+        background: #003b71 !important;
+        background-image:linear-gradient(#003b71,#003b71) !important;
+        }
+        }
+        
+        [data-ogsb] .dark-mode-bg>table {
+        background: #000000 !important;
+        background-image: linear-gradient(#000000, #000000) !important;
+        }
+        [data-ogsb] .dark-mode-callout>table {
+        background: #f8f7f4 !important;
+        background-image: linear-gradient(#f8f7f4, #f8f7f4) !important;
+        }
+        [data-ogsb] .dark-mode-cta>table {
+        background: #ebf3fb !important;
+        background-image: linear-gradient(#ebf3fb, #ebf3fb) !important;
+        }
+        [data-ogsb] .dark-mode-footer>table {
+        background: #003b71 !important;
+        background-image: linear-gradient(#003b71, #003b71) !important;
+        }
+        [data-ogsb] .gradient>table {
+        background-color: #c04997;
+        background-image: linear-gradient(#dc8ac9, #c04997) !important;
+        }
+        [data-ogsc] .dark-mode-text {
+        color: #ffffff !important;
+        -webkit-text-fill-color: #ffffff !important;
+        }
+        [data-ogsc] .dark-mode-link {
+        color: #ca67a8 !important;
+        -webkit-text-fill-color: #ca67a8 !important;
+        }
+        [data-ogsc] .dark-mode-subhead {
+        color: #0079a7 !important;
+        -webkit-text-fill-color: #0079a7 !important;
+        }
+        [data-ogsc] .dark-mode-subhead-callout {
+        color: #003b71 !important;
+        -webkit-text-fill-color: #003b71 !important;
+        }
+        [data-ogsc] .dark-mode-callout-text {
+        color: #161616 !important;
+        -webkit-text-fill-color: #161616 !important;
+        }
+        [data-ogsc] .dark-mode-callout-text-pink {
+        color: #ca67a8 !important;
+        -webkit-text-fill-color: #c04997 !important;
+        }        
+        [data-ogsb] .buttonGradient td {
+        background: #c04997 !important;
+        background-image:linear-gradient(90deg,#dc8ac9,#c04997) !important;
+        }   
+        </mj-style>
+        <mj-raw>
+        <!--[if mso]>
+        <style type="text/css">
+            sup {
+            font-size: 1.005em !important;
+            mso-text-raise: 0 !important;
+            line-height: 0 !important;
+            }
+            .sup12 {
+            font-size: 1.09em !important;
+            mso-text-raise: -1px !important;
+            line-height: 0 !important;
+            }
+            ul {
+            margin:0 !important;
+            }
+            li {
+            margin-left:27px !important;
+            mso-special-format: bullet;
+            }
+            li.firstListItem {
+            margin-top:10px !important;
+            }
+            li.lastListItem {
+            margin-bottom:10px !important;
+            }
+            .outlookList {
+            margin-left: -20px !important;
+            }
+            .show {
+            display: block !important;
+            }
+            .hide {
+            display: none !important;
+            }
+            .paddingDesktop {
+            padding: 10px 0 !important;
+            }
+            .padding0 {
+            padding: 0 !important;
+            }
+            .textLeft {
+            text-align: left !important;
+            }
+            h2 {
+            margin-top: 20px;
+            }
+            h3 {
+            margin-top: 20px;
+            }
+            .buttonGradient td {
+            background: #c04997 !important;
+            background-image:linear-gradient(90deg,#dc8ac9,#c04997) !important;
+            display: block !important;
+            }
+        </style>
+        <![endif]-->
+        <!--[if gte mso 16]>
+        <style>
+            .keep-white {
+            mso-style-textfill-type:gradient;
+            mso-style-textfill-fill-gradientfill-stoplist:"0 \#FFFFFF 0 100000\,100000 \#FFFFFF 0 100000";
+            color:#000000 !important;
+            }
+            .keep-black {
+            mso-style-textfill-type:gradient;
+            mso-style-textfill-fill-gradientfill-stoplist:"0 \#000000 1 100000\,99000 \#000000 1 100000";
+            color: #ffffff !important;
+            }
+        </style>
+        <![endif]-->
+        </mj-raw>
+        <mj-preview>
+            Please see Important Safety Information and serious side effects in this email &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847;
+        </mj-preview>
+    </mj-head>
+    <mj-body background-color="#eeeeee" css-class="lang">
+        <mj-section padding="0">
+            <mj-column>
+                <mj-image src="images/header.png" border-top="5px solid #003b71" padding="0" alt="For adults with primary IgA nephropathy, I CAN SEE MY POSSIBILITIES. Looking forward with FILSPARI&trade;" href="https://filspari.com/igan/" />
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#c04997" padding="0">
+            <mj-column>
+                <mj-image src="images/Gradient-Text.png" padding="0" alt="Looking forward with FILSPARI&trade;" />
+            </mj-column>
+        </mj-section>
+        <mj-section css-class="dark-mode-bg">
+            <mj-column width="78%">
+                <mj-text padding="10px 17px" css-class="paddingDesktop dark-mode-text">
+                    <p>
+                        Hello [firstname,fallback=],
+                    </p>
+                    <p>
+                        Thank you for signing up for the latest information about FILSPARI<sup>&trade;</sup>. Soon, you will receive emails about how once-daily FILSPARI can help to lower proteinuria in IgA nephropathy.
+                    </p>
+                    <h4>
+                        WHAT IS FILSPARI<sup>&trade;</sup> (sparsentan)?
+                    </h4>
+                    <p>
+                        FILSPARI is a prescription medicine to lower protein in the urine (proteinuria) in adults with primary IgA nephropathy who are at risk of their disease quickly getting worse. It is not known if FILSPARI is safe and effective in children.
+                    </p>
+                    <p>
+                        FILSPARI has been approved based on a reduction of proteinuria. Continued approval may require results from an ongoing study to determine whether FILSPARI slows decline in kidney function.
+                    </p>
+                    <p style="font-weight: bold;">
+                        FILSPARI can cause liver problems and serious birth defects. 
+                    </p>
+                    <p>
+                        Patients can only receive FILSPARI through a required monitoring program called the FILSPARI REMS Program.
+                    </p>
+                    <p class="show" style="font-weight: bold;">
+                        Please see additional Important Safety Information below. Please also see the full <a class="dark-mode-link" href="https://FILSPARI.com/igan/filspari-prescribing-information.pdf" target="_blank" style="color: #c04997; text-decoration: underline;">Prescribing Information</a>, including serious side effects, and the <a class="dark-mode-link" href="https://filspari.com/igan/filspari-prescribing-information.pdf#page=22" target="_blank" style="color: #c04997; text-decoration: underline;">Medication Guide</a>.
+                    </p>
+                    <!--[if mso]><!-->
+                    <p class="hide" style="font-weight: bold;">
+                        Please see additional Important Safety Information below. Please also see the full <a class="dark-mode-link" href="https://FILSPARI.com/igan/filspari-prescribing-information.pdf" target="_blank" style="color: #c04997; text-decoration: underline;">Prescribing Information</a>, including serious side effects, and the <a class="dark-mode-link" href="https://filspari.com/igan/filspari-prescribing-information.pdf#page22" target="_blank" style="color: #c04997; text-decoration: underline;">Medication Guide</a>.
+                    
+                    <!--<![endif]-->
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="20px 0 0" css-class="dark-mode-bg">
+            <mj-column>
+                <mj-raw>
+                    <!--[if mso]><!-->
+                </mj-raw>
+                <mj-image src="images/swoosh.png" padding="0" alt="Swoosh graphic" css-class="swoosh" />
+                <mj-raw>
+                    <!--<![endif]-->
+                </mj-raw>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#f8f7f4" padding="0" css-class="dark-mode-callout">
+            <mj-column>
+                <mj-text padding="10px 17px" align="center" css-class="paddingDesktop dark-mode-subhead-callout">
+                    <h2>
+                        How FILSPARI works
+                    </h2>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#f8f7f4" padding="0" css-class="dark-mode-callout">
+            <mj-column width="32%">
+                <mj-image src="images/2-molecules-illustration.png" width="148px" padding="10px 0 0" alt="Magenta and blue circles representing 2 molecules, ET-1 and Ang II" />
+                <mj-text font-size="11px" line-height="16px" padding="0px 17px" css-class="padding0" align="center">
+                    <p>
+                        ET-1=endothelin-1;<br />
+                        Ang II=angiotensin II.
+                    </p>
+                </mj-text>
+            </mj-column>
+            <mj-column width="52%">
+                <mj-text padding="10px 17px" align="center" css-class="padding0 dark-mode-callout-text">
+                    <p style="margin-top: 0;" class="textLeft">
+                        In IgA nephropathy, 2 molecules, ET-1 and Ang II are believed to:
+                    </p>
+                    <div style="margin-left: 0px;" class="outlookList">
+                        <ul class="dark-mode-subhead-callout" align="left" style="list-style-type: disc; color: #003b71; padding: 0px 0px 0px 20px; margin: 0;">
+                            <li class="firstListItem dark-mode-subhead-callout" style="margin: 0px 0px 6px; text-align: left;">
+                                <span class="black dark-mode-callout-text">Weaken the kidneys&rsquo; filters, and</span>
+                            </li>
+                            <li class="lastListItem dark-mode-subhead-callout" style="margin: 0px; text-align: left;">
+                                <span class="black dark-mode-callout-text">Allow increased amounts of protein to spill out of the blood into the urine (proteinuria)</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <p style="font-size: 18px; line-height: 22px; color: #c04997;" class="textLeft dark-mode-callout-text-pink">
+                        FILSPARI is a single pill that works in 2 ways. FILSPARI is specifically designed to simultaneously <strong>block both ET-1 and Ang II</strong>.
+                    </p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#f8f7f4" padding="0 0 20px" css-class="dark-mode-callout">
+            <mj-column width="83%">
+                <mj-text align="center" padding="10px 17px" css-class="paddingDesktop dark-mode-callout-text">
+                    <p>
+                        FILSPARI is not a steroid. It does not suppress your immune system.
+                    </p>
+                </mj-text>
+                <mj-image src="images/Mini-cta.png" width="265px" padding="10px 0" alt="See how FILSPARI is different" href="https://FILSPARI.com/igan/about-filspari/#MOA" />
+                <mj-text padding="10px 17px" css-class="paddingDesktop dark-mode-callout-text">
+                    <p>
+                        Be sure to add us to your address book, contacts, or safe sender list to ensure you receive timely updates, information on the importance of proteinuria, and tips on living with IgA nephropathy.
+                    </p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section css-class="dark-mode-bg">
+            <mj-column width="80%">
+                <mj-text padding="10px 19px" css-class="paddingDesktop dark-mode-text">
+                    <h3 style="margin-top: 0px; margin-bottom: 8px;" class="dark-mode-subhead">
+                        IMPORTANT SAFETY INFORMATION
+                    </h3>
+                    <h4 style="margin: 0;" class="dark-mode-subhead">
+                        What is the most important information I should know about FILSPARI?
+                    </h4>
+                    <p style="margin-top: 8px;">
+                        FILSPARI is only available through the FILSPARI Risk Evaluation and Mitigation Strategy (REMS) Program because of the <strong>serious risk of liver problems and serious birth defects.</strong> Before you begin taking FILSPARI, you must read and agree to all the instructions in the FILSPARI REMS Program.
+                    </p>
+                    <p>
+                        <strong>FILSPARI can cause changes in liver tests.</strong> Some medicines that are like FILSPARI can cause liver failure. Your healthcare provider will do blood tests to check your liver before starting FILSPARI, monthly for the first 12 months, and then every three months during treatment. Your healthcare provider may temporarily stop or permanently stop treatment with FILSPARI if you have changes in your liver tests.
+                    </p>
+                    <p>
+                        Tell your healthcare provider right away if you develop any of the following signs of liver problems during treatment with FILSPARI: nausea or vomiting, pain on the upper right side of your stomach area, tiredness, loss of appetite, yellowing of the skin or the whites of your eyes (jaundice), dark &ldquo;tea-colored&rdquo; urine, fever, or itching.
+                    </p>
+                    <p>
+                        <strong>FILSPARI can cause serious birth defects if taken during pregnancy. Patients must not be pregnant when they start taking FILSPARI, become pregnant during treatment, or for one month after stopping treatment.</strong> Patients who can become pregnant must have a negative pregnancy test before starting FILSPARI, monthly during treatment, and for one month after stopping FILSPARI.
+                    </p>
+                    <p style="font-weight: bold; margin-bottom: 6px;">
+                        Patients who can become pregnant are those who: 
+                    </p>
+                    <div style="margin-left: 0px;" class="outlookList">
+                        <ul class="dark-mode-subhead" align="left" style="list-style-type: disc; color: #003b71; padding: 0px 0px 0px 20px; margin: 0;">
+                            <li class="firstListItem" style="margin: 0px 0px 6px; text-align: left;">
+                                <span class="black dark-mode-text">have entered puberty, even if they have not started their menstrual period, <strong>and</strong></span>
+                            </li>
+                            <li style="margin: 0px 0px 6px; text-align: left;">
+                                <span class="black dark-mode-text">have a uterus, <strong>and</strong></span>
+                            </li>
+                            <li class="lastListItem" style="margin: 0px; text-align: left;">
+                                <span class="black dark-mode-text">have not gone through menopause. Menopause means that you have not had a menstrual period for at least 12 months for natural reasons, or that you have had your ovaries removed.</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <p style="font-weight: bold; margin-bottom: 6px;">
+                        Patients who cannot become pregnant are those who:
+                    </p>
+                    <div style="margin-left: 0px;" class="outlookList">
+                        <ul class="dark-mode-subhead" align="left" style="list-style-type: disc; color: #003b71; padding: 0px 0px 0px 20px; margin: 0;">
+                            <li class="firstListItem" style="margin: 0px 0px 6px; text-align: left;">
+                                <span class="black dark-mode-text">have not yet entered puberty, <strong>or</strong></span>
+                            </li>
+                            <li style="margin: 0px 0px 6px; text-align: left;">
+                                <span class="black dark-mode-text">do not have a uterus, <strong>or</strong></span>
+                            </li>
+                            <li style="margin: 0px 0px 6px; text-align: left;">
+                                <span class="black dark-mode-text">have gone through menopause. Menopause means that you have not had a menstrual period for at least 12 months for natural reasons, or that you have had your ovaries removed, <strong>or</strong></span>
+                            </li>
+                            <li class="lastListItem" style="margin: 0px; text-align: left;">
+                                <span class="black dark-mode-text">are infertile for any other medical reason and this infertility is permanent and cannot be reversed.</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <p style="font-weight: bold; margin-bottom: 6px;">
+                        Patients who can become pregnant must use effective birth control during treatment with FILSPARI and for one month after stopping FILSPARI because the medicine may still be in your body.
+                    </p>
+                    <div style="margin-left: 0px;" class="outlookList">
+                        <ul class="dark-mode-subhead" align="left" style="list-style-type: disc; color: #003b71; padding: 0px 0px 0px 20px; margin: 0;">
+                            <li class="firstListItem" style="margin: 0px 0px 6px; text-align: left;">
+                                <span class="black dark-mode-text">If you have had a tubal sterilization or have an IUD (intrauterine device) or progesterone implant, these methods may be used alone, and no other form of birth control is needed.</span>
+                            </li>
+                            <li style="margin: 0px 0px 6px; text-align: left;">
+                                <span class="black dark-mode-text">Talk with your healthcare provider or gynecologist (a healthcare provider who specializes in reproduction) to find out about options for effective forms of birth control that you may use to prevent pregnancy during treatment with FILSPARI. </span>
+                            </li>
+                            <li style="margin: 0px 0px 6px; text-align: left;">
+                                <span class="black dark-mode-text">If you decide that you want to change the form of birth control that you use, talk with your healthcare provider or gynecologist to be sure that you choose another effective form of birth control.</span>
+                            </li>
+                            <li style="margin: 0px 0px 6px; text-align: left;">
+                                <span class="black dark-mode-text"><strong>Do not have unprotected sex.</strong> Talk to your healthcare provider or pharmacist right away if you have unprotected sex or if you think your birth control has failed. Your healthcare provider may talk with you about using emergency birth control.</span>
+                            </li>
+                            <li class="lastListItem" style="margin: 0px; text-align: left;">
+                                <span class="black dark-mode-text"><strong>Tell your healthcare provider right away if you miss a menstrual period or think you may be pregnant.</strong></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <p style="font-weight: bold; margin-bottom: 6px;">
+                        Do not take FILSPARI if you:
+                    </p>
+                    <div style="margin-left: 0px;" class="outlookList">
+                        <ul class="dark-mode-subhead" align="left" style="list-style-type: disc; color: #003b71; padding: 0px 0px 0px 20px; margin: 0;">
+                            <li class="firstListItem" style="margin: 0px 0px 6px; text-align: left;">
+                                <span class="black dark-mode-text"><strong>are pregnant, plan to become pregnant, or become pregnant during treatment with FILSPARI. FILSPARI can cause serious birth defects.</strong></span>
+                            </li>
+                            <li class="lastListItem" style="margin: 0px; text-align: left;">
+                                <span class="black dark-mode-text"><strong>are taking any of these medicines:</strong> an angiotensin receptor blocker, an endothelin receptor antagonist, or aliskiren. Ask your healthcare provider if you are not sure if you take one of these medicines.</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <p>
+                        <strong>Before taking FILSPARI, tell your healthcare provider about all of your medical conditions, including if you have</strong> high blood pressure or heart problems, or liver problems. 
+                    </p>
+                    <p>
+                        <strong>Tell your healthcare provider about all the medicines you take,</strong> including prescription and over-the-counter medicines, vitamins, herbal supplements, grapefruit, and antacid medicines. FILSPARI and other medicines may affect how each other works and cause side effects. Do not start any new medicine until you check with your healthcare provider.
+                    </p>
+                    <p style="font-weight: bold; margin-bottom: 6px;">
+                        Especially tell your healthcare provider if you take:
+                    </p>
+                    <div style="margin-left: 0px;" class="outlookList">
+                        <ul class="dark-mode-subhead" align="left" style="list-style-type: disc; color: #003b71; padding: 0px 0px 0px 20px; margin: 0;">
+                            <li class="firstListItem" style="margin: 0px 0px 6px; text-align: left;">
+                                <span class="black dark-mode-text">nonsteroidal anti-inflammatory drugs (NSAIDs)</span>
+                            </li>
+                            <li style="margin: 0px 0px 6px; text-align: left;">
+                                <span class="black dark-mode-text">potassium-containing medicines, potassium supplements or salt substitutes containing potassium</span>
+                            </li>
+                            <li class="lastListItem" style="margin: 0px; text-align: left;">
+                                <span class="black dark-mode-text">blood pressure medicines</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <h4 style="margin-bottom: 6px;" class="dark-mode-subhead">
+                        What should I avoid while taking FILSPARI?
+                    </h4>
+                    <div style="margin-left: 0px;" class="outlookList">
+                        <ul class="dark-mode-subhead" align="left" style="list-style-type: disc; color: #003b71; padding: 0px 0px 0px 20px; margin: 0;">
+                            <li class="firstListItem" style="margin: 0px 0px 6px; text-align: left;">
+                                <span class="black dark-mode-text"><strong>Do not get pregnant while taking FILSPARI.</strong> If you miss a menstrual period or think you might be pregnant, call your healthcare provider right away.</span>
+                            </li>
+                            <li class="lastListItem" style="margin: 0px; text-align: left;">
+                                <span class="black dark-mode-text"><strong>It is not known if FILSPARI passes into your breast milk. You should not breastfeed if you are taking FILSPARI.</strong> Talk to your healthcare provider about the best way to feed your baby during treatment with FILSPARI. </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <h4 style="margin-bottom: 6px;" class="dark-mode-subhead">
+                        What are the possible side effects of FILSPARI?
+                    </h4>
+                    <p style="margin-bottom: 6px;">
+                        FILSPARI can cause serious side effects, including:
+                    </p>
+                    <div style="margin-left: 0px;" class="outlookList">
+                        <ul class="dark-mode-subhead" align="left" style="list-style-type: disc; color: #003b71; padding: 0px 0px 0px 20px; margin: 0;">
+                            <li class="firstListItemt" style="margin: 0px 0px 6px; text-align: left;">
+                                <span class="black dark-mode-text"><strong>Liver problems. See Medication Guide &ndash; What is the most important information I should know about FILSPARI?</strong></span>
+                            </li>
+                            <li style="margin: 0px 0px 6px; text-align: left;">
+                                <span class="black dark-mode-text"><strong>Serious birth defects. See Medication Guide &ndash; What is the most important information I should know about FILSPARI?</strong></span>
+                            </li>
+                            <li style="margin: 0px 0px 6px; text-align: left;">
+                                <span class="black dark-mode-text"><strong>Low blood pressure.</strong> This is common during treatment with FILSPARI and can also be serious. Tell your healthcare provider if you feel dizzy, light-headed, or faint. Stay hydrated during treatment with FILSPARI.</span>
+                            </li>
+                            <li style="margin: 0px 0px 6px; text-align: left;">
+                                <span class="black dark-mode-text"><strong>Worsening of kidney function.</strong> Your healthcare provider will check your kidney function during treatment with FILSPARI.</span>
+                            </li>
+                            <li style="margin: 0px 0px 6px; text-align: left;">
+                                <span class="black dark-mode-text"><strong>Increased potassium in your blood.</strong> This is common during treatment with FILSPARI and can also be serious. Your healthcare provider will check your potassium blood level during treatment with FILSPARI.</span>
+                            </li>
+                            <li class="lastListItem" style="margin: 0px; text-align: left;">
+                                <span class="black dark-mode-text"><strong>Fluid retention.</strong> FILSPARI can cause your body to hold too much water. Tell your healthcare provider right away if you have any unusual weight gain or swelling of your ankles or legs. </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <p>
+                        The most common side effects of FILSPARI include: swelling of the hands, legs, ankles, and feet (peripheral edema), dizziness, and low red blood cells (anemia). These are not all the possible side effects of FILSPARI. Call your doctor for medical advice about side effects.
+                    </p>
+                    <p>
+                        You may report side effects to FDA at 1-800-FDA-1088 or <a class="dark-mode-text" href="https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program" target="_blank" style="color: #161616; text-decoration: underline;">www.fda.gov/medwatch</a>. You may also report side effects to Travere Therapeutics at 1-877-659-5518.
+                    </p>
+                    <p class="show" style="font-size: 15px; line-height: 22px;">
+                        <strong>For additional Important Safety Information, please see the full <a class="dark-mode-link" href="https://www.filspari.com/igan/filspari-prescribing-information.pdf" target="_blank" style="color: #b65299; text-decoration: underline; font-weight: bold;">Prescribing Information</a>, including serious side effects, and the <a class="dark-mode-link" href="https://filspari.com/igan/filspari-prescribing-information.pdf#page=22" target="_blank" style="color: #b65299; text-decoration: underline; font-weight: bold;">Medication Guide</a>. </strong>
+                    </p>
+                    <!--[if mso]><!-->
+                    <p class="hide" style="font-size: 17px; line-height: 22px;">
+                        <strong>For additional Important Safety Information, please see the full <a href="https://www.filspari.com/igan/filspari-prescribing-information.pdf" target="_blank" style="color: #b65299; text-decoration: underline; font-weight: bold;">Prescribing Information</a>, including serious side effects, and the <a href="https://filspari.com/igan/filspari-prescribing-information.pdf#page22" target="_blank" style="color: #b65299; text-decoration: underline; font-weight: bold;">Medication Guide</a>. </strong>
+                    </p>
+                    <!--<![endif]-->
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#ebf3fb" padding="30px 0" css-class="dark-mode-cta">
+            <mj-column>
+                <mj-image src="images/Button.png" width="370px" alt="Discover more about FILSPARI" href="https://FILSPARI.com/igan" />
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#003b71" padding="10px 0 0" css-class="dark-mode-footer">
+            <mj-column width="70%">
+                <mj-image src="images/Travere-logo@2x.png" width="133px" alt="Travere Logo" padding="10px 0" href="https://travere.com/" />
+                <mj-text align="center" color="#ffffff" font-size="12px" line-height="15px" font-family="Arial, sans-serif" padding="10px 19px" css-class="paddingDesktop">
+                    <p style="margin-top: 0; margin-bottom: 0;" class="dark-mode-text">
+                        You are receiving this email because you opted in for information from Travere. If you no longer wish to receive updates from Travere, <unsubscribe style="color:#ffffff;"><span class="dark-mode-text" style="white-space: nowrap; color:#ffffff; text-decoration: underline;">unsubscribe&nbsp;here</span></unsubscribe>.
+                    </p>
+                    <p class="dark-mode-text">
+                        <a href="https://travere.com/terms-conditions/" target="_blank" style="color: #ffffff; text-decoration: underline;" class="dark-mode-text">Terms of Use</a>&ensp; <a href="https://travere.com/privacy/corporate-privacy-policy/" target="_blank" style="color: #ffffff; text-decoration: underline;" class="dark-mode-text">Privacy Policy</a>&ensp;  <a href="https://travere.com/contact-us/" target="_blank" style="color: #ffffff; text-decoration: underline;" class="dark-mode-text">Contact Us</a>
+                    </p>
+                    <p class="dark-mode-text">
+                        Do not reply to this email as messages sent to this address cannot <span style="white-space: nowrap;">be&nbsp;answered.</span>
+                    </p>
+                    <p class="dark-mode-text">
+                        &copy; 2023 Travere Therapeutics, Inc. FILSPARI is a trademark of <br class="show" />
+                        Travere Therapeutics, Inc. All rights reserved. <span style="white-space: nowrap;">05/2023&nbsp;SPA0147</span><br />
+                        <a class="dark-mode-text" href="#" style="color: #ffffff; text-decoration: none; cursor: text;">3611 Valley Centre Drive, Suite 300, San Diego, CA 92130  |  888&#x2011;969&#x2011;7879</a>
+                    </p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
