@@ -367,13 +367,7 @@
         </mj-section>
         <mj-section padding="20px 0 0" css-class="dark-mode-bg">
             <mj-column>
-                <mj-raw>
-                    <!--[if mso]><!-->
-                </mj-raw>
                 <mj-image src="images/swoosh.png" padding="0" alt="Swoosh graphic" css-class="swoosh" />
-                <mj-raw>
-                    <!--<![endif]-->
-                </mj-raw>
             </mj-column>
         </mj-section>
         <mj-section background-color="#f8f7f4" padding="0" css-class="dark-mode-callout">
