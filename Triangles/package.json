@@ -1,0 +1,33 @@
+{
+  "name": "@fishawack/torpedo",
+  "version": "2.0.0",
+  "description": "Our email creation programme that currently utilizes MJML",
+  "main": "_Build/index.mjml",
+  "watch": {
+    "build": "./_Build/index.mjml"
+  },
+  "scripts": {
+    "setup": "npm install --no-save",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "mjml _Build/index.mjml -o _Output/index.html",
+    "start": "npm-watch | browser-sync start --no-open --server ./_Output --files './_Output/**/*'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/fishawackdigital/torpedo.git"
+  },
+  "keywords": [
+    "email",
+    "torpedo",
+    "mjml",
+    "responsive"
+  ],
+  "author": "Gee-Him Siu",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/fishawackdigital/torpedo#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "mjml": "^4.9.3",
+    "npm-watch": "^0.6.0"
+  }
+}
