@@ -208,6 +208,9 @@
                 .paddingDesktop {
                 padding: 10px 0 !important;
                 }
+                .paddingLeft {
+                    padding-left: 287px !important;
+                }
             </style>
             <![endif]-->
         </mj-raw>
@@ -221,14 +224,14 @@
                 <mj-text padding="0">
 				<table role="presentation" align="center" width="100%" cellpadding="0" cellspacing="0" border="0" style="font-family: Arial, sans-serif; font-size: 16px; line-height: 22px; color: #ffffff; border-collapse: collapse;">
 				<tr>
-					<td bgcolor="#003087" width="600" valign="top">
+					<td bgcolor="#003087" width="600" valign="top" align="center">
 					<!--[if gte mso 9]>
-					<v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px; height: 22pt;">
+					<v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px; height: 24pt;">
 						<v:fill type="frame" color="#003087" />
-						<v:textbox inset="0,0,0,0" style="text-align: center;">
+						<v:textbox inset="83pt,6px,0,0" style="text-align: center; font-size: 24px;">
 					<![endif]-->
-					<div style="margin: 10px; text-align: center;">
-                    Keep them connected with Remodulin
+					<div style="margin: 10px; text-align: center; font-size: 24px; line-height: 24px; font-weight: bold;">
+                    <span style="font-size: 24px;  line-height: 1; font-weight: bold;">Keep them connected with Remodulin</span>
 					  </div>
 					<!--[if gte mso 9]>
 						</v:textbox>
@@ -236,6 +239,23 @@
 					<![endif]-->
 					</td>
 				</tr>
+				<tr>
+					<td bgcolor="#003087" width="600" valign="top" align="center">
+					<!--[if gte mso 9]>
+					<v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px; height: 18pt;">
+						<v:fill type="frame" color="#003087" />
+						<v:textbox inset="83pt,4px,0,0" style="text-align: center; font-size: 14pt;">
+					<![endif]-->
+					<div style="text-align: center; font-size: 14px; line-height: 14pt; font-weight: bold; display: none;">
+                    <span style="font-size: 14px;  line-height: 14pt; font-weight: bold;">&#8202;</span>
+					  </div>
+					<!--[if gte mso 9]>
+						</v:textbox>
+					</v:rect>
+					<![endif]-->
+					</td>
+				</tr>
+                
 				</table>
                 </mj-text>
             </mj-column>
@@ -245,9 +265,9 @@
                 <mj-text padding="0">
                 <table role="presentation" align="center" width="100%" cellpadding="0" cellspacing="0" border="0" style="font-family: Arial, sans-serif;">
                         <tr>
-                            <td style="padding-left: 287px;">
+                            <td class="paddingLeft">
                                 <!--[if !mso]><!-->
-                                    <div class="" style="height : 0;width : 0;border-top:13px solid #003087;border-right: 13px solid transparent;border-bottom: 0 solid transparent;border-left: 13px solid transparent;"></div>
+                                    <div class="" style="height : 0;width : 0;border-top:13px solid #003087;border-right: 13px solid transparent;border-bottom: 0 solid transparent;border-left: 13px solid transparent; margin: 0 auto;"></div>
                                     <!--<![endif]-->
                                     <!--[if mso]>
                                     <v:shape xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" path="m,l1000,0 500,1000xe" style="width:26px;height:13px; text-align: center;" fillcolor="#003087" stroked="f"></v:shape>
