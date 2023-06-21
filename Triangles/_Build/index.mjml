@@ -219,7 +219,7 @@
         </mj-preview>
     </mj-head>
     <mj-body background-color="#eeeeee" css-class="lang">
-        <mj-section padding="0">
+        <mj-section padding="0" css-class="dark-mode-bg">
             <mj-column>
                 <mj-text padding="0">
 				<table role="presentation" align="center" width="100%" cellpadding="0" cellspacing="0" border="0" style="font-family: Arial, sans-serif; font-size: 16px; line-height: 22px; color: #ffffff; border-collapse: collapse;">
@@ -231,7 +231,7 @@
 						<v:textbox inset="83pt,6px,0,0" style="text-align: center; font-size: 24px;">
 					<![endif]-->
 					<div style="margin: 10px; text-align: center; font-size: 24px; line-height: 24px; font-weight: bold;">
-                    <span style="font-size: 24px;  line-height: 1; font-weight: bold;">Keep them connected with Remodulin</span>
+                    <span style="font-size: 24px;  line-height: 1; font-weight: bold;">Keep them connected with duct tape</span>
 					  </div>
 					<!--[if gte mso 9]>
 						</v:textbox>

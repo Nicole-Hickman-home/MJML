@@ -1,0 +1,60 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-text align="left" color="#444" font-size='17px' line-height='150%' />
+      <mj-section background-color="#fff" />
+    </mj-attributes>
+    <mj-raw> 
+<meta name="color-scheme" content="light dark"> 
+<meta name="supported-color-schemes" content="light dark"> 
+</mj-raw> 
+    <mj-style>  
+:root { 
+color-scheme: light dark; 
+supported-color-schemes: light dark; 
+} 
+
+html {
+  max-width:600px;
+}
+ 
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #000;
+        color: white;
+    }
+
+    .subheading {
+      color: white !important;
+      text-decoration: wavy underline yellow !important;
+      font-size: 24px !important;
+    }
+}
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #fafafa;
+    text-decoration: wavy overline green !important;
+    color: blue;
+  }
+  .subheading {
+      color: #0a0eef;
+    }
+}
+</mj-style> 
+  </mj-head>
+  <mj-body>
+  <mj-section>
+    <mj-column width="100%">
+      <mj-image padding="0" src="./assets/banner/logo.png"></mj-image>
+    </mj-column>
+</mj-section>
+    <mj-section padding="0 10%">
+      <mj-column>
+        <mj-spacer height='40px' />
+        <mj-text css-class='subheading' align='left' font-weight='bold'>{{email.title}}</mj-text>
+        <mj-text css-class='main-text'>{{Body part two. This is what text looks like. Including with a big space.  }}</mj-text>
+        <mj-spacer height='300px' />
+      </mj-column>
+    </mj-section>
+</mj-body>
+</mjml>
