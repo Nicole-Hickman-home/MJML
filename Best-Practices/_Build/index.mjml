@@ -5,7 +5,7 @@
         <meta name="supported-color-schemes" content="light dark">
     </mj-raw>
         <mj-title>
-            ((First name)), get a closer look at FILSPARI™ (sparsentan)
+            ((First name)), get a closer look at BLAHBLAH™ (sparsentan)
         </mj-title>
         <mj-html-attributes>
             <mj-selector path=".lang">
@@ -322,12 +322,12 @@
     <mj-body background-color="#eeeeee" css-class="lang">
         <mj-section padding="0">
             <mj-column>
-                <mj-image src="images/header.png" border-top="5px solid #003b71" padding="0" alt="For adults with primary IgA nephropathy, I CAN SEE MY POSSIBILITIES. Looking forward with FILSPARI&trade;" href="https://filspari.com/igan/" />
+                <mj-image src="images/header.png" border-top="5px solid #003b71" padding="0" alt="For adults with primary IgA nephropathy, I CAN SEE MY POSSIBILITIES. Looking forward with BLAHBLAH&trade;" href="https://BLAHBLAH.com/igan/" />
             </mj-column>
         </mj-section>
         <mj-section background-color="#c04997" padding="0">
             <mj-column>
-                <mj-image src="images/Gradient-Text.png" padding="0" alt="Looking forward with FILSPARI&trade;" />
+                <mj-image src="images/Gradient-Text.png" padding="0" alt="Looking forward with BLAHBLAH&trade;" />
             </mj-column>
         </mj-section>
         <mj-section css-class="dark-mode-bg">
@@ -337,29 +337,29 @@
                         Hello [firstname,fallback=],
                     </p>
                     <p>
-                        Thank you for signing up for the latest information about FILSPARI<sup>&trade;</sup>. Soon, you will receive emails about how once-daily FILSPARI can help to lower proteinuria in IgA nephropathy.
+                        Thank you for signing up for the latest information about BLAHBLAH<sup>&trade;</sup>. Soon, you will receive emails about how once-daily BLAHBLAH can help to lower proteinuria in IgA nephropathy.
                     </p>
                     <h4>
-                        WHAT IS FILSPARI<sup>&trade;</sup> (sparsentan)?
+                        WHAT IS BLAHBLAH<sup>&trade;</sup> (sparsentan)?
                     </h4>
                     <p>
-                        FILSPARI is a prescription medicine to lower protein in the urine (proteinuria) in adults with primary IgA nephropathy who are at risk of their disease quickly getting worse. It is not known if FILSPARI is safe and effective in children.
+                        BLAHBLAH is a prescription medicine to lower protein in the urine (proteinuria) in adults with primary IgA nephropathy who are at risk of their disease quickly getting worse. It is not known if BLAHBLAH is safe and effective in children.
                     </p>
                     <p>
-                        FILSPARI has been approved based on a reduction of proteinuria. Continued approval may require results from an ongoing study to determine whether FILSPARI slows decline in kidney function.
+                        BLAHBLAH has been approved based on a reduction of proteinuria. Continued approval may require results from an ongoing study to determine whether BLAHBLAH slows decline in kidney function.
                     </p>
                     <p style="font-weight: bold;">
-                        FILSPARI can cause liver problems and serious birth defects. 
+                        BLAHBLAH can cause liver problems and serious birth defects. 
                     </p>
                     <p>
-                        Patients can only receive FILSPARI through a required monitoring program called the FILSPARI REMS Program.
+                        Patients can only receive BLAHBLAH through a required monitoring program called the BLAHBLAH REMS Program.
                     </p>
                     <p class="show" style="font-weight: bold;">
-                        Please see additional Important Safety Information below. Please also see the full <a class="dark-mode-link" href="https://FILSPARI.com/igan/filspari-prescribing-information.pdf" target="_blank" style="color: #c04997; text-decoration: underline;">Prescribing Information</a>, including serious side effects, and the <a class="dark-mode-link" href="https://filspari.com/igan/filspari-prescribing-information.pdf#page=22" target="_blank" style="color: #c04997; text-decoration: underline;">Medication Guide</a>.
+                        Please see additional Important Safety Information below. Please also see the full <a class="dark-mode-link" href="https://BLAHBLAH.com/igan/BLAHBLAH-prescribing-information.pdf" target="_blank" style="color: #c04997; text-decoration: underline;">Prescribing Information</a>, including serious side effects, and the <a class="dark-mode-link" href="https://BLAHBLAH.com/igan/BLAHBLAH-prescribing-information.pdf#page=22" target="_blank" style="color: #c04997; text-decoration: underline;">Medication Guide</a>.
                     </p>
                     <!--[if mso]><!-->
                     <p class="hide" style="font-weight: bold;">
-                        Please see additional Important Safety Information below. Please also see the full <a class="dark-mode-link" href="https://FILSPARI.com/igan/filspari-prescribing-information.pdf" target="_blank" style="color: #c04997; text-decoration: underline;">Prescribing Information</a>, including serious side effects, and the <a class="dark-mode-link" href="https://filspari.com/igan/filspari-prescribing-information.pdf#page22" target="_blank" style="color: #c04997; text-decoration: underline;">Medication Guide</a>.
+                        Please see additional Important Safety Information below. Please also see the full <a class="dark-mode-link" href="https://BLAHBLAH.com/igan/BLAHBLAH-prescribing-information.pdf" target="_blank" style="color: #c04997; text-decoration: underline;">Prescribing Information</a>, including serious side effects, and the <a class="dark-mode-link" href="https://BLAHBLAH.com/igan/BLAHBLAH-prescribing-information.pdf#page22" target="_blank" style="color: #c04997; text-decoration: underline;">Medication Guide</a>.
                     
                     <!--<![endif]-->
                 </mj-text>
@@ -374,7 +374,7 @@
             <mj-column>
                 <mj-text padding="10px 17px" align="center" css-class="paddingDesktop dark-mode-subhead-callout">
                     <h2>
-                        How FILSPARI works
+                        How BLAHBLAH works
                     </h2>
                 </mj-text>
             </mj-column>
@@ -405,7 +405,7 @@
                         </ul>
                     </div>
                     <p style="font-size: 18px; line-height: 22px; color: #c04997;" class="textLeft dark-mode-callout-text-pink">
-                        FILSPARI is a single pill that works in 2 ways. FILSPARI is specifically designed to simultaneously <strong>block both ET-1 and Ang II</strong>.
+                        BLAHBLAH is a single pill that works in 2 ways. BLAHBLAH is specifically designed to simultaneously <strong>block both ET-1 and Ang II</strong>.
                     </p>
                 </mj-text>
             </mj-column>
@@ -414,10 +414,10 @@
             <mj-column width="83%">
                 <mj-text align="center" padding="10px 17px" css-class="paddingDesktop dark-mode-callout-text">
                     <p>
-                        FILSPARI is not a steroid. It does not suppress your immune system.
+                        BLAHBLAH is not a steroid. It does not suppress your immune system.
                     </p>
                 </mj-text>
-                <mj-image src="images/Mini-cta.png" width="265px" padding="10px 0" alt="See how FILSPARI is different" href="https://FILSPARI.com/igan/about-filspari/#MOA" />
+                <mj-image src="images/Mini-cta.png" width="265px" padding="10px 0" alt="See how BLAHBLAH is different" href="https://BLAHBLAH.com/igan/about-BLAHBLAH/#MOA" />
                 <mj-text padding="10px 17px" css-class="paddingDesktop dark-mode-callout-text">
                     <p>
                         Be sure to add us to your address book, contacts, or safe sender list to ensure you receive timely updates, information on the importance of proteinuria, and tips on living with IgA nephropathy.
@@ -432,19 +432,19 @@
                         IMPORTANT SAFETY INFORMATION
                     </h3>
                     <h4 style="margin: 0;" class="dark-mode-subhead">
-                        What is the most important information I should know about FILSPARI?
+                        What is the most important information I should know about BLAHBLAH?
                     </h4>
                     <p style="margin-top: 8px;">
-                        FILSPARI is only available through the FILSPARI Risk Evaluation and Mitigation Strategy (REMS) Program because of the <strong>serious risk of liver problems and serious birth defects.</strong> Before you begin taking FILSPARI, you must read and agree to all the instructions in the FILSPARI REMS Program.
+                        BLAHBLAH is only available through the BLAHBLAH Risk Evaluation and Mitigation Strategy (REMS) Program because of the <strong>serious risk of liver problems and serious birth defects.</strong> Before you begin taking BLAHBLAH, you must read and agree to all the instructions in the BLAHBLAH REMS Program.
                     </p>
                     <p>
-                        <strong>FILSPARI can cause changes in liver tests.</strong> Some medicines that are like FILSPARI can cause liver failure. Your healthcare provider will do blood tests to check your liver before starting FILSPARI, monthly for the first 12 months, and then every three months during treatment. Your healthcare provider may temporarily stop or permanently stop treatment with FILSPARI if you have changes in your liver tests.
+                        <strong>BLAHBLAH can cause changes in liver tests.</strong> Some medicines that are like BLAHBLAH can cause liver failure. Your healthcare provider will do blood tests to check your liver before starting BLAHBLAH, monthly for the first 12 months, and then every three months during treatment. Your healthcare provider may temporarily stop or permanently stop treatment with BLAHBLAH if you have changes in your liver tests.
                     </p>
                     <p>
-                        Tell your healthcare provider right away if you develop any of the following signs of liver problems during treatment with FILSPARI: nausea or vomiting, pain on the upper right side of your stomach area, tiredness, loss of appetite, yellowing of the skin or the whites of your eyes (jaundice), dark &ldquo;tea-colored&rdquo; urine, fever, or itching.
+                        Tell your healthcare provider right away if you develop any of the following signs of liver problems during treatment with BLAHBLAH: nausea or vomiting, pain on the upper right side of your stomach area, tiredness, loss of appetite, yellowing of the skin or the whites of your eyes (jaundice), dark &ldquo;tea-colored&rdquo; urine, fever, or itching.
                     </p>
                     <p>
-                        <strong>FILSPARI can cause serious birth defects if taken during pregnancy. Patients must not be pregnant when they start taking FILSPARI, become pregnant during treatment, or for one month after stopping treatment.</strong> Patients who can become pregnant must have a negative pregnancy test before starting FILSPARI, monthly during treatment, and for one month after stopping FILSPARI.
+                        <strong>BLAHBLAH can cause serious birth defects if taken during pregnancy. Patients must not be pregnant when they start taking BLAHBLAH, become pregnant during treatment, or for one month after stopping treatment.</strong> Patients who can become pregnant must have a negative pregnancy test before starting BLAHBLAH, monthly during treatment, and for one month after stopping BLAHBLAH.
                     </p>
                     <p style="font-weight: bold; margin-bottom: 6px;">
                         Patients who can become pregnant are those who: 
@@ -482,7 +482,7 @@
                         </ul>
                     </div>
                     <p style="font-weight: bold; margin-bottom: 6px;">
-                        Patients who can become pregnant must use effective birth control during treatment with FILSPARI and for one month after stopping FILSPARI because the medicine may still be in your body.
+                        Patients who can become pregnant must use effective birth control during treatment with BLAHBLAH and for one month after stopping BLAHBLAH because the medicine may still be in your body.
                     </p>
                     <div style="margin-left: 0px;" class="outlookList">
                         <ul class="dark-mode-subhead" align="left" style="list-style-type: disc; color: #003b71; padding: 0px 0px 0px 20px; margin: 0;">
@@ -490,7 +490,7 @@
                                 <span class="black dark-mode-text">If you have had a tubal sterilization or have an IUD (intrauterine device) or progesterone implant, these methods may be used alone, and no other form of birth control is needed.</span>
                             </li>
                             <li style="margin: 0px 0px 6px; text-align: left;">
-                                <span class="black dark-mode-text">Talk with your healthcare provider or gynecologist (a healthcare provider who specializes in reproduction) to find out about options for effective forms of birth control that you may use to prevent pregnancy during treatment with FILSPARI. </span>
+                                <span class="black dark-mode-text">Talk with your healthcare provider or gynecologist (a healthcare provider who specializes in reproduction) to find out about options for effective forms of birth control that you may use to prevent pregnancy during treatment with BLAHBLAH. </span>
                             </li>
                             <li style="margin: 0px 0px 6px; text-align: left;">
                                 <span class="black dark-mode-text">If you decide that you want to change the form of birth control that you use, talk with your healthcare provider or gynecologist to be sure that you choose another effective form of birth control.</span>
@@ -504,12 +504,12 @@
                         </ul>
                     </div>
                     <p style="font-weight: bold; margin-bottom: 6px;">
-                        Do not take FILSPARI if you:
+                        Do not take BLAHBLAH if you:
                     </p>
                     <div style="margin-left: 0px;" class="outlookList">
                         <ul class="dark-mode-subhead" align="left" style="list-style-type: disc; color: #003b71; padding: 0px 0px 0px 20px; margin: 0;">
                             <li class="firstListItem" style="margin: 0px 0px 6px; text-align: left;">
-                                <span class="black dark-mode-text"><strong>are pregnant, plan to become pregnant, or become pregnant during treatment with FILSPARI. FILSPARI can cause serious birth defects.</strong></span>
+                                <span class="black dark-mode-text"><strong>are pregnant, plan to become pregnant, or become pregnant during treatment with BLAHBLAH. BLAHBLAH can cause serious birth defects.</strong></span>
                             </li>
                             <li class="lastListItem" style="margin: 0px; text-align: left;">
                                 <span class="black dark-mode-text"><strong>are taking any of these medicines:</strong> an angiotensin receptor blocker, an endothelin receptor antagonist, or aliskiren. Ask your healthcare provider if you are not sure if you take one of these medicines.</span>
@@ -517,10 +517,10 @@
                         </ul>
                     </div>
                     <p>
-                        <strong>Before taking FILSPARI, tell your healthcare provider about all of your medical conditions, including if you have</strong> high blood pressure or heart problems, or liver problems. 
+                        <strong>Before taking BLAHBLAH, tell your healthcare provider about all of your medical conditions, including if you have</strong> high blood pressure or heart problems, or liver problems. 
                     </p>
                     <p>
-                        <strong>Tell your healthcare provider about all the medicines you take,</strong> including prescription and over-the-counter medicines, vitamins, herbal supplements, grapefruit, and antacid medicines. FILSPARI and other medicines may affect how each other works and cause side effects. Do not start any new medicine until you check with your healthcare provider.
+                        <strong>Tell your healthcare provider about all the medicines you take,</strong> including prescription and over-the-counter medicines, vitamins, herbal supplements, grapefruit, and antacid medicines. BLAHBLAH and other medicines may affect how each other works and cause side effects. Do not start any new medicine until you check with your healthcare provider.
                     </p>
                     <p style="font-weight: bold; margin-bottom: 6px;">
                         Especially tell your healthcare provider if you take:
@@ -539,58 +539,58 @@
                         </ul>
                     </div>
                     <h4 style="margin-bottom: 6px;" class="dark-mode-subhead">
-                        What should I avoid while taking FILSPARI?
+                        What should I avoid while taking BLAHBLAH?
                     </h4>
                     <div style="margin-left: 0px;" class="outlookList">
                         <ul class="dark-mode-subhead" align="left" style="list-style-type: disc; color: #003b71; padding: 0px 0px 0px 20px; margin: 0;">
                             <li class="firstListItem" style="margin: 0px 0px 6px; text-align: left;">
-                                <span class="black dark-mode-text"><strong>Do not get pregnant while taking FILSPARI.</strong> If you miss a menstrual period or think you might be pregnant, call your healthcare provider right away.</span>
+                                <span class="black dark-mode-text"><strong>Do not get pregnant while taking BLAHBLAH.</strong> If you miss a menstrual period or think you might be pregnant, call your healthcare provider right away.</span>
                             </li>
                             <li class="lastListItem" style="margin: 0px; text-align: left;">
-                                <span class="black dark-mode-text"><strong>It is not known if FILSPARI passes into your breast milk. You should not breastfeed if you are taking FILSPARI.</strong> Talk to your healthcare provider about the best way to feed your baby during treatment with FILSPARI. </span>
+                                <span class="black dark-mode-text"><strong>It is not known if BLAHBLAH passes into your breast milk. You should not breastfeed if you are taking BLAHBLAH.</strong> Talk to your healthcare provider about the best way to feed your baby during treatment with BLAHBLAH. </span>
                             </li>
                         </ul>
                     </div>
                     <h4 style="margin-bottom: 6px;" class="dark-mode-subhead">
-                        What are the possible side effects of FILSPARI?
+                        What are the possible side effects of BLAHBLAH?
                     </h4>
                     <p style="margin-bottom: 6px;">
-                        FILSPARI can cause serious side effects, including:
+                        BLAHBLAH can cause serious side effects, including:
                     </p>
                     <div style="margin-left: 0px;" class="outlookList">
                         <ul class="dark-mode-subhead" align="left" style="list-style-type: disc; color: #003b71; padding: 0px 0px 0px 20px; margin: 0;">
                             <li class="firstListItemt" style="margin: 0px 0px 6px; text-align: left;">
-                                <span class="black dark-mode-text"><strong>Liver problems. See Medication Guide &ndash; What is the most important information I should know about FILSPARI?</strong></span>
+                                <span class="black dark-mode-text"><strong>Liver problems. See Medication Guide &ndash; What is the most important information I should know about BLAHBLAH?</strong></span>
                             </li>
                             <li style="margin: 0px 0px 6px; text-align: left;">
-                                <span class="black dark-mode-text"><strong>Serious birth defects. See Medication Guide &ndash; What is the most important information I should know about FILSPARI?</strong></span>
+                                <span class="black dark-mode-text"><strong>Serious birth defects. See Medication Guide &ndash; What is the most important information I should know about BLAHBLAH?</strong></span>
                             </li>
                             <li style="margin: 0px 0px 6px; text-align: left;">
-                                <span class="black dark-mode-text"><strong>Low blood pressure.</strong> This is common during treatment with FILSPARI and can also be serious. Tell your healthcare provider if you feel dizzy, light-headed, or faint. Stay hydrated during treatment with FILSPARI.</span>
+                                <span class="black dark-mode-text"><strong>Low blood pressure.</strong> This is common during treatment with BLAHBLAH and can also be serious. Tell your healthcare provider if you feel dizzy, light-headed, or faint. Stay hydrated during treatment with BLAHBLAH.</span>
                             </li>
                             <li style="margin: 0px 0px 6px; text-align: left;">
-                                <span class="black dark-mode-text"><strong>Worsening of kidney function.</strong> Your healthcare provider will check your kidney function during treatment with FILSPARI.</span>
+                                <span class="black dark-mode-text"><strong>Worsening of kidney function.</strong> Your healthcare provider will check your kidney function during treatment with BLAHBLAH.</span>
                             </li>
                             <li style="margin: 0px 0px 6px; text-align: left;">
-                                <span class="black dark-mode-text"><strong>Increased potassium in your blood.</strong> This is common during treatment with FILSPARI and can also be serious. Your healthcare provider will check your potassium blood level during treatment with FILSPARI.</span>
+                                <span class="black dark-mode-text"><strong>Increased potassium in your blood.</strong> This is common during treatment with BLAHBLAH and can also be serious. Your healthcare provider will check your potassium blood level during treatment with BLAHBLAH.</span>
                             </li>
                             <li class="lastListItem" style="margin: 0px; text-align: left;">
-                                <span class="black dark-mode-text"><strong>Fluid retention.</strong> FILSPARI can cause your body to hold too much water. Tell your healthcare provider right away if you have any unusual weight gain or swelling of your ankles or legs. </span>
+                                <span class="black dark-mode-text"><strong>Fluid retention.</strong> BLAHBLAH can cause your body to hold too much water. Tell your healthcare provider right away if you have any unusual weight gain or swelling of your ankles or legs. </span>
                             </li>
                         </ul>
                     </div>
                     <p>
-                        The most common side effects of FILSPARI include: swelling of the hands, legs, ankles, and feet (peripheral edema), dizziness, and low red blood cells (anemia). These are not all the possible side effects of FILSPARI. Call your doctor for medical advice about side effects.
+                        The most common side effects of BLAHBLAH include: swelling of the hands, legs, ankles, and feet (peripheral edema), dizziness, and low red blood cells (anemia). These are not all the possible side effects of BLAHBLAH. Call your doctor for medical advice about side effects.
                     </p>
                     <p>
-                        You may report side effects to FDA at 1-800-FDA-1088 or <a class="dark-mode-text" href="https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program" target="_blank" style="color: #161616; text-decoration: underline;">www.fda.gov/medwatch</a>. You may also report side effects to Travere Therapeutics at 1-877-659-5518.
+                        You may report side effects to FDA at 1-800-FDA-1088 or <a class="dark-mode-text" href="https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program" target="_blank" style="color: #161616; text-decoration: underline;">www.fda.gov/medwatch</a>. You may also report side effects to BLAHBLAH Therapeutics at 1-877-659-5518.
                     </p>
                     <p class="show" style="font-size: 15px; line-height: 22px;">
-                        <strong>For additional Important Safety Information, please see the full <a class="dark-mode-link" href="https://www.filspari.com/igan/filspari-prescribing-information.pdf" target="_blank" style="color: #b65299; text-decoration: underline; font-weight: bold;">Prescribing Information</a>, including serious side effects, and the <a class="dark-mode-link" href="https://filspari.com/igan/filspari-prescribing-information.pdf#page=22" target="_blank" style="color: #b65299; text-decoration: underline; font-weight: bold;">Medication Guide</a>. </strong>
+                        <strong>For additional Important Safety Information, please see the full <a class="dark-mode-link" href="https://www.BLAHBLAH.com/igan/BLAHBLAH-prescribing-information.pdf" target="_blank" style="color: #b65299; text-decoration: underline; font-weight: bold;">Prescribing Information</a>, including serious side effects, and the <a class="dark-mode-link" href="https://BLAHBLAH.com/igan/BLAHBLAH-prescribing-information.pdf#page=22" target="_blank" style="color: #b65299; text-decoration: underline; font-weight: bold;">Medication Guide</a>. </strong>
                     </p>
                     <!--[if mso]><!-->
                     <p class="hide" style="font-size: 17px; line-height: 22px;">
-                        <strong>For additional Important Safety Information, please see the full <a href="https://www.filspari.com/igan/filspari-prescribing-information.pdf" target="_blank" style="color: #b65299; text-decoration: underline; font-weight: bold;">Prescribing Information</a>, including serious side effects, and the <a href="https://filspari.com/igan/filspari-prescribing-information.pdf#page22" target="_blank" style="color: #b65299; text-decoration: underline; font-weight: bold;">Medication Guide</a>. </strong>
+                        <strong>For additional Important Safety Information, please see the full <a href="https://www.BLAHBLAH.com/igan/BLAHBLAH-prescribing-information.pdf" target="_blank" style="color: #b65299; text-decoration: underline; font-weight: bold;">Prescribing Information</a>, including serious side effects, and the <a href="https://BLAHBLAH.com/igan/BLAHBLAH-prescribing-information.pdf#page22" target="_blank" style="color: #b65299; text-decoration: underline; font-weight: bold;">Medication Guide</a>. </strong>
                     </p>
                     <!--<![endif]-->
                 </mj-text>
@@ -598,25 +598,25 @@
         </mj-section>
         <mj-section background-color="#ebf3fb" padding="30px 0" css-class="dark-mode-cta">
             <mj-column>
-                <mj-image src="images/Button.png" width="370px" alt="Discover more about FILSPARI" href="https://FILSPARI.com/igan" />
+                <mj-image src="images/Button.png" width="370px" alt="Discover more about BLAHBLAH" href="https://BLAHBLAH.com/igan" />
             </mj-column>
         </mj-section>
         <mj-section background-color="#003b71" padding="10px 0 0" css-class="dark-mode-footer">
             <mj-column width="70%">
-                <mj-image src="images/Travere-logo@2x.png" width="133px" alt="Travere Logo" padding="10px 0" href="https://travere.com/" />
+                <mj-image src="images/BLAHBLAH-logo@2x.png" width="133px" alt="BLAHBLAH Logo" padding="10px 0" href="https://BLAHBLAH.com/" />
                 <mj-text align="center" color="#ffffff" font-size="12px" line-height="15px" font-family="Arial, sans-serif" padding="10px 19px" css-class="paddingDesktop">
                     <p style="margin-top: 0; margin-bottom: 0;" class="dark-mode-text">
-                        You are receiving this email because you opted in for information from Travere. If you no longer wish to receive updates from Travere, <unsubscribe style="color:#ffffff;"><span class="dark-mode-text" style="white-space: nowrap; color:#ffffff; text-decoration: underline;">unsubscribe&nbsp;here</span></unsubscribe>.
+                        You are receiving this email because you opted in for information from BLAHBLAH. If you no longer wish to receive updates from BLAHBLAH, <unsubscribe style="color:#ffffff;"><span class="dark-mode-text" style="white-space: nowrap; color:#ffffff; text-decoration: underline;">unsubscribe&nbsp;here</span></unsubscribe>.
                     </p>
                     <p class="dark-mode-text">
-                        <a href="https://travere.com/terms-conditions/" target="_blank" style="color: #ffffff; text-decoration: underline;" class="dark-mode-text">Terms of Use</a>&ensp; <a href="https://travere.com/privacy/corporate-privacy-policy/" target="_blank" style="color: #ffffff; text-decoration: underline;" class="dark-mode-text">Privacy Policy</a>&ensp;  <a href="https://travere.com/contact-us/" target="_blank" style="color: #ffffff; text-decoration: underline;" class="dark-mode-text">Contact Us</a>
+                        <a href="https://BLAHBLAH.com/terms-conditions/" target="_blank" style="color: #ffffff; text-decoration: underline;" class="dark-mode-text">Terms of Use</a>&ensp; <a href="https://BLAHBLAH.com/privacy/corporate-privacy-policy/" target="_blank" style="color: #ffffff; text-decoration: underline;" class="dark-mode-text">Privacy Policy</a>&ensp;  <a href="https://BLAHBLAH.com/contact-us/" target="_blank" style="color: #ffffff; text-decoration: underline;" class="dark-mode-text">Contact Us</a>
                     </p>
                     <p class="dark-mode-text">
                         Do not reply to this email as messages sent to this address cannot <span style="white-space: nowrap;">be&nbsp;answered.</span>
                     </p>
                     <p class="dark-mode-text">
-                        &copy; 2023 Travere Therapeutics, Inc. FILSPARI is a trademark of <br class="show" />
-                        Travere Therapeutics, Inc. All rights reserved. <span style="white-space: nowrap;">05/2023&nbsp;SPA0147</span><br />
+                        &copy; 2023 BLAHBLAH Therapeutics, Inc. BLAHBLAH is a trademark of <br class="show" />
+                        BLAHBLAH Therapeutics, Inc. All rights reserved. <span style="white-space: nowrap;">05/2023&nbsp;SPA0147</span><br />
                         <a class="dark-mode-text" href="#" style="color: #ffffff; text-decoration: none; cursor: text;">3611 Valley Centre Drive, Suite 300, San Diego, CA 92130  |  888&#x2011;969&#x2011;7879</a>
                     </p>
                 </mj-text>

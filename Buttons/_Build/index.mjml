@@ -15,9 +15,11 @@
         .button td {
         mso-padding-alt:0px 15px !important;
         }
-        .button2 {
-            display: block !important;
-            }
+
+        .button2 table {
+            margin: 0 auto;
+        }
+        
         </mj-style>
         <mj-style>
             /* Samsung */
@@ -56,11 +58,13 @@
             padding: 10px 0 !important;
             }
 
-            .button2 {
-            display: inline-block !important;
+            .button2 table {
+                 margin: 0 0 !important;
             }
         
             }
+
+            
 
         </mj-style>
         
@@ -90,6 +94,8 @@
         .paddingDesktop {
         padding: 10px 0 !important;
         }
+
+        
         </style>
         <![endif]-->
         </mj-raw>
@@ -100,11 +106,11 @@
     <mj-body background-color="#eeeeee" width="640px">
         <mj-section>
             <mj-column>
-                <mj-button css-class="button2">
+                <mj-button css-class="button2" align="left">
                     Default Button
                 </mj-button>
 
-                <mj-button background-color="#00a5ad" inner-padding="18px 25px" css-class="button2">
+                <mj-button background-color="#00a5ad" inner-padding="18px 25px" css-class="button2" align="left">
                     Adjusted button
                 </mj-button>
 
